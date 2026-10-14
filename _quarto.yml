@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Aaron R. Martin"
+  site-url: https://aaron-martin-phd.dev
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: bbl/index.qmd
+        text: BBL Daily
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en

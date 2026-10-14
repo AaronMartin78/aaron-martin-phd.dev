@@ -1,0 +1,8 @@
+---
+title: "Aaron R. Martin"
+---
+
+Data science, basketball analytics, and a homelab that documents itself.
+
+- [BBL Daily](bbl/index.qmd): an automated English-language digest of German
+  professional basketball, built on a self-hosted pipeline.

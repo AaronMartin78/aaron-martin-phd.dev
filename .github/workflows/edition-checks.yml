@@ -1,0 +1,41 @@
+name: Edition checks
+
+on:
+  push:
+    branches: [editions]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate edition files
+        run: |
+          shopt -s nullglob
+          files=(bbl/posts/*.qmd)
+          if [ ${#files[@]} -eq 0 ]; then echo "no editions yet"; exit 0; fi
+          python scripts/check_edition.py --check-links "${files[@]}"
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render site (build must succeed before a PR is offered)
+        run: quarto render
+
+      - name: Open or refresh the PR to main (manual approval gate)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create --base main --head editions \
+            --title "BBL editions" \
+            --body "Automated editions. Checks and render passed; review and merge to deploy." \
+            2>/dev/null || echo "PR already open; new commits are on it."
