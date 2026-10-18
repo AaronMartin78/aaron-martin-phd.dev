@@ -11,6 +11,8 @@ website:
         text: Home
       - href: bbl/index.qmd
         text: BBL Daily
+      - href: homelab/index.qmd
+        text: Homelab
       - href: about.qmd
         text: About
 
