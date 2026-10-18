@@ -14,7 +14,7 @@ Finally, I had the intuition that AI could help break down some of the barriers 
 
 Based on those two interests and one hunch, things started to slowly spin out of control.
 
-## Step 1
+## The (Initial) Build
 
 In October of 2025, I bought a Raspberry Pi 5 (RPi5) with 8GB of RAM for 82 euros. I also bought the Radxa Penta SATA hat for 59 euros. Finally, I bought 3 WD Red 1TB SSD drives for 84 euros apiece. If you add in some fans and microSD cards, everything I needed to build my first Network Attached Storage (NAS) cost around 400 euros. This is not cheap, but compared to what those components would cost you today, almost exactly a year ago to this day, it is INSANE value. Indeed, if I had not started at that exact time in history, everything else that followed would have likely been far too expensive for me to even consider.
 
@@ -26,15 +26,11 @@ I suppose I will get to my deeper opinions on AI at some later date, but as we s
 
 So. Now I had a NAS, an old mini-pc (I named this the HUB since it is my strongest box and it holds all of my LLMs), and my laptop. I also bought an additional mini-pc from eBay for 90 euros solely because it had 16GB of RAM and the price of RAM was exploding at the time (I named this the MULE because it just does work). Together, this was the beginning of my first "compute cluster."
 
-## Step 2
-
-I won't go through all of the steps that took me from there to here:
+I won't go through all of the steps that followed, but this is where it ended up:
 
 ![My current homelab](images/homelab_schematic.png){fig-alt="Schematic of the homelab: machines, network, and how they connect"}
 
-But I can tell you that it has been fun and at some points very stressful.
-
-# Projects
+## Projects
 
 **Documentation**: One of the things that I am most proud of is my Homelab Vault. When everyone was going crazy about Karpathy's Second Brain, I figured, hey I can do that too. I had already been keeping notes, especially during the first 3 months when I was trying and failing to get the NAS and the fan to work properly, so the transition to an Obsidian Vault was not a completely foreign concept. I now have over 140 notes, all of which are organized using wiki links pointing at servers, services, or projects. Whenever I need to add context to any conversation with an LLM, I have the Vault and all of the connections between the notes to make sure that the models have the most current information they need to solve whatever problem arises.
 
