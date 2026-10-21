@@ -34,8 +34,18 @@ jobs:
       - name: Open or refresh the PR to main (manual approval gate)
         env:
           GH_TOKEN: ${{ github.token }}
+        # An open PR is the only acceptable reason to skip creation. Any
+        # other failure must fail the job: the old `|| echo` swallowed the
+        # 2026-10-19 case where "Allow GitHub Actions to create and approve
+        # pull requests" (Settings -> Actions -> General) was off and no PR
+        # ever appeared.
         run: |
-          gh pr create --base main --head editions \
-            --title "BBL editions" \
-            --body "Automated editions. Checks and render passed; review and merge to deploy." \
-            2>/dev/null || echo "PR already open; new commits are on it."
+          open=$(gh pr list --base main --head editions --state open \
+            --json number --jq length)
+          if [ "$open" -ge 1 ]; then
+            echo "PR already open; new commits are on it."
+          else
+            gh pr create --base main --head editions \
+              --title "BBL editions" \
+              --body "Automated editions. Checks and render passed; review and merge to deploy."
+          fi
