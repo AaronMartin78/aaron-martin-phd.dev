@@ -34,8 +34,6 @@ This article examines whether the most dissatisfied members are also the most li
 | [Variable labels and metadata](downloads/party-politics/codebooks.json) | Variable labels, data types and Stata value-label definitions. |
 | [Data provenance and checksums](downloads/party-politics/data-manifest.csv) | Source files, dimensions and SHA-256 digests. |
 
-**Archive version:** these materials come from the March 25, 2021 analysis and its later Python port. The saved checks cover data construction and three archived Firth models. The archive also contains earlier multilevel models; it has **not** been verified as a complete replication of the final published article. The package README explains this distinction.
-
 ## Party group collapse and strategic switching
 
 **Party group collapse and strategic switching in the European Parliament**

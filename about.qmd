@@ -2,4 +2,13 @@
 title: "About"
 ---
 
-Placeholder. Replace with your own text before going live.
+My name is Aaron Martin and I hold a Ph.D in Political Science from the University of Munich (LMU), Geschwister-Scholl-Institut. Before moving to Germany, I studied political science at Loyola University and reached the level of "all but dissertation." I also studied International Relations at American University in Washington, DC, and Political Economy and the Murphy Institute in New Orleans, LA.
+
+I am currently working as a Data Science consultant in Munich, learning how to use as many new tools as possible. I love basketball and music.  
+
+I built this website to track some of my projects. Right now, you can access a daily BBL Newsletter. The newsletter is produced by an automated pipeline which scrapes information from 27 different websites, clusters the output thematically, focusing primarily on game reviews, and then posts the translated summaries (along with links to the original content) to this website.
+
+Currently, I am compiling a comprehensive, historical dataset on German basketball since 2000. My goal is to use machine learning models to predict various outcomes. As this project proceeds, I will continue updating this space.
+
+
+
