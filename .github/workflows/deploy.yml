@@ -3,6 +3,10 @@ name: Deploy site
 on:
   push:
     branches: [main]
+  # Edition checks merges the editions PR with GITHUB_TOKEN, and a push
+  # made with that token does not trigger push workflows, so it dispatches
+  # this one explicitly after the merge.
+  workflow_dispatch:
 
 permissions:
   contents: read
