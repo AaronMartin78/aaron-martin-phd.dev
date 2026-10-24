@@ -2,6 +2,8 @@
 title: "Publications and Data"
 description: "Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code."
 ---
+Google Scholar: https://scholar.google.de/citations?hl=de&pli=1&user=GZCW0DQAAAAJ
+ORCHID: https://orcid.org/0000-0003-4529-0593
 
 My research examines party group switching, political representation and party institutionalization in the European Parliament. Below are my two published journal articles as well as the data and replication code.
 
@@ -74,7 +76,7 @@ CSV files retain numeric category codes; the accompanying metadata provides labe
 
 The CSV downloads were checked against their corresponding Stata files for dimensions, column names and cell values, with a small tolerance for numeric precision. Saved model-validation reports are supplied from the earlier replication work; packaging the downloads did not rerun the full statistical analyses.
 
-Anyone can use the data for whatever they want, just please cite the appropriate articles.
+Anyone can use the data for whatever they want, just please cite the appropriate articles (CC BY 4.0).
 [Download checksums](downloads/checksums.json)
 
 ## Validation reports
