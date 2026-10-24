@@ -1,0 +1,22 @@
+[
+  {
+    "file": "eup/eup-stata.zip",
+    "bytes": 1405774,
+    "sha256": "ebbba671398193507ccbd218036096ed9ac14a459ae9e05ed35eb01cde1a4944"
+  },
+  {
+    "file": "eup/eup-python.zip",
+    "bytes": 3737612,
+    "sha256": "eb066487783b0983cc88d0d84a41871c9f5619d007a93151253b1af71a8c25b1"
+  },
+  {
+    "file": "party-politics/party-politics-stata.zip",
+    "bytes": 6232208,
+    "sha256": "30d9742dfbbf22ee4e9138688d65128b4d0c439ea292ba2df12ce7bfbdd81f72"
+  },
+  {
+    "file": "party-politics/party-politics-python.zip",
+    "bytes": 8385977,
+    "sha256": "bafa81d3926ed500d791d50d1b8f801d31a25df684bbbdfeff9969f52101bfa2"
+  }
+]

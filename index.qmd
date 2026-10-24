@@ -4,5 +4,7 @@ title: "Aaron R. Martin"
 
 Data science, basketball analytics, and a homelab that documents itself.
 
+- [Publications and Data](publications/index.qmd): my research articles, replication code,
+  and downloadable Stata and CSV datasets.
 - [BBL Daily](bbl/index.qmd): an automated English-language digest of German
   professional basketball, built on a self-hosted pipeline.

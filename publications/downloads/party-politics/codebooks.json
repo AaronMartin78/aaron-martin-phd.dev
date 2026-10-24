@@ -1,0 +1,4494 @@
+{
+  "dataset_12222020.csv": {
+    "csv": "dataset_12222020.csv",
+    "rows": 3977,
+    "columns": 555,
+    "verification": "All cells compared with source Stata file; numeric rtol=1e-6, atol=1e-8; dates parsed before comparison.",
+    "variables": {
+      "EP": {
+        "label": "EP",
+        "pandas_dtype": "float32"
+      },
+      "hix_id": {
+        "label": "MEPID",
+        "pandas_dtype": "int16"
+      },
+      "hix_mepid_final": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "hix_name": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "hoy_id": {
+        "label": "Hoyland Numeric identifier",
+        "pandas_dtype": "int32"
+      },
+      "hoy_name": {
+        "label": "1 hoy_name",
+        "pandas_dtype": "object"
+      },
+      "ms": {
+        "label": "MS",
+        "pandas_dtype": "object"
+      },
+      "start_date_ses": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "end_date_ses": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "daysinoffice": {
+        "label": "Days between start and end, for all greater than 14 days",
+        "pandas_dtype": "int16"
+      },
+      "start_group": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_group_num": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "end_group": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "end_group_num": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "switchdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_abs": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "switch_count_total": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "session_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "switch_count_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bws_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "wis_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "nat_party_switch": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "nat_party_switch_count": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP_pres_vp": {
+        "label": "President or VP of the EP",
+        "pandas_dtype": "int8"
+      },
+      "pres_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "pres_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "EP_bureau": {
+        "label": "President, VP or Member of the EP Bureau",
+        "pandas_dtype": "int8"
+      },
+      "bureau_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "bureau_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "conf_of_pres": {
+        "label": "President or Member of the Conference of Presidents, 1999-2014",
+        "pandas_dtype": "int8"
+      },
+      "cop_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "cop_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "epleadership": {
+        "label": "Either in the Bureau, COP, or Pres/VP of EP",
+        "pandas_dtype": "int8"
+      },
+      "epleader_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epgleader_start": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "epgleader_end": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "EPG_leader": {
+        "label": "Any non-member: Chair, Co-Chair, Vice-Chair,  Chair of Bureau, Bureau Member, Tr",
+        "pandas_dtype": "int8"
+      },
+      "coms_per_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "total_coms": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "kc_cl_committee": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "com_position": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "com_leader": {
+        "label": "Dummy: Member held either chair or vice-chair of a committee",
+        "pandas_dtype": "int8"
+      },
+      "key_committee": {
+        "label": "Dummy: McElroy's Coding: Environmental Committee, the Economic and Monetary Affa",
+        "pandas_dtype": "int8"
+      },
+      "leader_keycom_inter": {
+        "label": "Interaction term between Committee Leader and Key Committee Member",
+        "pandas_dtype": "int8"
+      },
+      "com_position2": {
+        "label": "2 com_position",
+        "pandas_dtype": "object"
+      },
+      "com_position3": {
+        "label": "3 com_position",
+        "pandas_dtype": "object"
+      },
+      "nat_elec1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec2": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec3": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec4": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec_count": {
+        "label": "Nat_Elec_count",
+        "pandas_dtype": "int8"
+      },
+      "pr_dummy": {
+        "label": "PR_dummy",
+        "pandas_dtype": "int8"
+      },
+      "openlists": {
+        "label": "Open Lists",
+        "pandas_dtype": "int8"
+      },
+      "constituency": {
+        "label": "Nat_Constit",
+        "pandas_dtype": "int8"
+      },
+      "country_id": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "country_name": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "martin_mepid": {
+        "label": "group(name)",
+        "pandas_dtype": "float64"
+      },
+      "nomd1": {
+        "label": "NOM-D1",
+        "pandas_dtype": "float32"
+      },
+      "nomd2": {
+        "label": "NOM-D2",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "NP_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "NP_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wgt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_session_count": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "nationalparty": {
+        "label": "National Party",
+        "pandas_dtype": "object"
+      },
+      "hix_partycode_final": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "parlgov_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ray_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "pos": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lr_gen": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "govt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP1": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP2": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP3": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP4": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP5": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP6": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "cmp": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ray": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "chess": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "AT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "BE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "BG": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "CY": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "CZ": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "DK": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "FI": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "FR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "DE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "GR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "HU": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "IR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "IT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LV": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LU": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "MA": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "NL": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "PL": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "PT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "RO": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ES": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "SE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "UK": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "id_number": {
+        "label": "EP Assigned ID Number",
+        "pandas_dtype": "float64"
+      },
+      "daniel_name": {
+        "label": "Last Name of MEP",
+        "pandas_dtype": "object"
+      },
+      "country_code": {
+        "label": "Country Code",
+        "pandas_dtype": "float64"
+      },
+      "country": {
+        "label": "MEP Country Name",
+        "pandas_dtype": "object"
+      },
+      "wave": {
+        "label": "EP Wave",
+        "pandas_dtype": "float64"
+      },
+      "outcome": {
+        "label": "Demonstrated Career Ambition, post-EP term",
+        "pandas_dtype": "float64"
+      },
+      "terms_served": {
+        "label": "Terms Served",
+        "pandas_dtype": "float64"
+      },
+      "dropout": {
+        "label": "Dropout",
+        "pandas_dtype": "float64"
+      },
+      "age": {
+        "label": "MEP Age (end of term)",
+        "pandas_dtype": "float64"
+      },
+      "female": {
+        "label": "Female",
+        "pandas_dtype": "int8"
+      },
+      "natl_govt": {
+        "label": "National Party in Government",
+        "pandas_dtype": "float64"
+      },
+      "EP_leader": {
+        "label": "EP Leader",
+        "pandas_dtype": "float64"
+      },
+      "leadership": {
+        "label": "Committee Leader",
+        "pandas_dtype": "float64"
+      },
+      "rapports": {
+        "label": "Rapporteurships",
+        "pandas_dtype": "float64"
+      },
+      "education": {
+        "label": "Highest Education Attained",
+        "pandas_dtype": "float64"
+      },
+      "new_ms": {
+        "label": "New Member State",
+        "pandas_dtype": "float64"
+      },
+      "dead": {
+        "label": "Died in office",
+        "pandas_dtype": "float64"
+      },
+      "party_group": {
+        "label": "Party Group (string)",
+        "pandas_dtype": "float64"
+      },
+      "seniority": {
+        "label": "Seniority (dichotomous)",
+        "pandas_dtype": "float64"
+      },
+      "codecision": {
+        "label": "Post-codecision EP",
+        "pandas_dtype": "float64"
+      },
+      "terms_complete": {
+        "label": "Terms Complete",
+        "pandas_dtype": "float64"
+      },
+      "edu_codecision": {
+        "label": "Education*codecision",
+        "pandas_dtype": "float64"
+      },
+      "EP_reelect": {
+        "label": "Seek Re-election",
+        "pandas_dtype": "float64"
+      },
+      "dpi_state": {
+        "label": "Local Elections",
+        "pandas_dtype": "float64"
+      },
+      "MP_elect": {
+        "label": "National MP",
+        "pandas_dtype": "float64"
+      },
+      "natl_elect": {
+        "label": "National politics",
+        "pandas_dtype": "float64"
+      },
+      "natl_exec": {
+        "label": "National Executive",
+        "pandas_dtype": "float64"
+      },
+      "leave_EP": {
+        "label": "Leave EP",
+        "pandas_dtype": "float64"
+      },
+      "retire": {
+        "label": "Leave Politics",
+        "pandas_dtype": "float64"
+      },
+      "enlargement_dummy": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP1_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP2_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP3_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP4_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP5_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP6_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP7_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "ni_target": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_delegation": {
+        "label": "group(EP hix_partycode_final)",
+        "pandas_dtype": "float64"
+      },
+      "npd_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "small_npd2": {
+        "label": "1 = Delegation with 1-2 members; 2 = 3-10 members; 3 = 10-20 members; 4 = delega",
+        "pandas_dtype": "int8"
+      },
+      "lead_com_leader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_key_com": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_keycom_inter": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_epleader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_EPG_leader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "days_before_NE1": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "switch_date1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date2": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date3": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date4": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "start_group_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group1_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group2_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group3_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group4_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "end_group_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_group_num_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "group1_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group2_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group3_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group4_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "end_group_num_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "name_simple": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "party_code": {
+        "label": "National Party",
+        "pandas_dtype": "float64"
+      },
+      "left_right": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "party_id": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "position": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "hoy_name2": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_ses_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "late_start": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "multisession": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "within_ses_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "total_switch_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "session_total_members": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "session_group_members_start": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "session_group_members_end": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "epg_count_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_per_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_seats_per_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "volatility": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_perc_epd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "concentration": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "consistency": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "seatshare": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_tenure": {
+        "label": "Standardized values of (tenure_raw)     ",
+        "pandas_dtype": "float32"
+      },
+      "fragility": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "vol2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "vol3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "name": {
+        "label": "Name",
+        "pandas_dtype": "object"
+      },
+      "ms_code": {
+        "label": "group(ms)",
+        "pandas_dtype": "int8"
+      },
+      "start_date_abs": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "end_date_abs": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "cartel_start": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "cartel_end": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "cat_switch": {
+        "label": "Categorical: 1=cartel inswitch; 2=cartel outswitch; 3= cartel crossswitch; 4=per",
+        "pandas_dtype": "int8"
+      },
+      "cat_switch2": {
+        "label": "Categorical Var Equals 1 if the switcher started in the cartel; 2 if the switche",
+        "pandas_dtype": "int8"
+      },
+      "small_npd": {
+        "label": "Delegation with 1 or 2 members",
+        "pandas_dtype": "int8"
+      },
+      "quintile_npd_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "quintile_npd_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_seatshare_cat4": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_dummy": {
+        "label": "Delegation has at least 3 members",
+        "pandas_dtype": "int8"
+      },
+      "npd_rank": {
+        "label": "rank of (-npd_perc_epd)  by EP start_group_num",
+        "pandas_dtype": "float32"
+      },
+      "npd_top2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_top3": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bloc_switch_num": {
+        "label": "Count variable for # of Switchers per NPD",
+        "pandas_dtype": "float64"
+      },
+      "bloc_switch_perc": {
+        "label": "Percentage of NPD members that switched",
+        "pandas_dtype": "float32"
+      },
+      "NP_wgt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_dwd1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_dwd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_eu_pos": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_ideo": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_d1b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_d2b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_id": {
+        "label": "group(EP start_group_num hix_partycode_final)",
+        "pandas_dtype": "float64"
+      },
+      "epg_median_start_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_start_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_end_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_end_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_d1_shift": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_d2_shift": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d1a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d2a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d1a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d2a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_npd_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_npd_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_com": {
+        "label": "Dummy: Member in Petitions, Budgetary Control, Rules of Proc, or Women's Rights",
+        "pandas_dtype": "int8"
+      },
+      "full_inst": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "full_inst2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "consist_std": {
+        "label": "Standardized values of (consistency)     ",
+        "pandas_dtype": "float32"
+      },
+      "concent_std": {
+        "label": "Standardized values of (concentration)     ",
+        "pandas_dtype": "float32"
+      },
+      "vol_std": {
+        "label": "Standardized values of (vol3)     ",
+        "pandas_dtype": "float32"
+      },
+      "frag_std": {
+        "label": "Standardized values of (fragility)     ",
+        "pandas_dtype": "float32"
+      },
+      "tenure_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "seats_std": {
+        "label": "Standardized values of (seatshare)     ",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_index": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_index_std": {
+        "label": "Standardized values of (weak_inst_index)     ",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_index": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_index_std": {
+        "label": "Standardized values of (full_inst_index)     ",
+        "pandas_dtype": "float32"
+      },
+      "leader_index": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bloc_switch_cat": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epg_perc_session": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ses_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "start_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "wis_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "govt2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epg_euc_disp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_euc_disp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "natl_reward": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "startdate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "birthdate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "enddate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "age_martin": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_tenure": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_dummy": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_dummy": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_cat": {
+        "label": "1=0-1 SD over avg; 2=1-2 SD over avg; 3=2 or more SD over avg",
+        "pandas_dtype": "float32"
+      },
+      "epg_disp_std": {
+        "label": "Standardized values of (epg_euc_disp)     ",
+        "pandas_dtype": "float32"
+      },
+      "epg_disp_cat": {
+        "label": "0=below avg disp; 1=above avg disp; 2= 2sd above avg disp",
+        "pandas_dtype": "float32"
+      },
+      "inst_cat": {
+        "label": "1=weak inst; 2=full inst;0=neither",
+        "pandas_dtype": "float32"
+      },
+      "comm_cat": {
+        "label": "1=weak comm; 2=key comm, 0=neither weak nor key",
+        "pandas_dtype": "float32"
+      },
+      "npd_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_npd_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_npd_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_epg_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_epg_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_npd_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_npd_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_perc_epd_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_epg_perc_session_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_full_inst_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_govt_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_epleader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_com_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_EPG_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_keycom_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_abs1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_abs2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_weak_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_com_cat_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_epleader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_com_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_EPG_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_keycom_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_tag": {
+        "label": "tag(bloc_id)",
+        "pandas_dtype": "int8"
+      },
+      "bloc_id_freq": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_std": {
+        "label": "Standardized values of (a1)     ",
+        "pandas_dtype": "float32"
+      },
+      "a2_std": {
+        "label": "Standardized values of (a2)     ",
+        "pandas_dtype": "float32"
+      },
+      "b1_std": {
+        "label": "Standardized values of (b1)     ",
+        "pandas_dtype": "float32"
+      },
+      "b2_std": {
+        "label": "Standardized values of (b2)     ",
+        "pandas_dtype": "float32"
+      },
+      "A1_std": {
+        "label": "Standardized values of (dist_nomd1_mep_epg2)     ",
+        "pandas_dtype": "float32"
+      },
+      "A2_std": {
+        "label": "Standardized values of (dist_nomd2_mep_epg2)     ",
+        "pandas_dtype": "float32"
+      },
+      "b11": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b21": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "B1_std": {
+        "label": "Standardized values of (b11)     ",
+        "pandas_dtype": "float32"
+      },
+      "B2_std": {
+        "label": "Standardized values of (b21)     ",
+        "pandas_dtype": "float32"
+      },
+      "right_pro": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "left_pro": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "right_anti": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "left_anti": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "quad_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "p1": {
+        "label": "Predicted mean",
+        "pandas_dtype": "float32"
+      },
+      "sample": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_d1_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_d2_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_surname": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "mep_firstname": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "np_code_hnr": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_code_cmp": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_code_ch": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_com": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "loyalty": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_std": {
+        "label": "Standardized values of (c1)     ",
+        "pandas_dtype": "float32"
+      },
+      "c2_std": {
+        "label": "Standardized values of (c2)     ",
+        "pandas_dtype": "float32"
+      },
+      "start_group_num2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "merger": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dissolve": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "casc_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "casc_cat2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch_count": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "amb_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_switch_bw_wi": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_a_max": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_b_max": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_members": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_bloc_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tag2": {
+        "label": "tag(EP start_group_num_ses bloc_id)",
+        "pandas_dtype": "int8"
+      },
+      "epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_b1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_b2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c11": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c22": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cartel2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cartel3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "outsider": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_np_prop": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_np_prop": {
+        "label": "Standardized values of (npd_bloc_perc)     ",
+        "pandas_dtype": "float32"
+      },
+      "high_np_prop": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_seatshare": {
+        "label": "Standardized values of (epg_perc)     ",
+        "pandas_dtype": "float32"
+      },
+      "small_seat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_tag": {
+        "label": "tag(EP start_group)",
+        "pandas_dtype": "int8"
+      },
+      "vol_tag": {
+        "label": "tag(EP start_group)",
+        "pandas_dtype": "int8"
+      },
+      "its": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_dist_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_dist_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_ches_npd_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_ches_npd_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dw_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dw_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dist_nomd1_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dist_nomd2_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "x": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "y": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_ind_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_ind_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "collapse": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tenure_raw2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_std": {
+        "label": "Standardized values of tenure_raw2",
+        "pandas_dtype": "float32"
+      },
+      "ten_mean": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_sd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_ses_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP1_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP2_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP3_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP4_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP5_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP6_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP1_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP2_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP3_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP4_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP5_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP6_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "uencg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tcdi_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_epg_days": {
+        "label": "Standardized values of epg_days",
+        "pandas_dtype": "float32"
+      },
+      "c_epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_size_std": {
+        "label": "Standardized values of epg_perc",
+        "pandas_dtype": "float32"
+      },
+      "diss_merge": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_npd_per_epg": {
+        "label": "Standardized values of npd_per_epg",
+        "pandas_dtype": "float32"
+      },
+      "c_npd_per_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mean": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "sd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_npd_ses": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_group_dv2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_group_dv2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_restrict1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_restrict2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_unrestricted": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_id2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_unrestricted": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_restrict1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_restrict2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "enp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "enp3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "term_share": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_percent": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_ts": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_npds": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_concent": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_enp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dep_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tcdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "com_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ed_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ed_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "gue_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "gue_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cg_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dr_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "fe_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "fe_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rbw_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "marker": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mm": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edn_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edn_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "are_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edd_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "uen_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indem_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ni_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "guengl_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "v_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "soc_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "l_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epp_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_std2": {
+        "label": "Standardized values of a1_lagged",
+        "pandas_dtype": "float32"
+      },
+      "a2_std2": {
+        "label": "Standardized values of a2_lagged",
+        "pandas_dtype": "float32"
+      },
+      "c1_std2": {
+        "label": "Standardized values of c1_lagged",
+        "pandas_dtype": "float32"
+      },
+      "c2_std2": {
+        "label": "Standardized values of c2_lagged",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_epgperc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_perc_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_npdperc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_perc_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_age": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "age_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_tenure": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tenure_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_govt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "govt_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_com": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "np_com_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      }
+    },
+    "stata_value_label_definitions": {},
+    "notes": "CSV does not embed Stata variable/value labels or storage types. Numeric category codes are retained. Empty fields represent missing values; extended Stata missing-value distinctions are not retained in CSV. Original .dta files remain authoritative for Stata metadata."
+  },
+  "PP_dataset.csv": {
+    "csv": "PP_dataset.csv",
+    "rows": 3977,
+    "columns": 563,
+    "verification": "All cells compared with source Stata file; numeric rtol=1e-6, atol=1e-8; dates parsed before comparison.",
+    "variables": {
+      "EP": {
+        "label": "EP",
+        "pandas_dtype": "float32"
+      },
+      "hix_id": {
+        "label": "MEPID",
+        "pandas_dtype": "int16"
+      },
+      "hix_mepid_final": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "hix_name": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "hoy_id": {
+        "label": "Hoyland Numeric identifier",
+        "pandas_dtype": "int32"
+      },
+      "hoy_name": {
+        "label": "1 hoy_name",
+        "pandas_dtype": "object"
+      },
+      "ms": {
+        "label": "MS",
+        "pandas_dtype": "object"
+      },
+      "start_date_ses": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "end_date_ses": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "daysinoffice": {
+        "label": "Days between start and end, for all greater than 14 days",
+        "pandas_dtype": "int16"
+      },
+      "start_group": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_group_num": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "end_group": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "end_group_num": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "switchdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_abs": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "session_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "switch_count_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bws_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "wis_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "nat_party_switch": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "nat_party_switch_count": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP_pres_vp": {
+        "label": "President or VP of the EP",
+        "pandas_dtype": "int8"
+      },
+      "pres_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "pres_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "EP_bureau": {
+        "label": "President, VP or Member of the EP Bureau",
+        "pandas_dtype": "int8"
+      },
+      "bureau_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "bureau_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "conf_of_pres": {
+        "label": "President or Member of the Conference of Presidents, 1999-2014",
+        "pandas_dtype": "int8"
+      },
+      "cop_startdate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "cop_enddate1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "epleadership": {
+        "label": "Either in the Bureau, COP, or Pres/VP of EP",
+        "pandas_dtype": "int8"
+      },
+      "epleader_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epgleader_start": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "epgleader_end": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "EPG_leader": {
+        "label": "Any non-member: Chair, Co-Chair, Vice-Chair,  Chair of Bureau, Bureau Member, Tr",
+        "pandas_dtype": "int8"
+      },
+      "coms_per_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "total_coms": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "kc_cl_committee": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "com_position": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "com_leader": {
+        "label": "Dummy: Member held either chair or vice-chair of a committee",
+        "pandas_dtype": "int8"
+      },
+      "key_committee": {
+        "label": "Dummy: McElroy's Coding: Environmental Committee, the Economic and Monetary Affa",
+        "pandas_dtype": "int8"
+      },
+      "leader_keycom_inter": {
+        "label": "Interaction term between Committee Leader and Key Committee Member",
+        "pandas_dtype": "int8"
+      },
+      "com_position2": {
+        "label": "2 com_position",
+        "pandas_dtype": "object"
+      },
+      "com_position3": {
+        "label": "3 com_position",
+        "pandas_dtype": "object"
+      },
+      "nat_elec1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec2": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec3": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec4": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "nat_elec_count": {
+        "label": "Nat_Elec_count",
+        "pandas_dtype": "int8"
+      },
+      "pr_dummy": {
+        "label": "PR_dummy",
+        "pandas_dtype": "int8"
+      },
+      "openlists": {
+        "label": "Open Lists",
+        "pandas_dtype": "int8"
+      },
+      "constituency": {
+        "label": "Nat_Constit",
+        "pandas_dtype": "int8"
+      },
+      "country_id": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "country_name": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "martin_mepid": {
+        "label": "group(name)",
+        "pandas_dtype": "float64"
+      },
+      "nomd1": {
+        "label": "NOM-D1",
+        "pandas_dtype": "float32"
+      },
+      "nomd2": {
+        "label": "NOM-D2",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "NP_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "NP_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wgt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_session_count": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "nationalparty": {
+        "label": "National Party",
+        "pandas_dtype": "object"
+      },
+      "hix_partycode_final": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "parlgov_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ray_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "pos": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lr_gen": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "govt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP1": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP2": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP3": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP4": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP5": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EP6": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "cmp": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ray": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "chess": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "AT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "BE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "BG": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "CY": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "CZ": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "DK": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "EE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "FI": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "FR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "DE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "GR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "HU": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "IR": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "IT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LV": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "LU": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "MA": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "NL": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "PL": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "PT": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "RO": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "ES": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "SE": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "UK": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "id_number": {
+        "label": "EP Assigned ID Number",
+        "pandas_dtype": "float64"
+      },
+      "daniel_name": {
+        "label": "Last Name of MEP",
+        "pandas_dtype": "object"
+      },
+      "country_code": {
+        "label": "Country Code",
+        "pandas_dtype": "float64"
+      },
+      "country": {
+        "label": "MEP Country Name",
+        "pandas_dtype": "object"
+      },
+      "wave": {
+        "label": "EP Wave",
+        "pandas_dtype": "float64"
+      },
+      "outcome": {
+        "label": "Demonstrated Career Ambition, post-EP term",
+        "pandas_dtype": "float64"
+      },
+      "terms_served": {
+        "label": "Terms Served",
+        "pandas_dtype": "float64"
+      },
+      "dropout": {
+        "label": "Dropout",
+        "pandas_dtype": "float64"
+      },
+      "age": {
+        "label": "MEP Age (end of term)",
+        "pandas_dtype": "float64"
+      },
+      "female": {
+        "label": "Female",
+        "pandas_dtype": "int8"
+      },
+      "natl_govt": {
+        "label": "National Party in Government",
+        "pandas_dtype": "float64"
+      },
+      "EP_leader": {
+        "label": "EP Leader",
+        "pandas_dtype": "float64"
+      },
+      "leadership": {
+        "label": "Committee Leader",
+        "pandas_dtype": "float64"
+      },
+      "rapports": {
+        "label": "Rapporteurships",
+        "pandas_dtype": "float64"
+      },
+      "education": {
+        "label": "Highest Education Attained",
+        "pandas_dtype": "float64"
+      },
+      "new_ms": {
+        "label": "New Member State",
+        "pandas_dtype": "float64"
+      },
+      "dead": {
+        "label": "Died in office",
+        "pandas_dtype": "float64"
+      },
+      "party_group": {
+        "label": "Party Group (string)",
+        "pandas_dtype": "float64"
+      },
+      "seniority": {
+        "label": "Seniority (dichotomous)",
+        "pandas_dtype": "float64"
+      },
+      "codecision": {
+        "label": "Post-codecision EP",
+        "pandas_dtype": "float64"
+      },
+      "terms_complete": {
+        "label": "Terms Complete",
+        "pandas_dtype": "float64"
+      },
+      "edu_codecision": {
+        "label": "Education*codecision",
+        "pandas_dtype": "float64"
+      },
+      "EP_reelect": {
+        "label": "Seek Re-election",
+        "pandas_dtype": "float64"
+      },
+      "dpi_state": {
+        "label": "Local Elections",
+        "pandas_dtype": "float64"
+      },
+      "MP_elect": {
+        "label": "National MP",
+        "pandas_dtype": "float64"
+      },
+      "natl_elect": {
+        "label": "National politics",
+        "pandas_dtype": "float64"
+      },
+      "natl_exec": {
+        "label": "National Executive",
+        "pandas_dtype": "float64"
+      },
+      "leave_EP": {
+        "label": "Leave EP",
+        "pandas_dtype": "float64"
+      },
+      "retire": {
+        "label": "Leave Politics",
+        "pandas_dtype": "float64"
+      },
+      "enlargement_dummy": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP1_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP2_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP3_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP4_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP5_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP6_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "EP7_switch_period": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "ni_target": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_delegation": {
+        "label": "group(EP hix_partycode_final)",
+        "pandas_dtype": "float64"
+      },
+      "npd_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "small_npd2": {
+        "label": "1 = Delegation with 1-2 members; 2 = 3-10 members; 3 = 10-20 members; 4 = delega",
+        "pandas_dtype": "int8"
+      },
+      "lead_com_leader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_key_com": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_keycom_inter": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_epleader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "lead_EPG_leader": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "days_before_NE1": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "switch_date1": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date2": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date3": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "switch_date4": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "start_group_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group1_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group2_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group3_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "group4_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "end_group_ses": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_group_num_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "group1_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group2_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group3_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "group4_num_ses": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "end_group_num_ses": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "name_simple": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "party_code": {
+        "label": "National Party",
+        "pandas_dtype": "float64"
+      },
+      "left_right": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_partyid": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "party_id": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "position": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "hoy_name2": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "start_ses_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "late_start": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "multisession": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "within_ses_switch": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "total_switch_count": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "session_total_members": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "session_group_members_start": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "session_group_members_end": {
+        "label": "",
+        "pandas_dtype": "int16"
+      },
+      "epg_count_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_per_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_seats_per_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "volatility": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_perc_epd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "concentration": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "consistency": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "seatshare": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_tenure": {
+        "label": "Standardized values of (tenure_raw)     ",
+        "pandas_dtype": "float32"
+      },
+      "fragility": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "vol2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "vol3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "name": {
+        "label": "Name",
+        "pandas_dtype": "object"
+      },
+      "ms_code": {
+        "label": "group(ms)",
+        "pandas_dtype": "int8"
+      },
+      "start_date_abs": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "end_date_abs": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "cartel_start": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "cartel_end": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "cat_switch": {
+        "label": "Categorical: 1=cartel inswitch; 2=cartel outswitch; 3= cartel crossswitch; 4=per",
+        "pandas_dtype": "int8"
+      },
+      "cat_switch2": {
+        "label": "Categorical Var Equals 1 if the switcher started in the cartel; 2 if the switche",
+        "pandas_dtype": "int8"
+      },
+      "small_npd": {
+        "label": "Delegation with 1 or 2 members",
+        "pandas_dtype": "int8"
+      },
+      "quintile_npd_session": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "quintile_npd_epg": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_seatshare_cat4": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_dummy": {
+        "label": "Delegation has at least 3 members",
+        "pandas_dtype": "int8"
+      },
+      "npd_rank": {
+        "label": "rank of (-npd_perc_epd)  by EP start_group_num",
+        "pandas_dtype": "float32"
+      },
+      "npd_top2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "npd_top3": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bloc_switch_num": {
+        "label": "Count variable for # of Switchers per NPD",
+        "pandas_dtype": "float64"
+      },
+      "bloc_switch_perc": {
+        "label": "Percentage of NPD members that switched",
+        "pandas_dtype": "float32"
+      },
+      "NP_wgt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_dwd1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_dwd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_eu_pos": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_ideo": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_d1b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "abs_d2b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_id": {
+        "label": "group(EP start_group_num hix_partycode_final)",
+        "pandas_dtype": "float64"
+      },
+      "epg_median_start_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_start_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_end_D1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_end_D2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_d1_shift": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_d2_shift": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d1a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d2a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npd2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d1a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_mep_npd_d2a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_mep_npda": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dw_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd1_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dist_nomd2_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_npd_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity_npd_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "scalar_product_npd_epg2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_dist_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_mep_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "eucl_disp_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_com": {
+        "label": "Dummy: Member in Petitions, Budgetary Control, Rules of Proc, or Women's Rights",
+        "pandas_dtype": "int8"
+      },
+      "full_inst": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "full_inst2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "consist_std": {
+        "label": "Standardized values of (consistency)     ",
+        "pandas_dtype": "float32"
+      },
+      "concent_std": {
+        "label": "Standardized values of (concentration)     ",
+        "pandas_dtype": "float32"
+      },
+      "vol_std": {
+        "label": "Standardized values of (vol3)     ",
+        "pandas_dtype": "float32"
+      },
+      "frag_std": {
+        "label": "Standardized values of (fragility)     ",
+        "pandas_dtype": "float32"
+      },
+      "tenure_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "seats_std": {
+        "label": "Standardized values of (seatshare)     ",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_index": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_index_std": {
+        "label": "Standardized values of (weak_inst_index)     ",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_index": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_index_std": {
+        "label": "Standardized values of (full_inst_index)     ",
+        "pandas_dtype": "float32"
+      },
+      "leader_index": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "bloc_switch_cat": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epg_perc_session": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ses_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "start_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "wis_switch_lag": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "govt2": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "epg_euc_disp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_euc_disp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "natl_reward": {
+        "label": "",
+        "pandas_dtype": "int8"
+      },
+      "startdate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "birthdate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "enddate": {
+        "label": "",
+        "pandas_dtype": "datetime64[ns]"
+      },
+      "age_martin": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_tenure": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "full_inst_dummy": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_dummy": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst_cat": {
+        "label": "1=0-1 SD over avg; 2=1-2 SD over avg; 3=2 or more SD over avg",
+        "pandas_dtype": "float32"
+      },
+      "epg_disp_std": {
+        "label": "Standardized values of (epg_euc_disp)     ",
+        "pandas_dtype": "float32"
+      },
+      "epg_disp_cat": {
+        "label": "0=below avg disp; 1=above avg disp; 2= 2sd above avg disp",
+        "pandas_dtype": "float32"
+      },
+      "inst_cat": {
+        "label": "1=weak inst; 2=full inst;0=neither",
+        "pandas_dtype": "float32"
+      },
+      "comm_cat": {
+        "label": "1=weak comm; 2=key comm, 0=neither weak nor key",
+        "pandas_dtype": "float32"
+      },
+      "npd_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_npd_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_to_npd_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_epg_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_epg_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_npd_d1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_mep_to_npd_d2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_perc_epd_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_epg_perc_session_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_full_inst_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_govt_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_epleader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_com_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_EPG_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_keycom_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_abs1_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_abs2_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_weak_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_com_cat_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_epleader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_com_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_EPG_leader_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lead_keycom_2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_tag": {
+        "label": "tag(bloc_id)",
+        "pandas_dtype": "int8"
+      },
+      "bloc_id_freq": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_std": {
+        "label": "Standardized values of (a1)     ",
+        "pandas_dtype": "float32"
+      },
+      "a2_std": {
+        "label": "Standardized values of (a2)     ",
+        "pandas_dtype": "float32"
+      },
+      "b1_std": {
+        "label": "Standardized values of (b1)     ",
+        "pandas_dtype": "float32"
+      },
+      "b2_std": {
+        "label": "Standardized values of (b2)     ",
+        "pandas_dtype": "float32"
+      },
+      "A1_std": {
+        "label": "Standardized values of (dist_nomd1_mep_epg2)     ",
+        "pandas_dtype": "float32"
+      },
+      "A2_std": {
+        "label": "Standardized values of (dist_nomd2_mep_epg2)     ",
+        "pandas_dtype": "float32"
+      },
+      "b11": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "b21": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "B1_std": {
+        "label": "Standardized values of (b11)     ",
+        "pandas_dtype": "float32"
+      },
+      "B2_std": {
+        "label": "Standardized values of (b21)     ",
+        "pandas_dtype": "float32"
+      },
+      "right_pro": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "left_pro": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "right_anti": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "left_anti": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "quad_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "p1": {
+        "label": "Predicted mean",
+        "pandas_dtype": "float32"
+      },
+      "sample": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_d1_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_d2_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mep_surname": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "mep_firstname": {
+        "label": "",
+        "pandas_dtype": "object"
+      },
+      "np_code_hnr": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_code_cmp": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_code_ch": {
+        "label": "",
+        "pandas_dtype": "float64"
+      },
+      "np_com": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "loyalty": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_std": {
+        "label": "Standardized values of (c1)     ",
+        "pandas_dtype": "float32"
+      },
+      "c2_std": {
+        "label": "Standardized values of (c2)     ",
+        "pandas_dtype": "float32"
+      },
+      "start_group_num2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "merger": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dissolve": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "casc_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "casc_cat2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch_count": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "inst_switch_cat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cat_switch_bw_wi": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_a": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_b": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_a_max": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members_b_max": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_members": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_members": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_bloc_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tag2": {
+        "label": "tag(EP start_group_num_ses bloc_id)",
+        "pandas_dtype": "int8"
+      },
+      "epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_b1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_b2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c11": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_c22": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_npd_to_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cartel2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cartel3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "outsider": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "weak_inst": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_np_prop": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_np_prop": {
+        "label": "Standardized values of (npd_bloc_perc)     ",
+        "pandas_dtype": "float32"
+      },
+      "high_np_prop": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_seatshare": {
+        "label": "Standardized values of (epg_perc)     ",
+        "pandas_dtype": "float32"
+      },
+      "small_seat": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_npd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_tag": {
+        "label": "tag(EP start_group)",
+        "pandas_dtype": "int8"
+      },
+      "vol_tag": {
+        "label": "tag(EP start_group)",
+        "pandas_dtype": "int8"
+      },
+      "its": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_dist_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ches_dist_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_ches_npd_epg_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_ches_npd_epg_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dw_nomd1_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dw_nomd2_npd_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dist_nomd1_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_dist_nomd2_mep_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "x": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "y": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_ind_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_group_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_ind_dv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "collapse": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tenure_raw2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_std": {
+        "label": "Standardized values of tenure_raw2",
+        "pandas_dtype": "float32"
+      },
+      "ten_mean": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_sd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ten_ses_std": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP1_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP2_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP3_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP4_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP5_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "EP6_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP1_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP2_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP3_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP4_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP5_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "max_EP6_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "uencg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tcdi_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_epg_days": {
+        "label": "Standardized values of epg_days",
+        "pandas_dtype": "float32"
+      },
+      "c_epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_size_std": {
+        "label": "Standardized values of epg_perc",
+        "pandas_dtype": "float32"
+      },
+      "diss_merge": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_npd_per_epg": {
+        "label": "Standardized values of npd_per_epg",
+        "pandas_dtype": "float32"
+      },
+      "c_npd_per_epg": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mean": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "sd": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_npd_ses": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "wis_group_dv2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bws_group_dv2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_restrict1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_restrict2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indiv_switch_unrestricted": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_id2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_unrestricted": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_restrict1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_switch_restrict2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "enp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "enp3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "term_share": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_percent": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_ts": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_epg_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_npds": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_concent": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ftr_enp": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dep_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tcdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "com_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ed_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ed_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "gue_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "gue_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "cg_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "dr_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "fe_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "fe_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rbw_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "marker": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "mm": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "upe_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "rde_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edn_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edn_days": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "iedn_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "are_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tdi_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "edd_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "its_days2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "uen_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "indem_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "ni_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "guengl_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "v_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "soc_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "l_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epp_check": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_median_d2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2_raw": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_a1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_a2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_c1": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_c2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a2_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c1_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c2_lagged": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "a1_std2": {
+        "label": "Standardized values of a1_lagged",
+        "pandas_dtype": "float32"
+      },
+      "a2_std2": {
+        "label": "Standardized values of a2_lagged",
+        "pandas_dtype": "float32"
+      },
+      "c1_std2": {
+        "label": "Standardized values of c1_lagged",
+        "pandas_dtype": "float32"
+      },
+      "c2_std2": {
+        "label": "Standardized values of c2_lagged",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_epgperc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "epg_perc_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_npdperc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "npd_perc_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_age": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "age_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_tenure": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "tenure_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_govt": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "govt_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "lag_ref_com": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "np_com_lag": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "c_npd_perc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "amb_switch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "amb_switch_indiv": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "amb_switch_bloc": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "multiswitch": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "switch_count_total": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "intensity2": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "z_intense2": {
+        "label": "Standardized values of intensity2",
+        "pandas_dtype": "float32"
+      },
+      "bloc_id3": {
+        "label": "",
+        "pandas_dtype": "float32"
+      },
+      "bloc_tag3": {
+        "label": "tag(EP bloc_id3)",
+        "pandas_dtype": "int8"
+      }
+    },
+    "stata_value_label_definitions": {},
+    "notes": "CSV does not embed Stata variable/value labels or storage types. Numeric category codes are retained. Empty fields represent missing values; extended Stata missing-value distinctions are not retained in CSV. Original .dta files remain authoritative for Stata metadata."
+  }
+}

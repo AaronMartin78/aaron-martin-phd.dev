@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - publications/downloads/**
 
 website:
   title: "Aaron R. Martin"
@@ -9,6 +11,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: publications/index.qmd
+        text: Publications and Data
       - href: bbl/index.qmd
         text: BBL Daily
       - href: homelab/index.qmd
