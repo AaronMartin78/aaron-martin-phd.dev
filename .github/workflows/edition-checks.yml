@@ -5,8 +5,9 @@ on:
     branches: [editions]
 
 permissions:
-  contents: read
+  contents: write        # merge the editions PR
   pull-requests: write
+  actions: write         # dispatch the deploy after a GITHUB_TOKEN merge
 
 jobs:
   validate:
@@ -31,11 +32,22 @@ jobs:
       - name: Render site (build must succeed before a PR is offered)
         run: quarto render
 
-      - name: Open or refresh the PR to main (manual approval gate)
+      - name: Open the PR to main and merge it (validation is the gate)
         env:
           GH_TOKEN: ${{ github.token }}
+        # Owner's 2026-10-23 decision: validation and the site render above
+        # replace the manual morning merge. Any failure before this step
+        # fails the job loudly (the old `|| echo` swallowed the 2026-10-19
+        # case where the Actions PR allowance was off). The merge uses
+        # GITHUB_TOKEN, and a push made with it does not trigger push
+        # workflows, so the deploy is dispatched explicitly below.
         run: |
-          gh pr create --base main --head editions \
-            --title "BBL editions" \
-            --body "Automated editions. Checks and render passed; review and merge to deploy." \
-            2>/dev/null || echo "PR already open; new commits are on it."
+          open=$(gh pr list --base main --head editions --state open \
+            --json number --jq length)
+          if [ "$open" -eq 0 ]; then
+            gh pr create --base main --head editions \
+              --title "BBL editions" \
+              --body "Automated editions. Checks and render passed in this run; merged automatically."
+          fi
+          gh pr merge editions --merge
+          gh workflow run "Deploy site" --ref main
