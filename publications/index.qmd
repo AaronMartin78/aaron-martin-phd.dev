@@ -1,9 +1,9 @@
 ---
 title: "Publications and Data"
-description: "Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code."
+description: "*Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code.*"
 ---
-Google Scholar: https://scholar.google.de/citations?hl=de&pli=1&user=GZCW0DQAAAAJ
-ORCHID: https://orcid.org/0000-0003-4529-0593
+**Google Scholar**: https://scholar.google.de/citations?hl=de&user=GZCW0DQAAAAJ\
+**ORCID**: https://orcid.org/0000-0003-4529-0593
 
 My research examines party group switching, political representation and party institutionalization in the European Parliament. Below are my two published journal articles as well as the data and replication code.
 
