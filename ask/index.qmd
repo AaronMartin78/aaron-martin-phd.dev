@@ -1,0 +1,34 @@
+---
+title: "Ask Aaron"
+description: "A retrieval-augmented assistant that answers questions about my work, research and projects."
+---
+
+Ask about my work history, research, data engineering projects or skills.
+The assistant retrieves from a curated knowledge base of my CV, publications
+and project documentation, routes each question to the right collection and
+answers with citations from the retrieved material.
+
+::: {.callout-note}
+The app scales to zero when idle, so the first question after a quiet period
+takes about 30 seconds to wake it up. After that it responds normally.
+:::
+
+```{=html}
+<iframe
+  src="https://ask-aaron-201418184721.europe-west3.run.app/"
+  title="Ask Aaron - RAG assistant"
+  style="width: 100%; height: 820px; border: 1px solid #dee2e6; border-radius: 6px;"
+  loading="lazy">
+</iframe>
+```
+
+If the embedded app does not load,
+[open it in its own tab](https://ask-aaron-201418184721.europe-west3.run.app/){target="_blank"}.
+
+## How it works
+
+Questions are classified into one of three routes (work history, my own
+research, or the related literature), each backed by its own vector
+collection. Retrieval-relevant chunks are shown alongside every answer, so
+you can see exactly what the model was given. The pipeline is Python,
+ChromaDB and Claude, deployed on Cloud Run.
