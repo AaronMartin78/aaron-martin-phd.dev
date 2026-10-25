@@ -12,8 +12,8 @@ and project documentation, routes each question to the right collection and
 answers with citations from the retrieved material.
 
 ::: {.callout-note}
-The app scales to zero when idle, so the first load after a quiet period can
-take up to a minute to wake it up. After that it responds normally.
+The assistant can take up to a minute to appear the first time you open this
+page. If the box below is blank, just give it a moment.
 :::
 
 ```{=html}
