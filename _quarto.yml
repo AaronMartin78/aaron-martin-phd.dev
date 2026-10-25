@@ -19,11 +19,6 @@ website:
         text: Ask Aaron
       - href: homelab/index.qmd
         text: Homelab
-<<<<<<< HEAD
-      - href: chat.qmd
-        text: Ask Aaron
-=======
->>>>>>> 57445900d4729fe98437ca0720573ef220447104
       - href: about.qmd
         text: About
 
