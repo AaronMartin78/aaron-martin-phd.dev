@@ -11,9 +11,10 @@ The assistant retrieves from a curated knowledge base of my CV, publications
 and project documentation, routes each question to the right collection and
 answers with citations from the retrieved material.
 
-::: {.callout-note}
-The app scales to zero when idle, so the first load after a quiet period can
-take up to a minute to wake it up. After that it responds normally.
+::: {.callout-note title="If the box below looks empty, just wait a moment"}
+The assistant takes a short nap when nobody is talking to it. Waking it up can
+take up to a minute, and while it wakes the box below stays blank. Once it's
+awake, it answers within a few seconds.
 :::
 
 ```{=html}
