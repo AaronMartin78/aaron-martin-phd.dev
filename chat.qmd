@@ -1,0 +1,20 @@
+---
+title: "Ask my CV"
+format:
+  html:
+    page-layout: full
+---
+
+A retrieval-augmented chatbot over my professional profile. Answers come from a
+curated knowledge base, not from the model's memory — a query classifier routes
+each question to one of three collections (career, my own research, or the
+related literature) before retrieval. Tick "Show retrieved chunks" to see the
+passages it read and which route it took. Runs on Google Cloud Run and scales
+to zero when idle, so the first load after a quiet period takes up to a minute.
+
+<iframe
+  src="https://ask-aaron-201418184721.europe-west3.run.app"
+  frameborder="0"
+  width="100%"
+  height="900"
+  style="border: 0;"></iframe>
