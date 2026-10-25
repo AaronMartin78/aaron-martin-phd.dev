@@ -11,16 +11,10 @@ The assistant retrieves from a curated knowledge base of my CV, publications
 and project documentation, routes each question to the right collection and
 answers with citations from the retrieved material.
 
-<<<<<<< HEAD
 ::: {.callout-note title="If the box below looks empty, just wait a moment"}
-The assistant takes a short nap when nobody is talking to it. Waking it up can
-take up to a minute, and while it wakes the box below stays blank. Once it's
-awake, it answers within a few seconds.
-=======
-::: {.callout-note}
 The assistant can take up to a minute to appear the first time you open this
-page. If the box below is blank, just give it a moment.
->>>>>>> 44f4cdffeb165bff7b8b31da46f76027aad6981f
+page. While it starts, the box below stays blank. Once it's up, it answers
+within a few seconds.
 :::
 
 ```{=html}
