@@ -18,7 +18,7 @@ website:
       - href: homelab/index.qmd
         text: Homelab
       - href: chat.qmd
-        text: Ask my CV
+        text: Ask Aaron
       - href: about.qmd
         text: About
 
