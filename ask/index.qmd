@@ -1,6 +1,9 @@
 ---
 title: "Ask Aaron"
 description: "A retrieval-augmented assistant that answers questions about my work, research and projects."
+format:
+  html:
+    page-layout: full
 ---
 
 Ask about my work history, research, data engineering projects or skills.
@@ -9,15 +12,15 @@ and project documentation, routes each question to the right collection and
 answers with citations from the retrieved material.
 
 ::: {.callout-note}
-The app scales to zero when idle, so the first question after a quiet period
-takes about 30 seconds to wake it up. After that it responds normally.
+The app scales to zero when idle, so the first load after a quiet period can
+take up to a minute to wake it up. After that it responds normally.
 :::
 
 ```{=html}
 <iframe
   src="https://ask-aaron-201418184721.europe-west3.run.app/"
   title="Ask Aaron - RAG assistant"
-  style="width: 100%; height: 820px; border: 1px solid #dee2e6; border-radius: 6px;"
+  style="width: 100%; height: 900px; border: 0;"
   loading="lazy">
 </iframe>
 ```
@@ -29,6 +32,6 @@ If the embedded app does not load,
 
 Questions are classified into one of three routes (work history, my own
 research, or the related literature), each backed by its own vector
-collection. Retrieval-relevant chunks are shown alongside every answer, so
-you can see exactly what the model was given. The pipeline is Python,
-ChromaDB and Claude, deployed on Cloud Run.
+collection. Retrieved chunks are shown alongside every answer — tick "Show
+retrieved chunks" to see the passages it read and which route it took. The
+pipeline is Python, ChromaDB and Claude, deployed on Google Cloud Run.
