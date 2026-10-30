@@ -2,6 +2,13 @@
 title: "About"
 ---
 
+## Find me
+
+- GitHub: [github.com/AaronMartin78](https://github.com/AaronMartin78)
+- LinkedIn: [linkedin.com/in/aaron-martin-phd](https://www.linkedin.com/in/aaron-martin-phd)
+- Kaggle: [kaggle.com/aaronrmartin](https://www.kaggle.com/aaronrmartin)
+- Email: [aaronmartin78@gmail.com](mailto:aaronmartin78@gmail.com)
+
 My name is Aaron Martin and I hold a Ph.D. in Political Science from the University of Munich (LMU), Geschwister-Scholl-Institut. Before moving to Germany, I studied political science at Loyola University and reached the level of "all but dissertation." I also studied International Relations at American University in Washington, DC, and Political Economy at Tulane's Murphy Institute in New Orleans, LA.
 
 I am currently working as a Data Science consultant in Munich, learning how to use as many new tools as possible. I love basketball and music.  
