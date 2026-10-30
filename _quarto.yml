@@ -28,3 +28,6 @@ format:
     css: styles.css
     toc: false
     lang: en
+    include-in-header:
+      text: |
+        <script data-goatcounter="https://aaron-martin-phd.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
