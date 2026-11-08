@@ -1,0 +1,29 @@
+/* Keep the archive inside the content column, clear of Quarto margin notes. */
+.bbl-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 13rem;
+  gap: 1.75rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+.bbl-editions { min-width: 0; }
+.bbl-editions h2 { margin-top: 0; font-size: 1.35rem; }
+.bbl-period-dates { color: #58616a; font-size: .9rem; }
+.bbl-table td:first-child { white-space: nowrap; }
+.bbl-table td, .bbl-table th { padding: .65rem .5rem; }
+.bbl-table tr[hidden] { display: none; }
+.bbl-archive { border-left: 1px solid #dee2e6; padding-left: 1.25rem; }
+.bbl-archive-panel > summary { font-weight: 600; margin-bottom: .75rem; }
+.bbl-archive summary { cursor: pointer; }
+.bbl-latest { display: block; margin-bottom: 1rem; padding: .3rem .4rem; }
+.bbl-month { margin: .65rem 0; }
+.bbl-month ul { list-style: none; margin: .35rem 0 .75rem; padding-left: 1rem; }
+.bbl-month a { display: block; padding: .3rem .4rem; border-radius: .2rem; }
+.bbl-archive a[aria-current="page"] { font-weight: 600; background: #edf4fc; }
+.bbl-archive a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+@media (max-width: 767px) {
+  .bbl-layout { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  .bbl-archive { grid-row: 1; border-left: 0; border-bottom: 1px solid #dee2e6; padding: 0 0 .75rem; }
+  .bbl-archive-panel > summary { margin-bottom: .5rem; }
+  .bbl-table { font-size: .9rem; }
+}

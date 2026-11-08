@@ -2,6 +2,7 @@
 title: "BBL Daily"
 format:
   html:
+    css: archive.css
     include-after-body: archive.js
 ---
 
