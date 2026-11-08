@@ -25,7 +25,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: [styles.css, bbl/boxscores.css]
     toc: false
     lang: en
     include-in-header:
