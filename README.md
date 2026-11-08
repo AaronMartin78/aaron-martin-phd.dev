@@ -1,5 +1,22 @@
 # aaron-martin-phd.dev
 
+## BBL archive and local builds
+
+The BBL index shows the seven calendar days ending on the newest edition.
+Older editions are grouped into calendar months, with Monday–Sunday weeks
+clipped to each month's first and last day. All article URLs stay unchanged.
+The archive rebuilds automatically in both GitHub Actions workflows.
+
+Before a local render, generate the archive include (Quarto resolves includes
+before running project pre-render hooks):
+
+```sh
+python scripts/build_bbl_archive.py
+quarto render
+```
+
+Run calendar and archive checks with `python scripts/test_bbl_archive.py`.
+
 Quarto website with the automated BBL Daily section. Editions arrive from the
 HUB pipeline on the `editions` branch; GitHub Actions validates and renders
 them, you approve the PR, merge to `main` deploys to GitHub Pages.

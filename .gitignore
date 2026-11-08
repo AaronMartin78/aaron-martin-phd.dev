@@ -1,4 +1,6 @@
 _site/
+bbl/_archive.qmd
+__pycache__/
 .quarto/
 .Rhistory
 **/.Rhistory
