@@ -1,0 +1,23 @@
+.bbl-boxscore {
+  margin: 1.25rem 0;
+  padding: 1rem 1.1rem;
+  background: #f7f9fb;
+  border: 1px solid #dce3e9;
+  border-radius: .35rem;
+  font-size: .88rem;
+}
+.bbl-boxscore-label { margin-bottom: .2rem; color: #58616a; font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; }
+.bbl-boxscore-result { font-size: 1.05rem; margin-bottom: 1rem; }
+.bbl-boxscore-scroll { overflow-x: auto; margin: .5rem 0 1rem; }
+.bbl-boxscore-scroll:focus-visible { outline: 2px solid #2780e3; outline-offset: 2px; }
+.bbl-boxscore-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.bbl-boxscore-table th, .bbl-boxscore-table td { padding: .4rem .55rem; white-space: nowrap; text-align: right; border-bottom: 1px solid #dce3e9; }
+.bbl-boxscore-table th:first-child { text-align: left; }
+.bbl-boxscore-table thead th { color: #46535f; font-weight: 600; font-size: .8rem; }
+.bbl-boxscore-players > summary { cursor: pointer; font-weight: 600; padding: .5rem 0; color: #205a99; }
+.bbl-boxscore-players > p { margin-top: 1rem; margin-bottom: .25rem; }
+.bbl-boxscore p:last-child { margin-bottom: 0; }
+@media (max-width: 575px) {
+  .bbl-boxscore { padding: .8rem; }
+  .bbl-boxscore-result { font-size: 1rem; }
+}
