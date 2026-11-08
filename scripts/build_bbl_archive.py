@@ -67,12 +67,12 @@ def build_archive(editions: list[tuple[date, str]]) -> str:
       <h2 id="bbl-period">Latest seven days</h2>
       <p id="bbl-period-dates" class="bbl-period-dates">{date_label(cutoff)} – {date_label(latest)}</p>
     </div>
-    <table class="table bbl-table"><caption class="visually-hidden">BBL Daily editions for the selected period</caption>
+    <table class="table bbl-table" aria-label="BBL Daily editions for the selected period">
       <thead><tr><th scope="col">Date</th><th scope="col">Title</th></tr></thead>
       <tbody>{''.join(rows)}</tbody>
     </table>
   </section>
-  <aside class="bbl-archive" aria-label="Edition archive">
+  <div class="bbl-archive" role="complementary" aria-label="Edition archive">
     <details class="bbl-archive-panel" open>
       <summary>Browse the archive</summary>
       <nav aria-label="Months and weeks">
@@ -80,7 +80,7 @@ def build_archive(editions: list[tuple[date, str]]) -> str:
         {''.join(navigation)}
       </nav>
     </details>
-  </aside>
+  </div>
 </div>
 <noscript><h2>All editions</h2><p>Choose an edition directly from the archive.</p><ul>{fallback}</ul></noscript>
 ```
