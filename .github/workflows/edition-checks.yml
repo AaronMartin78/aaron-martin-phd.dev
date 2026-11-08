@@ -36,7 +36,7 @@ jobs:
           fi
 
       - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+        run: bash scripts/install_quarto_ci.sh
 
       - name: Render site (build must succeed before a PR is offered)
         run: |
