@@ -24,7 +24,16 @@ jobs:
           shopt -s nullglob
           files=(bbl/posts/*.qmd)
           if [ ${#files[@]} -eq 0 ]; then echo "no editions yet"; exit 0; fi
-          python scripts/check_edition.py --check-links "${files[@]}"
+          # Always validate the entire archive's content and citation format.
+          python scripts/check_edition.py "${files[@]}"
+          # Recheck live URLs only for editions being added or changed on main.
+          # Published articles can move later without blocking new editions.
+          git fetch --no-tags --depth=1 origin main
+          git diff --name-only -z --diff-filter=AM origin/main HEAD -- 'bbl/posts/*.qmd' > "$RUNNER_TEMP/edition-files"
+          mapfile -d '' changed < "$RUNNER_TEMP/edition-files"
+          if [ ${#changed[@]} -gt 0 ]; then
+            python scripts/check_edition.py --check-links "${changed[@]}"
+          fi
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
