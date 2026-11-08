@@ -1,4 +1,4 @@
-"""Build the BBL index from edition metadata; run automatically by Quarto."""
+"""Build the BBL index from edition metadata before invoking Quarto."""
 from __future__ import annotations
 
 import calendar

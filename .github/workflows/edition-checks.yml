@@ -39,7 +39,10 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render site (build must succeed before a PR is offered)
-        run: quarto render
+        run: |
+          python scripts/test_bbl_archive.py
+          python scripts/build_bbl_archive.py
+          quarto render
 
       - name: Open the PR to main and merge it (validation is the gate)
         env:

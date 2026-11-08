@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: _site
-  pre-render:
-    - python scripts/build_bbl_archive.py
   resources:
     - publications/downloads/**
 
