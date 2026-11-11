@@ -1,0 +1,175 @@
+---
+title: "BBL Daily - 11 November 2026"
+date: 2026-11-11
+categories: [bbl]
+lang: en
+---
+
+## Games
+
+### Trier Defeats Bamberg 92:79 in German Basketball League
+
+*Played Saturday, 07 November 2026* *(updated with new sources)*
+
+The VET-CONCEPT Gladiators Trier secured a convincing 92:79 victory over the BMA365 Bamberg Baskets in the German Basketball League. Jordan Roland led the way for Trier with 20 points, including his 1,000th Bundesliga point. The win marked Trier's fifth consecutive victory in the league, with a perfect 5-0 record in the Hinrunde. Bamberg, on the other hand, suffered their fourth loss of the season, dropping to 4-4. The Bamberger were unable to take the lead in the game, with Trier dominating from the start. Bamberg's Hason Ward and Richard Balint scored 17 points each, but it was not enough to overcome Trier's strong performance. The game was played in front of 5,570 spectators in the SWT-Arena in Trier, with the Trierers taking control from the beginning and never looking back.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>VET-CONCEPT Gladiators Trier 92–79 BMA365 Bamberg Baskets</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">VET-CONCEPT Gladiators Trier</th><td>26</td><td>21</td><td>16</td><td>29</td><td>92</td></tr><tr><th scope="row">BMA365 Bamberg Baskets</th><td>18</td><td>17</td><td>18</td><td>26</td><td>79</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">VET-CONCEPT Gladiators Trier</th><td>33/65</td><td>9/27</td><td>17/22</td><td>34</td><td>21</td><td>9</td><td>5</td><td>12</td><td>18</td></tr><tr><th scope="row">BMA365 Bamberg Baskets</th><td>31/77</td><td>7/30</td><td>10/17</td><td>47</td><td>15</td><td>9</td><td>3</td><td>15</td><td>23</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>VET-CONCEPT Gladiators Trier</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="VET-CONCEPT Gladiators Trier player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="VET-CONCEPT Gladiators Trier player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Marco Hollersbacher</th><td>17:40</td><td>5</td><td>1/2</td><td>1/2</td><td>0/0</td><td>1</td><td>2</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-2</td></tr><tr><th scope="row">Marten Linßen</th><td>16:45</td><td>12</td><td>5/7</td><td>0/0</td><td>2/3</td><td>0</td><td>2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>0</td><td>3</td><td>8</td></tr><tr><th scope="row">Behnam Yakhchali Dehkordi</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Evans Rapieque</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Maik Zirbes</th><td>4:25</td><td>0</td><td>0/1</td><td>0/0</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>2</td><td>0</td><td>-3</td></tr><tr><th scope="row">Jordan Roland</th><td>28:31</td><td>20</td><td>0/2</td><td>5/10</td><td>5/7</td><td>1</td><td>4</td><td>5</td><td>1</td><td>1</td><td>0</td><td>3</td><td>3</td><td>16</td></tr><tr><th scope="row">Eli Brooks</th><td>28:39</td><td>7</td><td>3/4</td><td>0/1</td><td>1/2</td><td>0</td><td>1</td><td>1</td><td>6</td><td>1</td><td>0</td><td>2</td><td>2</td><td>2</td></tr><tr><th scope="row">Austin Crowley</th><td>17:31</td><td>13</td><td>3/5</td><td>2/4</td><td>1/2</td><td>0</td><td>5</td><td>5</td><td>0</td><td>2</td><td>1</td><td>2</td><td>3</td><td>1</td></tr><tr><th scope="row">Justin Simon</th><td>23:17</td><td>10</td><td>4/7</td><td>0/4</td><td>2/2</td><td>1</td><td>2</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>2</td><td>11</td></tr><tr><th scope="row">Moritz Krimmer</th><td>23:05</td><td>12</td><td>4/4</td><td>0/3</td><td>4/4</td><td>2</td><td>1</td><td>3</td><td>1</td><td>0</td><td>1</td><td>1</td><td>1</td><td>14</td></tr><tr><th scope="row">Ejiofor Onu</th><td>18:05</td><td>6</td><td>2/3</td><td>0/1</td><td>2/2</td><td>0</td><td>3</td><td>3</td><td>2</td><td>1</td><td>2</td><td>0</td><td>4</td><td>9</td></tr><tr><th scope="row">Terrell Harris</th><td>22:02</td><td>7</td><td>2/3</td><td>1/2</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>6</td><td>0</td><td>0</td><td>1</td><td>0</td><td>9</td></tr></tbody></table></div>
+<p><strong>BMA365 Bamberg Baskets</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="BMA365 Bamberg Baskets player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="BMA365 Bamberg Baskets player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Daniel Keppeler</th><td>16:40</td><td>6</td><td>2/4</td><td>0/0</td><td>2/2</td><td>1</td><td>2</td><td>3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>—</td></tr><tr><th scope="row">Richard Balint</th><td>21:37</td><td>17</td><td>2/3</td><td>4/6</td><td>1/1</td><td>0</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>5</td><td>4</td><td>-13</td></tr><tr><th scope="row">Jonathan Bähre</th><td>17:41</td><td>8</td><td>3/3</td><td>0/2</td><td>2/2</td><td>1</td><td>2</td><td>3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>1</td><td>—</td></tr><tr><th scope="row">Yuval Hochstadter</th><td>15:15</td><td>3</td><td>1/6</td><td>0/1</td><td>1/2</td><td>1</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>—</td></tr><tr><th scope="row">Brendan Terry</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Mylik Wilson</th><td>20:58</td><td>2</td><td>1/2</td><td>0/5</td><td>0/2</td><td>1</td><td>0</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>4</td><td>-11</td></tr><tr><th scope="row">Jordan Wright</th><td>21:13</td><td>15</td><td>7/8</td><td>0/2</td><td>1/3</td><td>4</td><td>4</td><td>8</td><td>3</td><td>3</td><td>0</td><td>4</td><td>4</td><td>-11</td></tr><tr><th scope="row">Joshua Obiesie</th><td>18:11</td><td>9</td><td>1/3</td><td>2/5</td><td>1/3</td><td>5</td><td>4</td><td>9</td><td>2</td><td>0</td><td>1</td><td>3</td><td>2</td><td>-3</td></tr><tr><th scope="row">Trevon Scott</th><td>22:19</td><td>0</td><td>0/4</td><td>0/3</td><td>0/0</td><td>1</td><td>4</td><td>5</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>-13</td></tr><tr><th scope="row">Jordan Jones</th><td>22:46</td><td>2</td><td>1/7</td><td>0/2</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>7</td><td>2</td><td>0</td><td>0</td><td>1</td><td>-1</td></tr><tr><th scope="row">Hason Ward</th><td>23:20</td><td>17</td><td>6/7</td><td>1/4</td><td>2/2</td><td>4</td><td>4</td><td>8</td><td>0</td><td>0</td><td>1</td><td>0</td><td>3</td><td>-13</td></tr><tr><th scope="row">Musa Abra</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [Bamberg Baskets: Keine Punkte für die BMA365 Bamberg Baskets in der ältesten Stadt Deutschlands | Bamberg Baskets](https://www.bamberg.basketball/news/keine-punkte-fuer-die-bma365-bamberg-baskets-in-der-aeltesten-stadt-deutschlands)
+- [SWR (ARD): Basketball: Vier Trierer und ihr Wiedersehen mit dem Ex-Club](https://www.swr.de/sport/mehr-sport/basketball-bundesliga-gladiators-trier-empfangen-bamberg-100.html)
+- [SWR (ARD): Souveräner Sieg der Gladiators Trier gegen Bamberg Baskets](https://www.swr.de/sport/mehr-sport/gladiators-trier-gegen-bamberg-baskets-basketball-bundesliga-106.html)
+- [Vet-Concept Gladiators Trier: Überzeugender Heimsieg am MAX Nuts-Spieltag. VET-CONCEPT Gladiators Trier schlagen Pokalsieger Bamberg mit 92:79.](https://vetconceptgladiators.de/nachbericht_bamberg-3)
+- [easyCredit BBL (official): EuropapokalItalienischer EuroCup-Mittwoch: Chemnitz gegen Neapel und Ulm in Rom / Würzburger Revanche gegen Larnaka?](https://cms.easycredit-bbl.de/de/n/news/2026/november/italienischer-eurocup-mittwoch-chemnitz-gegen-neapel-und-ulm-in-rom-wuerzburger-revanche-gegen-larnaka)
+- [easyCredit BBL (official): NachberichteSechster Erfolg in Serie: Trier mit Start-Ziel-Sieg über Bamberg](https://cms.easycredit-bbl.de/de/n/news/2026/november/sechster-erfolg-in-serie-trier-mit-start-ziel-sieg-ueber-bamberg)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006860)
+
+### Vechta edge Chemnitz in high-scoring BBL clash
+
+*Played Saturday, 07 November 2026* *(updated with new sources)*
+
+Rasta Vechta secured their second consecutive easyCredit Basketball Bundesliga win with a 99-90 victory over NINERS Chemnitz on November 7. The Niedersachsen team, led by Head Coach Christian Held, took the lead in the standings, surpassing the Sachsen. Tommy Kuhse was the top scorer for Vechta with 22 points, while Tibor Pleiß achieved a double-double with 13 points and 12 rebounds. The decisive third quarter saw Vechta outscore Chemnitz 33-14, with Kuhse contributing two consecutive three-pointers and Justin Edler-Davis adding two three-pointers. Vechta's strong rebounding and three-point shooting were key factors in their win, with 49 rebounds to Chemnitz's 31 and 39% three-point shooting. The teams will meet again on December 13 in the Netto BBL Cup quarterfinals.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>RASTA Vechta 99–90 NINERS Chemnitz</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">RASTA Vechta</th><td>27</td><td>18</td><td>33</td><td>21</td><td>99</td></tr><tr><th scope="row">NINERS Chemnitz</th><td>24</td><td>26</td><td>14</td><td>26</td><td>90</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">RASTA Vechta</th><td>35/70</td><td>9/23</td><td>20/24</td><td>49</td><td>19</td><td>6</td><td>2</td><td>17</td><td>21</td></tr><tr><th scope="row">NINERS Chemnitz</th><td>34/75</td><td>5/26</td><td>17/19</td><td>31</td><td>21</td><td>10</td><td>3</td><td>8</td><td>26</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>RASTA Vechta</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="RASTA Vechta player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="RASTA Vechta player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Linus Trettin</th><td>5:51</td><td>2</td><td>1/1</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-6</td></tr><tr><th scope="row">Philipp Herkenhoff</th><td>3:06</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-9</td></tr><tr><th scope="row">Lars Thiemann</th><td>11:32</td><td>2</td><td>1/3</td><td>0/0</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>-4</td></tr><tr><th scope="row">Tommy Kuhse</th><td>26:38</td><td>22</td><td>6/10</td><td>3/5</td><td>1/2</td><td>1</td><td>6</td><td>7</td><td>7</td><td>1</td><td>0</td><td>5</td><td>2</td><td>17</td></tr><tr><th scope="row">Tibor Pleiß</th><td>26:01</td><td>13</td><td>3/6</td><td>1/2</td><td>4/4</td><td>4</td><td>8</td><td>12</td><td>2</td><td>0</td><td>1</td><td>4</td><td>4</td><td>17</td></tr><tr><th scope="row">Justin Edler-Davis</th><td>28:57</td><td>15</td><td>1/3</td><td>3/8</td><td>4/5</td><td>2</td><td>5</td><td>7</td><td>3</td><td>1</td><td>0</td><td>1</td><td>2</td><td>5</td></tr><tr><th scope="row">Peter Hemschemeier</th><td>9:05</td><td>4</td><td>2/2</td><td>0/0</td><td>0/0</td><td>1</td><td>2</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>9</td></tr><tr><th scope="row">Timo Lanmüller</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Armaan Franklin</th><td>28:24</td><td>9</td><td>4/6</td><td>0/2</td><td>1/1</td><td>1</td><td>2</td><td>3</td><td>2</td><td>0</td><td>0</td><td>0</td><td>3</td><td>20</td></tr><tr><th scope="row">Matt Lewis</th><td>24:56</td><td>21</td><td>5/7</td><td>1/4</td><td>8/10</td><td>1</td><td>4</td><td>5</td><td>1</td><td>1</td><td>0</td><td>2</td><td>4</td><td>5</td></tr><tr><th scope="row">Kihei Clark</th><td>13:22</td><td>6</td><td>2/5</td><td>0/0</td><td>2/2</td><td>0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>0</td><td>5</td><td>1</td><td>-8</td></tr><tr><th scope="row">Justice Sueing</th><td>22:08</td><td>5</td><td>1/4</td><td>1/2</td><td>0/0</td><td>2</td><td>4</td><td>6</td><td>1</td><td>2</td><td>1</td><td>0</td><td>0</td><td>-1</td></tr></tbody></table></div>
+<p><strong>NINERS Chemnitz</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="NINERS Chemnitz player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="NINERS Chemnitz player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Luca Kellig</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Ben Burnham</th><td>27:11</td><td>6</td><td>3/4</td><td>0/2</td><td>0/0</td><td>0</td><td>4</td><td>4</td><td>3</td><td>3</td><td>2</td><td>0</td><td>2</td><td>-8</td></tr><tr><th scope="row">Cobe Williams</th><td>14:26</td><td>6</td><td>1/5</td><td>0/5</td><td>4/4</td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>0</td><td>1</td><td>3</td><td>-14</td></tr><tr><th scope="row">Phlandrous Fleming Jr.</th><td>31:22</td><td>18</td><td>3/7</td><td>3/6</td><td>3/4</td><td>0</td><td>5</td><td>5</td><td>6</td><td>3</td><td>1</td><td>3</td><td>2</td><td>-4</td></tr><tr><th scope="row">Stefan Smith</th><td>29:05</td><td>23</td><td>6/11</td><td>1/2</td><td>8/9</td><td>0</td><td>3</td><td>3</td><td>7</td><td>1</td><td>0</td><td>1</td><td>5</td><td>-7</td></tr><tr><th scope="row">Elias Rödl</th><td>7:27</td><td>2</td><td>1/1</td><td>0/0</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-11</td></tr><tr><th scope="row">Mateo Seric</th><td>26:15</td><td>7</td><td>2/3</td><td>1/5</td><td>0/0</td><td>2</td><td>2</td><td>4</td><td>0</td><td>1</td><td>0</td><td>2</td><td>5</td><td>8</td></tr><tr><th scope="row">Jannis von Seckendorff</th><td>16:38</td><td>8</td><td>4/5</td><td>0/0</td><td>0/0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>-7</td></tr><tr><th scope="row">Nighael Ceaser</th><td>23:22</td><td>16</td><td>7/9</td><td>0/0</td><td>2/2</td><td>4</td><td>3</td><td>7</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>—</td></tr><tr><th scope="row">Ryan Mikesell</th><td>24:14</td><td>4</td><td>2/4</td><td>0/6</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>2</td><td>-2</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [MDR (ARD): BBL: Niners Chemnitz bleiben in der Fremde ein Punktelieferant](https://www.mdr.de/sport/basketball/basketball-bbl-niners-chemnitz-riesen-ludwigsburg,spielbericht-bbl-rasta-niners-100.html)
+- [MDR (ARD): Basketball | EuroCup: Können die Niners Tabellenführer Neapel entzaubern?](https://www.mdr.de/sport/basketball/vorschau-niners-chemnitz-neapel-baskets-napoli-100.html)
+- [Rasta Vechta: FURIOSES VIERTEL UND MEHR: RASTA SCHLÄGT CHEMNITZ!](https://www.rasta-vechta.de/news/furioses-viertel-und-mehr-rasta-schlagt-chemnitz)
+- [easyCredit BBL (official): Nachberichte99:90 gegen Chemnitz: Kuhse und Pleiss führen Vechta zum Heimsieg](https://cms.easycredit-bbl.de/de/n/news/2026/november/9990-gegen-chemnitz-kuhse-und-pleiss-fuehren-vechta-zum-heimsieg)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006856)
+
+### Veolia Towers Hamburg edge Science City Jena in thriller
+
+*Played Monday, 09 November 2026* *(updated with new sources)*
+
+Veolia Towers Hamburg secured a crucial 87:91 away win over Science City Jena on November 9, 2026. Mathys Kangudia led the Hamburg team with 24 points, while Benka Barloschky praised the team's character and resilience in a tough situation. The win was Hamburg's first in five games, and they moved up the standings. Meanwhile, Jena suffered their second loss in a row, and their third in four games. The result leaves Jena with a 2-3 record, while Hamburg improved to 3-4.
+
+*Box score unavailable.*
+
+Sources:
+
+- [MDR (ARD): Basketball | BBL: Science City lässt sich von Schlusslicht Hamburg abkochen](https://www.mdr.de/sport/basketball/hamburg-towers-basketball-bbl-spielbericht,science-city-jena-362.html)
+- [NDR (ARD): Hamburg Towers siegen im Kellerduell bei Science City Jena](https://www.ndr.de/sport/mehr_sport/sieg-in-jena-hamburg-towers-gelingt-befreiungsschlag,towers-164.html)
+- [Phoenix Hagen: Phoenix steht vor RIESEN Aufgabe: Ludwigsburg zu Gast am Ischeland](https://www.phoenix-hagen.de/phoenix-steht-vor-riesen-aufgabe-ludwigsburg-zu-gast-am-ischeland)
+- [Veolia Towers Hamburg: Towers erkämpfen sich Sieg in Jena](https://www.hamburgtowers.de/news/towers-erkaempfen-sich-sieg-in-jena)
+- [easyCredit BBL (official): NachberichteAufatmen bei den Towers: Hamburg gewinnt das Kellerduell in Jena](https://cms.easycredit-bbl.de/de/n/news/2026/november/aufatmen-in-hamburg-towers-gewinnen-das-kellerduell-in-jena)
+- [easyCredit BBL (official): Weekly NewsTrier win 6th straight / Wolves tie club best with 5-game win streak / Bayern bounce back with two wins](https://cms.easycredit-bbl.de/de/n/news/2026/november/trier-win-6th-straight-wolves-tie-club-best-with-5-game-win-streak-bayern-bounce-back-with-two-wins)
+
+## European Cups
+
+### Bamberg Baskets Start Rückrunde in BCL gegen UCAM Murcia
+
+The Bamberg Baskets will begin their Champions League (BCL) return leg against UCAM Murcia on Wednesday. The Spanish team, currently 10th in the ACB, has won two of their three BCL games so far and are second in Group D behind Peristeri Betsson. The Baskets, led by head coach Jesús Ramírez, are expecting a lively atmosphere in the Palacio de los Deportes, with around 4,000 fans supporting their team in Murcia so far. UCAM Murcia has won three of their four home games in the ACB, including a 85-58 victory over Varese, but lost 72-80 to Peristeri. The game will be broadcast live on MagentaSport, starting at 20:20, with commentary by Markus Krawinkel.
+
+Sources:
+
+- [Bamberg Baskets: BCL-Rückspiel in Spanien: BMA365 Bamberg Baskets reisen zu UCAM Murcia | Bamberg Baskets](https://www.bamberg.basketball/news/bcl-rckspiel-in-spanien-bma365-bamberg-baskets-reisen-zu-ucam-murcia)
+
+### Gladiators Trier face long journey to Batumi for FIBA Europe Cup match
+
+The Gladiators Trier will face a challenging journey to Batumi for their FIBA Europe Cup match, with a total travel time of over 15 hours to get there and 15 hours to return. According to Katharina Arnold, the team's Head of Sport Operations, the team will fly from Frankfurt to Tiflis via Istanbul on Tuesday, and return on Thursday morning via Istanbul and Luxembourg. Due to the time difference, the team will arrive at the hotel in Tiflis at midnight German time, which is 3am local time. The team will spend the day of the match on Wednesday according to German time, and the game will start at 5pm local time. The Gladiators are the undefeated leaders of their group with five wins, while Batumi is the bottom team with no wins. Coach Jacques Schneider wants his team to dominate the game for 40 minutes and hopes for a similar decisive win in the return match.
+
+Sources:
+
+- [SWR (ARD): Basketball: Der Zeitplan der Gladiators Trier vor Batumi](https://www.swr.de/sport/mehr-sport/basketball-gladiators-trier-fiba-europe-cup-gastspiel-georgien-bc-batumi-100.html)
+
+### Gladiators Trier Face Long-Haul Flight to BC Batumi
+
+The VET-Concept Gladiators Trier will embark on their longest away trip in recent history, traveling over 4,000 kilometers to face the BC Batumi in Tiflis, Georgia. The team will depart for the 6th game of the FIBA Europe Cup and aim to start the second round of the group stage with a win. In the first meeting between the two teams, the Gladiators secured a 92:59 victory at home, and since then, Batumi has lost all their remaining group stage games, sitting at the bottom of the table. The Gladiators, on the other hand, have been dominant in the group, leading all relevant team statistics. The team will be led by Giorgi Ochkhikidze, who averages 16 points per game, followed by Larry Howell with 12.8 points per game, and Carson Basham with 10 points and 6.8 rebounds per game. The game will be broadcast on swr.de/sport, tagesschau.de, the SWR YouTube channel, and the ARD Mediathek.
+
+Sources:
+
+- [Vet-Concept Gladiators Trier: Rund 4.000 Kilometer bis zum Auswärtsspiel. VET-CONCEPT Gladiators Trier reisen zum BC Batumi.](https://vetconceptgladiators.de/vorbericht_batumi-2)
+
+### ALBA Berlin Captain Jonas Mattisseck Reaches 500th Game Milestone
+
+ALBA Berlin captain Jonas Mattisseck has reached a milestone in his career, playing his 500th game for the team. At just 26 years old, Mattisseck has been a professional since January 2018. He achieved this feat during the team's BCL away game in Bilbao. Mattisseck has already surpassed Teoman Öztürk on the ALBA Berlin all-time player list and is closing in on Henrik Rödl, who currently holds the top spot.
+
+Sources:
+
+- [Alba Berlin: ALBA-Kapitän Jonas Mattisseck absolviert 500. Spiel im ALBA-Trikot](https://www.albaberlin.de/news/details/alba-kapitaen-jonas-mattisseck-absolviert-500-spiel-im-alba-trikot)
+
+### Rasta Vechta Earns First Win in Basketball Champions League
+
+Rasta Vechta secured their first win in the Basketball Champions League with a 90-85 victory over Hapoel Maoz Daniel Holon on November 10. The game was played in Samokov, Bulgaria, due to the security situation in Israel. Vechta took an early lead, with a 14-4 start in the 5th minute, and maintained a 19-point lead at one point. However, Hapoel Holon's Lester Medford scored 20 points in the second half, bringing the score to 85-86 with 33 seconds remaining. Justin Edler-Davis made four crucial free throws, secured a rebound, and stole the ball to secure Vechta's first win. Head Coach Christian Held praised his team's defensive effort in the fourth quarter, but noted that they had struggled with ball control and turnovers throughout the game.
+
+Sources:
+
+- [Rasta Vechta: KNOTEN PLATZT: RASTA ERKÄMPFT ERSTEN SIEG!](https://www.rasta-vechta.de/news/knoten-geplatzt-rasta-erkampft-ersten-sieg)
+
+### Rostock Seawolves Fall to Cedevita Olimpija Ljubljana in Eurocup
+
+The Rostock Seawolves suffered a 71-88 defeat at home to Cedevita Olimpija Ljubljana in the Eurocup. The Norddeutsche team, who had two wins and five losses, struggled with fatigue and energy levels after a tough stretch of five games in a short period. Coach Przemysław Frasunkiewicz attributed the loss to his team's exhaustion, saying they were 'a bit tired' and 'always one step behind'. The visitors from Slovenia took control of the game in the second quarter, pulling away to a 31-22 lead. The Seawolves fought back, but Cedevita's experience and offense proved too much, leading to a 49-68 deficit. Zach Copeland and Philipp Hartwich both picked up fouls, with Copeland sitting out for a long stretch and Hartwich being forced to leave the game early. The Seawolves managed to cut the lead to nine points late in the game, but ultimately fell short.
+
+Sources:
+
+- [Nordkurier: Dämpfer im Kampf ums Achtelfinale: Rostock Seawolves verlieren Heimspiel](https://www.nordkurier.de/regional/rostock/rostock/daempfer-im-kampf-ums-achtelfinale-rostock-seawolves-verlieren-heimspiel-5001849)
+
+### Gladiators Trier face BC Batumi in FIBA Europe Cup
+
+The Gladiators Trier will face BC Batumi in the FIBA Europe Cup on November 11, with the game to be broadcast live by SWR. This is the first game of the second round of the group phase for Trier, who are looking to bounce back from their previous performance. In their last game, Trier lost 15-30-15, but the team's schedule suggests they are not looking to ease into the game against Batumi. The Gladiators Trier will be hoping to get back on track in the Europe Cup, where they have been struggling in the group phase. The game against Batumi is a crucial one for Trier, who need to win to stay in contention for a spot in the next round.
+
+Sources:
+
+- [SWR (ARD): Basketball: Gladiators zu Gast beim BC Batumi](https://www.swr.de/sport/media/4000-kilometer-entfernung-und-drei-stunden-zeitumstellung-gladiators-zu-gast-in-georgien-100.html)
+
+### Alba Berlin Suffers First Loss in BCL Season
+
+Alba Berlin suffered their first loss of the season in the Basketball Champions League, falling 75-83 to Surne Bilbao on Tuesday. The Berliners fought back from an 11-point deficit in the third quarter, but ultimately came up short in the crunch time. Alba captain Jonas Mattisseck played in his 500th game in the team's jersey, while teammate Jack Kayil returned from a muscle injury in his leg. The game was a close contest, with Alba trailing 39-45 at halftime. However, in the final 10 minutes, Bilbao's offense took over, and Alba was unable to convert their shots. The loss gives Bilbao the top spot in Group G, but Alba still has two games left in December to turn the tide.
+
+Sources:
+
+- [Alba Berlin: Trotz starkem Comeback: ALBA unterliegt Bilbao in der Crunchtime](https://www.albaberlin.de/news/details/trotz-starkem-comeback-alba-unterliegt-in-bilbao)
+
+## Around the League
+
+### Alba Berlin Suffer First Champions League Defeat to Surne Bilbao
+
+Alba Berlin suffered their first defeat in the Champions League, losing 75:83 to Surne Bilbao. The result may have cost Alba the top spot in Group G, as Bilbao moved ahead of them in the table due to a better head-to-head record. Alba had won the first game 103:100. Brandon Angel led Alba with 19 points, while Justin Bean added 13. Youngster Jack Kayil made his comeback after a calf injury, scoring no points. Alba dominated the defense, but made too many mistakes, allowing Bilbao to score easily through fast breaks. The game was close until the final minutes, when Alba failed to score and Bilbao took the win.
+
+Sources:
+
+- [Nordkurier: Alba Berlin kassiert erste Pleite in der Champions League](https://www.nordkurier.de/regional/brandenburg/alba-berlin-kassiert-erste-pleite-in-der-champions-league-5001888)
+
+### Vechta's Wild 140-Minute Thriller Ends in Home Win
+
+In a game with astonishing statistics, RASTA Vechta edged out Basket Duisburg 83-77 in the Jugend Basketball Bundes (JBBL) A-Division West on the first day of the group phase. The U16 teams combined for 180 shots, 136 rebounds, 63 turnovers, and 37 steals, with the game lasting two hours and ten minutes. Vechta trailed 35-46 in the 21st minute but turned the game around with a strong fourth quarter, including a 17-2 run that gave them a 76-66 lead. Till Schäfers' three-pointer in the 39th minute nearly sealed the win, but the outcome remained uncertain until the end. Five Vechta players scored in double figures, with Jonathan Mulaj leading the team with 25 points. Stan Bart contributed 11 points, six assists, and six steals, while Kaan Moumin recorded a double-double with 11 points and 10 rebounds, plus five assists and four steals. Head Coach Jan Schneider praised the team's resilience and defensive effort in the fourth quarter, which ultimately secured the home win.
+
+Sources:
+
+- [Rasta Vechta: JBBL: WILDE 140 MINUTEN, AM ENDE HEIMSIEG!](https://www.rasta-vechta.de/news/jbbl-wilde-140-minuten-am-ende-heimsieg)
+
+### Vechta's U19 Team Wins Derby Against Oldenburg
+
+Rasta Vechta's U19 team won their first game in the A-Division of the Nachwuchs Basketball Bundesliga with an 86-81 victory over Baskets Juniors Oldenburg. The team struggled for most of the game, but a strong third quarter with a 17-2 run and a 25-8 performance in the fourth quarter sealed the win. Jonas Langermann had 18 points, six steals, five rebounds, and three assists, while Moritz Grüß was the top scorer with 23 points. Assistant Coach Lennard Stechmann praised the team's performance in the third quarter, but noted that they need to work on their individual and team performance in the other quarters. The team's shooting percentages were 44% from the field, 55% from two-pointers, 30% from three-pointers, and 75% from the free throw line. The game was played on November 10, 2026, and was a derby match between Vechta and Oldenburg.
+
+Sources:
+
+- [Rasta Vechta: NBBL: IM DERBY REICHT EIN GUTES VIERTEL ZUM SIEG!](https://www.rasta-vechta.de/news/nbbl-im-derby-reicht-ein-gutes-viertel-zum-sieg)
