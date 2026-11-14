@@ -1,0 +1,121 @@
+---
+title: "BBL Daily - 14 November 2026"
+date: 2026-11-14
+categories: [bbl]
+lang: en
+---
+
+## Games
+
+### Ludwigsburg edges Hagen in nail-biting 93-79 victory
+
+*Played Friday, 13 November 2026*
+
+MHP RIESEN Ludwigsburg secured a crucial win in the fight to stay among the playoffs teams, defeating last-placed Phoenix Hagen 93-79 in a nail-biter on the road. Adam Kunkel led all scorers with 25 points off the bench for Hagen, but the hosts were unable to hold onto the lead in the final minutes. Ludwigsburg's defense came to the forefront, holding Hagen to just 42% from the field and forcing a 15-2 run in the final minutes to seal the win. Justin Kier paced Ludwigsburg with 20 points, including 3 three-pointers, while Bjarne Kraushaar had 8 points, 6 rebounds, and 7 assists for Hagen. The win snapped Ludwigsburg's two-game losing streak and improved their record to 5-4 overall and 3-2 on the road.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>Phoenix Hagen 79–93 MHP RIESEN Ludwigsburg</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">Phoenix Hagen</th><td>18</td><td>29</td><td>18</td><td>14</td><td>79</td></tr><tr><th scope="row">MHP RIESEN Ludwigsburg</th><td>21</td><td>24</td><td>22</td><td>26</td><td>93</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">Phoenix Hagen</th><td>26/62</td><td>11/31</td><td>16/24</td><td>40</td><td>23</td><td>7</td><td>1</td><td>15</td><td>16</td></tr><tr><th scope="row">MHP RIESEN Ludwigsburg</th><td>36/73</td><td>12/33</td><td>9/13</td><td>39</td><td>11</td><td>7</td><td>1</td><td>11</td><td>16</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>Phoenix Hagen</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Phoenix Hagen player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Phoenix Hagen player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Tim Uhlemann</th><td>17:29</td><td>9</td><td>3/3</td><td>1/4</td><td>0/0</td><td>3</td><td>1</td><td>4</td><td>1</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-14</td></tr><tr><th scope="row">Bjarne Kraushaar</th><td>26:33</td><td>8</td><td>0/3</td><td>1/3</td><td>5/8</td><td>1</td><td>5</td><td>6</td><td>7</td><td>0</td><td>0</td><td>1</td><td>2</td><td>-3</td></tr><tr><th scope="row">Marvin Omonigho Omuvwie</th><td>12:35</td><td>0</td><td>0/2</td><td>0/2</td><td>0/0</td><td>2</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-7</td></tr><tr><th scope="row">Fabian Bleck</th><td>19:45</td><td>8</td><td>3/7</td><td>0/2</td><td>2/4</td><td>1</td><td>4</td><td>5</td><td>4</td><td>1</td><td>0</td><td>2</td><td>3</td><td>6</td></tr><tr><th scope="row">Nicola Schultze</th><td>1:21</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-3</td></tr><tr><th scope="row">Jan Razdevsek</th><td>1:16</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>-3</td></tr><tr><th scope="row">Trenton Gibson</th><td>29:56</td><td>12</td><td>3/5</td><td>1/4</td><td>3/5</td><td>2</td><td>3</td><td>5</td><td>1</td><td>3</td><td>0</td><td>2</td><td>3</td><td>-5</td></tr><tr><th scope="row">Cameron Krutwig</th><td>16:51</td><td>4</td><td>2/3</td><td>0/0</td><td>0/0</td><td>0</td><td>5</td><td>5</td><td>5</td><td>0</td><td>0</td><td>2</td><td>1</td><td>1</td></tr><tr><th scope="row">Adam Kunkel</th><td>25:09</td><td>25</td><td>3/6</td><td>5/8</td><td>4/5</td><td>0</td><td>1</td><td>1</td><td>3</td><td>1</td><td>0</td><td>4</td><td>2</td><td>-10</td></tr><tr><th scope="row">Tyler Polley</th><td>26:14</td><td>10</td><td>1/1</td><td>2/5</td><td>2/2</td><td>1</td><td>2</td><td>3</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>-15</td></tr><tr><th scope="row">Patricio Garino Gullotta</th><td>22:51</td><td>3</td><td>0/1</td><td>1/3</td><td>0/0</td><td>2</td><td>2</td><td>4</td><td>2</td><td>1</td><td>0</td><td>2</td><td>3</td><td>-17</td></tr></tbody></table></div>
+<p><strong>MHP RIESEN Ludwigsburg</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="MHP RIESEN Ludwigsburg player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="MHP RIESEN Ludwigsburg player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Yorman Polas Bartolo</th><td>19:34</td><td>0</td><td>0/2</td><td>0/2</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>9</td></tr><tr><th scope="row">Jonas Wohlfarth-Bottermann</th><td>12:02</td><td>2</td><td>1/3</td><td>0/0</td><td>0/0</td><td>2</td><td>1</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-8</td></tr><tr><th scope="row">Julis Baumer</th><td>0:08</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Elijah Hughes</th><td>25:01</td><td>7</td><td>2/5</td><td>1/3</td><td>0/0</td><td>0</td><td>2</td><td>2</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>11</td></tr><tr><th scope="row">Maxwell Dongmo Temoka</th><td>10:05</td><td>3</td><td>1/1</td><td>0/0</td><td>1/2</td><td>1</td><td>3</td><td>4</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>6</td></tr><tr><th scope="row">Patrick Cartier</th><td>13:26</td><td>2</td><td>0/1</td><td>0/1</td><td>2/3</td><td>1</td><td>5</td><td>6</td><td>2</td><td>1</td><td>0</td><td>0</td><td>1</td><td>8</td></tr><tr><th scope="row">Oshane Drews</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Ishmael Leggett</th><td>27:49</td><td>19</td><td>2/5</td><td>5/9</td><td>0/0</td><td>2</td><td>3</td><td>5</td><td>0</td><td>3</td><td>0</td><td>3</td><td>1</td><td>10</td></tr><tr><th scope="row">Justin Kier</th><td>29:50</td><td>20</td><td>5/7</td><td>3/9</td><td>1/1</td><td>0</td><td>3</td><td>3</td><td>5</td><td>0</td><td>0</td><td>1</td><td>2</td><td>4</td></tr><tr><th scope="row">Darius Perry</th><td>19:21</td><td>16</td><td>6/6</td><td>1/4</td><td>1/2</td><td>0</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>4</td><td>14</td></tr><tr><th scope="row">David Joplin</th><td>27:51</td><td>18</td><td>4/4</td><td>2/5</td><td>4/5</td><td>1</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>11</td></tr><tr><th scope="row">Thomas Rutherford</th><td>14:53</td><td>6</td><td>3/6</td><td>0/0</td><td>0/0</td><td>2</td><td>3</td><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td><td>3</td><td>5</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [Phoenix Hagen: Bitteres Ende eines kämpferischen Auftritts](https://www.phoenix-hagen.de/bitteres-ende-eines-kaempferischen-auftritts)
+- [Phoenix Hagen: Kader-Update: Phoenix ohne Graves und Polite gegen Ludwigsburg](https://www.phoenix-hagen.de/kader-update-phoenix-ohne-graves-und-polite-gegen-ludwigsburg)
+- [easyCredit BBL (official): NachberichteLudwigsburg win nail-biter at Hagen to snap losing skid](https://cms.easycredit-bbl.de/de/n/news/2026/november/ludwigsburg-win-nail-biter-at-hagen-to-snap-losing-skid)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006847)
+
+### Bonn Seek First Away Win in Bamberg Showdown
+
+*Played Saturday, 14 November 2026*
+
+The Telekom Baskets Bonn will look to snap their away slump when they visit the BMA365 Bamberg Baskets on November 14th. Bonn have won all five home games in the easyCredit Basketball Bundesliga, but have struggled on the road, losing three of their five away games. Bamberg, on the other hand, have been more successful away from home, with three wins to two losses. Bonn's head coach Marko Stankovic is aware of the challenge ahead, saying that his team must find their rhythm quickly and not allow Bamberg to dictate the pace of the game. The Baskets are led by Jesús Ramírez, who took over as head coach after Anton Gavel's departure in the summer. Gavel left to join FC Bayern Munich, where he won the BBL-Pokal in the previous summer. Bonn's sport director Savo Milovic expects a tough game, praising Bamberg's speed and individual quality. The game is set to tip off at 17:30 UTC.
+
+Sources:
+
+- [Telekom Baskets Bonn: Folgt in Bamberg der erste Auswärtssieg?](https://www.telekom-baskets-bonn.de/presse/newsarchiv/folgt-in-bamberg-der-erste-auswaertssieg)
+
+## European Cups
+
+### Rostock and Vechta Seek to Extend Winning Streaks
+
+The Rostock Seawolves and Rasta Vechta are set to face off in a matchup of teams looking to extend their winning streaks. Rostock has won two games in a row, including a 97-87 victory over ratiopharm Ulm, which improved their record to 5-3. Vechta, meanwhile, has also won two games in a row, including a 99-90 win over Chemnitz, and are looking to avoid falling into a precarious position in the standings. The two teams have a history, with Vechta's head coach Christian Held having previously worked with Rostock as an assistant coach and head coach. The game will be a reunion of sorts for Held, who will be facing off against his former team. Rostock's TJ Crockett has been a key player in their recent success, averaging 13.5 points per game, while Vechta's Tommy Kuhse is looking to make an impact after missing time due to injury.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichteRostock und Vechta im Aufwind: Wer setzt seine kleine Siegesserie bei Helds Rückkehr fort?](https://cms.easycredit-bbl.de/de/n/news/2026/november/rostock-und-vechta-im-aufwind-wer-setzt-seine-kleine-siegesserie-bei-helds-rueckkehr-fort)
+
+### Bamberg Baskets Host Telekom Baskets Bonn in Crucial easyCredit BBL Matchup
+
+The Bamberg Baskets and Telekom Baskets Bonn will face off in a crucial easyCredit BBL matchup on Saturday evening in Bamberg. Both teams have started the new season well, with the Bamberger sitting in 8th place after 8 games with a record of 4-4, while the Bonners are 5th with 5 wins from 8 games. The Telekom Baskets are considered the favorites going into the match, having won their last two BBL games against Braunschweig and Berlin, as well as their last Basketball Champions League game against Bnei Penlink Herzliya from Israel, 101-89. The game tips off at 18:30 CET and tickets are available online or at the Freak City Store.
+
+Sources:
+
+- [Bamberg Baskets: Voller Einsatz gefragt! BMA365 Bamberg Baskets erwarten die Telekom Baskets Bonn | Bamberg Baskets](https://www.bamberg.basketball/news/voller-einsatz-gefragt-bma365-bamberg-baskets-erwarten-die-telekom-baskets-bonn)
+
+### Löwen Braunschweig face tough test in Chemnitz
+
+The Basketball Löwen Braunschweig are set to face the NINERS Chemnitz in a crucial BBL match on Sunday. The Löwen, who have not won in their last five BBL games, are looking to bounce back from a recent slump. In their previous match against Bonn, they showed signs of improvement, leading for 33 minutes and shooting 46% from three-point range. However, their defense was still a concern, and they were criticized by head coach Ramón Díaz for not matching Bonn's intensity for more than 20-25 minutes. The Löwen will be looking to build on their positive performance against Bonn, but they face a tough challenge against the NINERS, who have already shown their strength against the Löwen in a recent Netto BBL Pokal match, winning 102-75. The game will be played at 18:00 CET and will be live-streamed by Dyn.
+
+Sources:
+
+- [Basketball Loewen Braunschweig: Löwen in Chemnitz: Von Beginn an die nötige Intensität zeigen](https://www.basketball-loewen.de/loewen-in-chemnitz-von-beginn-an-die-noetige-intensitaet-zeigen)
+
+### Braunschweig seeks revenge against Chemnitz in BBL matchup
+
+The Basketball Löwen Braunschweig are looking to avenge their 75-102 loss to the NINERS Chemnitz in the Netto BBL Pokal earlier this month. Braunschweig, led by head coach Ramon Diaz, has had a mixed start to the easyCredit BBL season, with three consecutive wins followed by five losses, including a recent 87-97 defeat to the Telekom Baskets Bonn. Meanwhile, Chemnitz has been inconsistent in the home league, but has had success in the Eurocup, winning four of their first seven games. However, they suffered a 90-112 loss to Napoli Basketball in their last Eurocup game. The matchup between Braunschweig and Chemnitz is set to be a high-stakes game, with both teams under pressure to perform. Braunschweig is currently in a slump, having dropped to the bottom of the league table, while Chemnitz is looking to bounce back from their recent loss in the Eurocup.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichteRevanche für peinliche Pokal-Pleite: Krisengipfel zwischen Chemnitz und Braunschweig live und free im SPORTBILD-Stream](https://cms.easycredit-bbl.de/de/n/news/2026/november/revanche-fuer-peinliche-pokal-pleite-krisengipfel-zwischen-chemnitz-und-braunschweig-live-und-free-im-sportbild-stream)
+
+### German Teams Struggle in European Competitions
+
+Eleven German teams are participating in European competitions this season, including the EuroLeague and EuroCup. The FC Bayern Basketball is the only BBL team competing in the EuroLeague, where they have struggled to find their footing, losing their first home game to Valencia after 18 turnovers. They are currently without a home win, despite not yet hosting a top team. The team's defense has been their weakness, and the lack of star power on the European level has been a factor. In the EuroCup, the Rostock Seawolves are in Group A, where they are currently fourth, having lost to Karim Jallow's team, but still have a chance to catch up with the Italian team Tortona and the Slovenian team Union Olimpija.
+
+Sources:
+
+- [easyCredit BBL (official): Kochs NachschlagNur Trier als Titelanwärter: Durchwachsene Bilanz der deutschen Teams in Europa](https://cms.easycredit-bbl.de/de/n/news/2026/november/nur-trier-als-titelanwaerter-durchwachsene-bilanz-der-deutschen-teams-in-europa)
+
+## Around the League
+
+### WISAG becomes new partner of BMA365 Bamberg Baskets
+
+The BMA365 Bamberg Baskets have announced a new partnership with WISAG, a Frankfurt-based multi-service company. WISAG will be present at all home games in the BROSE ARENA, with advertising on digital screens and in the surrounding area. The partnership is a sign of WISAG's regional commitment to top-level sports. WISAG, founded in 1965 by Claus Wisser, is a family-run company with over 280 locations worldwide and nearly 60,000 employees. The company provides services in facility management, industrial services, and aviation services. This new partnership adds to the BMA365 Bamberg Baskets' growing list of sponsors.
+
+Sources:
+
+- [Bamberg Baskets: WISAG ist neuer Partner der Bamberg Baskets | Bamberg Baskets](https://www.bamberg.basketball/news/wisag-ist-neuer-partner-der-bamberg-baskets)
+
+### Seawolves face crucial games in ProB Nord and NBBL
+
+The Rostock Seawolves are set for a crucial double-header in the ProB Nord and NBBL. In the ProB Nord, the team will travel to Schwelm to face the 7th-placed team on Friday at 19:30. After a heavy defeat in Bernau last weekend, the young Seawolves will look to bounce back. On Sunday, they will host 2nd-to-last-placed SG Braunschweig in the StadtHalle Rostock, with fans who have tickets to the BBL game receiving free entry to the ProB Nord match. In the NBBL, the Seawolves' team will host ALBA Berlin on Saturday at 16:00 in the Trainingszentrum Bargeshagen, while their JBBL team will face Bramfelder SV on Sunday at 13:30.
+
+Sources:
+
+- [Rostock Seawolves: Doppelspieltag in der ProB Nord, NBBL empfängt ALBA Berlin](https://www.seawolves.de/doppelspieltag-in-der-prob-nord-nbbl-empfaengt-alba)
+
+### Bamberg Baskets Seek DBBL Cup Quarterfinals
+
+The Medikamente per Klick Bamberg Baskets will face the Falcons from Bad Homburg in the DBBL Cup third round. The two teams met earlier in the season, with the Falcons winning 74-70 on the road. This time, the Bambergerinnen have the home advantage, having lost no home games this season. The Baskets, who have won five straight games in the Toyota 2. Damen Basketball Bundesliga, will look to advance to the quarterfinals, where the top 10 teams from the 1. DBBL will join the competition. The winner will move on to the quarterfinals, which will be held on December 5-6, with the lower-ranked team hosting.
+
+Sources:
+
+- [Bamberg Baskets: Medikamente per Klick Bamberg Baskets wollen ins DBBL-Pokal-Achtelfinale vorstoßen | Bamberg Baskets](https://www.bamberg.basketball/news/medikamente-per-klick-bamberg-baskets-wollen-ins-dbbl-pokal-achtelfinale-vorstoen)
+
+### German Basketball League Sets Third Consecutive Revenue Record
+
+The German Basketball League (BBL) has released its annual report for the 2025/26 season, showing a new revenue record of €186.5 million. This is the third consecutive year the league has broken its own revenue record, following €160.8 million in 2024/25 and €148.1 million in 2023/24. Sponsorship remains the largest source of revenue, accounting for 59% of the total, followed by ticket sales at 25%. The league also reported a record-breaking 1.76 million spectators, with an average of 4,915 fans per game. The BBL's social media presence also reached new heights, with a combined 1.02 billion reach across the league and its 18 clubs, surpassing the billion-mark for the first time. According to Stefan Holz, the league's managing director, the season was marked by the continued growth of basketball in Germany, driven by the success of the national teams and German players in the NBA and European top clubs.
+
+Sources:
+
+- [easyCredit BBL (official): NewsDritter Umsatzrekord in Folge: Clubs der easyCredit BBL erwirtschaften 186,5 Millionen Euro](https://cms.easycredit-bbl.de/de/n/news/2026/november/dritter-umsatzrekord-in-folge-clubs-der-easycredit-bbl-erwirtschaften-1865-millionen-euro)
