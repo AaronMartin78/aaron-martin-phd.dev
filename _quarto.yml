@@ -34,3 +34,15 @@ format:
     include-in-header:
       text: |
         <script data-goatcounter="https://aaron-martin-phd.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+        <script>
+          // Wake the Ask Aaron container (Cloud Run scales to zero) once per visit,
+          // so it is usually running by the time a visitor opens the Ask page.
+          (function () {
+            try {
+              if (location.pathname.indexOf("/ask") === 0) return;
+              if (sessionStorage.getItem("askPrewarmed")) return;
+              sessionStorage.setItem("askPrewarmed", "1");
+              fetch("https://ask-aaron-201418184721.europe-west3.run.app/", {mode: "no-cors", cache: "no-store"}).catch(function () {});
+            } catch (e) {}
+          })();
+        </script>
