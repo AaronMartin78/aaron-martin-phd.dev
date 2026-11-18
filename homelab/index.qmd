@@ -43,3 +43,17 @@ I will not say that this has been an easy process. The pipeline has gone through
 **Frame**: I have all of my pictures living on the NAS. I needed a way to view them. I bought a Raspberry Pi 3, and I used some code I found online ([thedigitalpictureframe.com](https://thedigitalpictureframe.com/how-to-build-a-digital-picture-frame-with-a-raspberry-pi/)). Now I have a screen that randomly cycles through photographs every 45 seconds, which means sometimes we get images from the day my son was born in 2015, and sometimes we get vacation pictures from last year. Also, when our anniversary comes around, I can just point the code at that directory, and we can look at wedding photos for a week or so. Practically speaking, this is where the tags from the photo pipeline come in handy, because they allow me to organize the files that I want to be shown on the frame. The benefit of this over a normal E-frame is that I don't have to deal with any third-party software, and I don't need a phone app.
 
 **German Basketball**: This is my current obsession, and it is currently occupying most of my bandwidth. I will not detail it here, because there is a whole section elsewhere on this page (or there soon will be).
+
+### Fugazi Live Series {#fugazi-live-series}
+
+Ian MacKaye [co-founded Dischord Records](https://dischord.com/band/ian-mackaye) with Jeff Nelson in 1980 to document the music scene in Washington, DC. I was born in Richmond, VA, about 100 miles away, in 1978. Somehow, there was this entire universe of hardcore punk music happening right under my nose, and it never dawned on me that I could either be a part of it, or go to shows, or even just listen to the music.
+
+Over the last two years I have become semi-obsessed with Fugazi and Minor Threat and Embrace and Dag Nasty and a bunch of other DC hardcore bands. It is hard to explain, but it closely approximates nostalgia for an alternative universe that I never experienced but that was eminently graspable. I guess it is just like this huge What If. What if I had found *13 Songs* when I was 16 years old? What if I had put the X's on my hands and gone to the Flood Zone just to see what was going on? It also doesn't hurt that the music fucking rips, and the lyrics are insightful, and the emotions are raw.
+
+Anyway, I basically scraped the metadata from the [Fugazi Live Series](https://dischord.com/fugazi_live_series) and put it in a graph database and JSON files. This makes it a bit easier to search, because you can look for relationships between cities and songs, for example. Or songs and songs: if you wanted to find a live set that had your five favorite songs, this database could help you do that—assuming the published setlists contain one.
+
+The website now has a search view, a chart of the most frequently listed songs, a city map, and a network of opening acts sharing bills. The database is useful for local analysis; the public site runs entirely in the browser, without a live database or LLMs.
+
+[Search the archive](../fugazi/index.html) · [Explore the connections](../fugazi/explore.html) · [Technical note](../fugazi/technical.html) · [Source on GitHub](https://github.com/AaronMartin78/Fugazi_Live)
+
+Make sure you check out the [Dischord Records store](https://dischord.com/) and buy some music!
