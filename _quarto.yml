@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: _site
   resources:
+    - fugazi/**
     - publications/downloads/**
 
 website:
@@ -19,6 +20,8 @@ website:
         text: Ask Aaron
       - href: homelab/index.qmd
         text: Homelab
+      - href: fugazi/index.html
+        text: Fugazi Live
       - href: about.qmd
         text: About
 

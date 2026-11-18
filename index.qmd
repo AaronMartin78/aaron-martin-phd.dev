@@ -8,3 +8,5 @@ Data science, basketball analytics, and a homelab that documents itself.
   and downloadable Stata and CSV datasets.
 - [BBL Daily](bbl/index.qmd): an automated English-language digest of German
   professional basketball, built on a self-hosted pipeline.
+- [Fugazi Live](fugazi/index.html): search published show metadata, explore setlists,
+  and find recordings in the Dischord Live Series archive.
