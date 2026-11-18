@@ -1,8 +1,9 @@
 import {createIndex, search, dischordUrl} from './graph.mjs';
 import {summarize, networkLayout, nodeRadius} from './metrics.mjs';
+import {mapProjection} from './map-projection.mjs';
 
 const $ = value => document.querySelector(value);
-const state = {index: null, geography: null, land: null, metrics: null, selectedAct: null, applied: {}};
+const state = {index: null, geography: null, land: null, borders: null, metrics: null, selectedAct: null, applied: {}};
 const regions = {world: [-180,180,-60,85], 'north-america':[-170,-50,8,75], europe:[-15,40,32,72], 'south-america':[-85,-30,-60,15], 'asia-oceania':[80,180,-50,65]};
 const number = value => value.toLocaleString();
 function el(tag, text, className) {
@@ -89,8 +90,9 @@ function renderMap() {
   $('#city-selection').hidden = true;
   const metrics = state.metrics;
   const [west,east,south,north] = regions[$('#region').value];
-  const width = 960, height = 460;
-  const project = ([lon,lat]) => [(lon-west)/(east-west)*width,(north-lat)/(north-south)*height];
+  const regional = $('#region').value !== 'world';
+  const width = 960, height = regional ? 600 : 460;
+  const project = mapProjection([west,east,south,north],regional,width,height);
   const canvas = svg('svg',{viewBox:`0 0 ${width} ${height}`,role:'group','aria-label':'Shows by city. Select a circle or a city button below.'});
   const defs = svg('defs'), clip = svg('clipPath',{id:'map-clip'}); clip.append(svg('rect',{width,height})); defs.append(clip); canvas.append(defs);
   const scene = svg('g',{'clip-path':'url(#map-clip)'}); canvas.append(scene);
@@ -101,6 +103,17 @@ function renderMap() {
     const d = polygons.map(polygon => polygon.map(ring => ring.map((coordinate,i) => `${i?'L':'M'}${project(coordinate).map(value => value.toFixed(2)).join(',')}`).join('')+'Z').join('')).join('');
     scene.append(svg('path',{d,class:'land'}));
   }
+  if (regional) for (const feature of state.borders.features) {
+    const lines = feature.geometry.type === 'LineString' ? [feature.geometry.coordinates] : feature.geometry.coordinates;
+    const d = lines.map(line => line.map((coordinate,i) => `${i?'L':'M'}${project(coordinate).map(value => value.toFixed(2)).join(',')}`).join('')).join('');
+    scene.append(svg('path',{d,class:'country-border',fill:'none',stroke:'#8d9587','stroke-width':'.9','vector-effect':'non-scaling-stroke','pointer-events':'none','aria-hidden':'true'}));
+  }
+  let borderNote = $('#border-note');
+  if (!borderNote) {
+    borderNote = el('p','Regional views use Mercator projection and modern country borders for orientation. Archive country labels remain as published.','caption');
+    borderNote.id = 'border-note'; $('#map').after(borderNote);
+  }
+  borderNote.hidden = !regional;
   const regionRows = metrics.mapped.filter(row => row.geo.longitude >= west && row.geo.longitude <= east && row.geo.latitude >= south && row.geo.latitude <= north);
   const groups = new Map();
   for (const row of regionRows) {
@@ -201,8 +214,8 @@ function update() {
 async function load(path) { const response = await fetch(path); if (!response.ok) throw new Error(`${path}: ${response.status}`); return response.json(); }
 async function init() {
   try {
-    const [graph,geography,land] = await Promise.all([load('data.json'),load('cities.json'),load('land.json')]);
-    state.index = createIndex(graph); state.geography = geography; state.land = land;
+    const [graph,geography,land,borders] = await Promise.all([load('data.json'),load('cities.json'),load('land.json'),load('borders.json')]);
+    state.index = createIndex(graph); state.geography = geography; state.land = land; state.borders = borders;
     for (const country of graph.nodes.filter(node => node.type === 'country').sort((a,b) => a.name.localeCompare(b.name))) {
       const option = el('option',country.name); option.value = country.id; $('#country').append(option);
     }
