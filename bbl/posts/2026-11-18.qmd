@@ -1,0 +1,144 @@
+---
+title: "BBL Daily - 18 November 2026"
+date: 2026-11-18
+categories: [bbl]
+lang: en
+---
+
+## Games
+
+### Trier Stuns Frankfurt with 99-85 Win
+
+*Played Sunday, 15 November 2026* *(updated with new sources)*
+
+The Vet-Concept Gladiators Trier secured a 99-85 win over the Skyliners Frankfurt in a game that saw Trier come from behind to take the lead. The Skyliners had a strong start, leading 9-5 after five minutes, but Trier gradually found their rhythm and took the lead in the second quarter. Justin Simon led the way for Trier with 23 points, while Judah Mintz scored 16 points for Frankfurt. The Skyliners struggled to contain Trier's offense, particularly Simon, and were unable to mount a comeback. The loss marks the fourth consecutive defeat for Frankfurt, who will look to bounce back in their next game in the EuroCup.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>SKYLINERS 85–99 VET-CONCEPT Gladiators Trier</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">SKYLINERS</th><td>26</td><td>18</td><td>20</td><td>21</td><td>85</td></tr><tr><th scope="row">VET-CONCEPT Gladiators Trier</th><td>18</td><td>28</td><td>28</td><td>25</td><td>99</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">SKYLINERS</th><td>32/71</td><td>7/28</td><td>14/19</td><td>47</td><td>18</td><td>7</td><td>1</td><td>17</td><td>26</td></tr><tr><th scope="row">VET-CONCEPT Gladiators Trier</th><td>33/73</td><td>15/41</td><td>18/29</td><td>43</td><td>19</td><td>10</td><td>8</td><td>12</td><td>27</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>SKYLINERS</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="SKYLINERS player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="SKYLINERS player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Jacob Knauf</th><td>11:02</td><td>3</td><td>0/1</td><td>1/3</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>4</td><td>-6</td></tr><tr><th scope="row">Till Pape</th><td>24:24</td><td>13</td><td>3/4</td><td>1/2</td><td>4/6</td><td>3</td><td>4</td><td>7</td><td>3</td><td>1</td><td>0</td><td>1</td><td>1</td><td>-14</td></tr><tr><th scope="row">Radii Caisin</th><td>18:43</td><td>7</td><td>3/4</td><td>0/1</td><td>1/2</td><td>2</td><td>2</td><td>4</td><td>1</td><td>1</td><td>0</td><td>1</td><td>4</td><td>4</td></tr><tr><th scope="row">Isaiah Swope</th><td>16:07</td><td>7</td><td>1/2</td><td>1/4</td><td>2/2</td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>3</td><td>0</td><td>-10</td></tr><tr><th scope="row">William Christmas</th><td>22:37</td><td>11</td><td>3/6</td><td>1/2</td><td>2/2</td><td>2</td><td>4</td><td>6</td><td>0</td><td>0</td><td>0</td><td>3</td><td>3</td><td>-3</td></tr><tr><th scope="row">Nahiem Alleyne</th><td>19:34</td><td>6</td><td>3/4</td><td>0/3</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>-24</td></tr><tr><th scope="row">Roman Bedime</th><td>14:52</td><td>0</td><td>0/3</td><td>0/3</td><td>0/0</td><td>2</td><td>7</td><td>9</td><td>0</td><td>0</td><td>1</td><td>1</td><td>0</td><td>4</td></tr><tr><th scope="row">Race Thompson</th><td>10:59</td><td>9</td><td>3/3</td><td>1/2</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-16</td></tr><tr><th scope="row">Thomas Klepeisz</th><td>19:57</td><td>4</td><td>0/0</td><td>1/5</td><td>1/1</td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>1</td><td>2</td><td>14</td></tr><tr><th scope="row">Judah Mintz</th><td>23:59</td><td>16</td><td>6/11</td><td>1/2</td><td>1/2</td><td>0</td><td>3</td><td>3</td><td>4</td><td>1</td><td>0</td><td>4</td><td>3</td><td>-34</td></tr><tr><th scope="row">Ryan Arcidiacono</th><td>17:46</td><td>9</td><td>3/5</td><td>0/1</td><td>3/4</td><td>2</td><td>0</td><td>2</td><td>4</td><td>2</td><td>0</td><td>1</td><td>5</td><td>15</td></tr></tbody></table></div>
+<p><strong>VET-CONCEPT Gladiators Trier</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="VET-CONCEPT Gladiators Trier player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="VET-CONCEPT Gladiators Trier player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Marco Hollersbacher</th><td>19:40</td><td>2</td><td>1/2</td><td>0/3</td><td>0/0</td><td>1</td><td>3</td><td>4</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>-11</td></tr><tr><th scope="row">Marten Linßen</th><td>13:47</td><td>7</td><td>3/3</td><td>0/0</td><td>1/2</td><td>4</td><td>2</td><td>6</td><td>0</td><td>2</td><td>0</td><td>2</td><td>5</td><td>8</td></tr><tr><th scope="row">Behnam Yakhchali Dehkordi</th><td>3:58</td><td>2</td><td>0/0</td><td>0/1</td><td>2/2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-10</td></tr><tr><th scope="row">Evans Rapieque</th><td>1:28</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-4</td></tr><tr><th scope="row">Maik Zirbes</th><td>1:39</td><td>1</td><td>0/0</td><td>0/0</td><td>1/2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>-6</td></tr><tr><th scope="row">Jordan Roland</th><td>27:15</td><td>6</td><td>1/3</td><td>1/4</td><td>1/1</td><td>0</td><td>1</td><td>1</td><td>5</td><td>1</td><td>1</td><td>1</td><td>3</td><td>5</td></tr><tr><th scope="row">Eli Brooks</th><td>28:42</td><td>20</td><td>1/3</td><td>4/11</td><td>6/8</td><td>1</td><td>4</td><td>5</td><td>5</td><td>1</td><td>1</td><td>4</td><td>2</td><td>22</td></tr><tr><th scope="row">Austin Crowley</th><td>14:03</td><td>9</td><td>3/5</td><td>1/2</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>5</td><td>-4</td></tr><tr><th scope="row">Justin Simon</th><td>23:45</td><td>23</td><td>4/5</td><td>4/9</td><td>3/7</td><td>5</td><td>4</td><td>9</td><td>4</td><td>2</td><td>0</td><td>0</td><td>2</td><td>20</td></tr><tr><th scope="row">Moritz Krimmer</th><td>20:20</td><td>8</td><td>1/1</td><td>2/4</td><td>0/0</td><td>0</td><td>2</td><td>2</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>25</td></tr><tr><th scope="row">Ejiofor Onu</th><td>24:34</td><td>8</td><td>3/5</td><td>0/0</td><td>2/4</td><td>3</td><td>6</td><td>9</td><td>0</td><td>0</td><td>5</td><td>1</td><td>2</td><td>12</td></tr><tr><th scope="row">Terrell Harris</th><td>20:49</td><td>13</td><td>1/5</td><td>3/7</td><td>2/3</td><td>1</td><td>0</td><td>1</td><td>2</td><td>1</td><td>0</td><td>2</td><td>2</td><td>13</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [Vet-Concept Gladiators Trier: Revanche für Pokalniederlage geglückt. VET-CONCEPT Gladiators Trier schlagen Skyliners mit 99:85.](https://vetconceptgladiators.de/nachbericht_frankfurt-6)
+- [easyCredit BBL (official): EuropapokalEuro-Heimspiele in Chemnitz, Frankfurt, Trier und Weißenfels / Louis Olinde mit Venedig bei den SKYLINERS](https://cms.easycredit-bbl.de/de/n/news/2026/november/euro-heimspiele-in-chemnitz-frankfurt-trier-und-weissenfels-louis-olinde-mit-venedig-bei-den-skyliners)
+- [hessenschau (hr/ARD): Niederlagenserie hält an: Skyliners Frankfurt unterliegen Trier](https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/niederlagenserie-haelt-an-skyliners-frankfurt-unterliegen-trier--v1,skyliners-trier-124.html)
+- [hessenschau (hr/ARD): Skyliners Frankfurt unterliegen Trier: Niederlagenserie hält an](https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/skyliners-frankfurt-unterliegen-trier-niederlagenserie-haelt-an-v1,skyliners-trier-124.html)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006852)
+
+## European Cups
+
+### Trier Hosts Promitheas Patras in FIBA Europe Cup
+
+The VET-Concept Gladiators Trier will host Promitheas Patras from Greece in the FIBA Europe Cup on Wednesday at 20:00 CET in the SWT Arena. The game will be broadcast live and for free on swr.de/sport, sportschau.de, the SWR YouTube channel, and the ARD Mediathek. Trier is coming off a 99-85 win in the Bundesliga against Frankfurt, and Promitheas Patras has four wins in six games in their Vorrundengruppe A. The Greek team is currently affected by the schiedsrichterskandal and is last in the Stoiximan GBL. Promitheas is led by New Williams, who averages 20.5 points per game, and Kendal Coleman, who averages 11.2 points and 8.5 rebounds. Other key players for Promitheas include Arnoldas Kulboka, Nikos Diplaros, and the team's rotation players.
+
+Sources:
+
+- [Vet-Concept Gladiators Trier: Nächster Heimauftritt im FIBA Europe Cup. VET-CONCEPT Gladiators Trier empfangen Promitheas Patras aus Griechenland.](https://vetconceptgladiators.de/vorbericht_patras-2)
+
+### Seawolves Fall to Top-Ranked Hapoel Jerusalem in Eurocup Opener
+
+The Rostock Seawolves lost to Hapoel Midtown Jerusalem 80-91 in the Eurocup, their sixth defeat in eight games. The Seawolves led early, but Jerusalem took the lead and maintained it throughout the game. Despite a strong start, Rostock struggled to finish their attacks in the second half, allowing Jerusalem to pull away. The game was played under increased security measures. This was the Seawolves' second loss to Jerusalem this season, with the first game also going to the top-ranked team. Hapoel Jerusalem remains undefeated in the Eurocup, with no losses in points.
+
+Sources:
+
+- [Nordkurier: Seawolves unterliegen Spitzenreiter Jerusalem deutlich](https://www.nordkurier.de/regional/mecklenburg-vorpommern/seawolves-unterliegen-spitzenreiter-jerusalem-deutlich-5018854)
+
+### Niners Chemnitz Host Top EuroCup Team Tofas Bursa on Wednesday
+
+Niners Chemnitz will face a tough test on Wednesday as they host Turkish EuroCup team Tofas Bursa, who are currently second in their group and have lost only one game this season. The Turkish team has a strong record against German teams, with two wins and eight losses in their previous encounters. Chemnitz will be looking to cause an upset and gain ground in the playoff race, but Tofas Bursa are clear favorites to win. The game will be played at the Messe Chemnitz and will be broadcast live on Magenta. Tickets are still available for purchase.
+
+Sources:
+
+- [Niners Chemnitz: In ihrer letzten Heimpartie vor der zweiwöchigen Länderspielpause bekommen es Sachsens beste Korbjäger diesen Mittwoch mit (…)](https://www.chemnitz99.de/news/1439/topspiel-gegen-topteam)
+
+### Trier Faces Strong Patras in FIBA Europe Cup
+
+Trier's coach Jacques Schneider is expecting a tough game against Promitheas Patras in the FIBA Europe Cup. Patras is considered the strongest opponent Trier has faced in the group phase, with several players of international caliber. In their previous meeting, Trier won 87-83, but Patras had momentum in the third quarter before Trier's Eli Brooks took over with 18 points in the crunch time. Trier is currently the undefeated leader in Group A, and a win against Patras would secure their spot in the next round, three games before the end of the group phase. Even if they lose, their position in the group would remain strong.
+
+Sources:
+
+- [SWR (ARD): Patras zu Gast in Trier: Stolperstein für die Gladiators Trier?](https://www.swr.de/sport/mehr-sport/basketball-gladiators-trier-empfangen-promitheas-patras-spitzenspiel-europe-cup-100.html)
+
+### Niners Chemnitz Seek Sixth Man to Beat Bursa in EuroCup
+
+Niners Chemnitz are looking to their sixth man to help them beat Tofas Bursa in the EuroCup. Despite recent losses, the team remains in a good position to advance to the playoffs. They have 8 wins and 6 losses, and their next game is against Bursa on Wednesday. Bursa, on the other hand, has only lost once, to Napoli, and has a strong 12:2 record. Niners Chemnitz are seeking revenge after losing to Bursa in their first meeting, which they lost 69-82 due to poor shooting from outside the arc. However, the team has improved since the start of the season and is now a cohesive unit, as shown in their recent 111-79 win over Löwen Braunschweig.
+
+Sources:
+
+- [MDR (ARD): EuroCup: Niners Chemnitz setzen gegen Bursa auf den "sechsten Mann"](https://www.mdr.de/sport/basketball/basketball-euro-cup-chemnitz-tofas,vorschau-niners-bursa-100.html)
+
+### Bonn Extend Winning Streak to Five with 85-79 Win over Herzliya
+
+The Telekom Baskets Bonn have won their second game against Bnei Penlink Herzliya in the Basketball Champions League, with an 85-79 victory in the Telekom Dome. The win marked the team's fifth consecutive win, both in the BCL and overall, and their third win in their fourth BCL game of the season. John-Michael Wright led the team with 18 points, while Marcus Foster and Aleksa Kovacevic scored 17 points each. The team's strong three-point shooting, with 55.2% from 16/29 attempts, was a highlight of the game. The next home game for the Baskets will be against ratiopharm ulm on Sunday, November 22, at 18:30.
+
+Sources:
+
+- [Telekom Baskets Bonn: "Auswärtssieg" im Telekom Dome gegen Herzliya](https://www.telekom-baskets-bonn.de/presse/newsarchiv/auswaertssieg-im-telekom-dome-gegen-herzliya)
+
+## Around the League
+
+### Alba Berlin to host Herner TC in DBBL-Pokal on December 5-6
+
+Alba Berlin will start their DBBL-Pokal campaign at home against Herner TC on December 5 or 6. The match will take place in the Sömmeringhalle, with the exact date to be confirmed. Alba Berlin won their previous encounter against Herner TC in the league in early October, and will look to defend their DBBL-Pokal title from last season.
+
+Sources:
+
+- [Alba Berlin: Mission Titelverteidigung: ALBA startet im DBBL-Pokal zuhause gegen Herne](https://www.albaberlin.de/news/details/mission-titelverteidigung-alba-startet-im-dbbl-pokal-zuhause-gegen-herne)
+
+### Phoenix Hagen Danceteam Seeks New Members
+
+The Phoenix Hagen Danceteam, a popular fixture at the team's home games, is looking for new members. The dance team, made up of seniors, juniors, and minis, is known for their energetic performances on the court of the Ischelandhalle. To join the team, individuals must be at least six years old and have an interest in dancing. Those interested can register on a waiting list, and once a date for a trial training session is set, they will receive a separate notification.
+
+Sources:
+
+- [Phoenix Hagen: Join the squad: Das Phoenix Hagen Danceteam sucht Verstärkung](https://www.phoenix-hagen.de/join-the-squad-das-phoenix-hagen-danceteam-sucht-verstaerkung)
+
+### Jr. NBA Hamburg League Draft Day Marks Seventh Year
+
+The Jr. NBA Hamburg League has kicked off its seventh season with the Draft Day event at the Wilhelmsburger Inselpark Arena. All 30 starting spots in the league were allocated to participating schools, with the StS. Alter Teichweg school entering as the reigning champion. The Veolia Towers' players Noah Thomasson, Zakai Zeigler, and Jayden Fatnassi participated in the team allocation, showing off their lucky hands. According to Dr. Jonas Leder, Director of the Hamburg State Sports Office, the league's success demonstrates the effective collaboration between clubs and schools. Stefan Raid, Vice President of Youth at the German Basketball Federation, praised the Jr. NBA Hamburg League as a model for engaging children and youth in basketball, highlighting the project's growth and value in promoting teamwork, fair play, and community. Approximately 300 students will participate in the league, allowing them to access physical activity and enjoy their passion for basketball through the league's teams and games.
+
+Sources:
+
+- [Veolia Towers Hamburg: Draft Day läutet die Saison 2026/27 der Jr. NBA Hamburg League ein](https://www.hamburgtowers.de/news/draft-day-laeutet-die-saison-2026-27-der-jr-nba-hamburg-league-ein)
+
+### Gladiators Trier extend winning streak in Europe Cup
+
+The Gladiators Trier continued their winning streak in the Europe Cup, defeating BC Batumi 6-0 in the group phase. This was their sixth victory in six games, with their last win coming in a match against Frankfurt, where they secured revenge for their previous loss in the cup. The team from Trier is on a roll, having also won their match against BC Batumi in the Europe Cup, where they dominated from start to finish. Their next challenge will be against Promitheas Patras from Greece on Wednesday at 20:00 CET.
+
+Sources:
+
+- [SWR (ARD): Gladiators Trier empfangen Promitheas Patras im Europe Cup](https://www.swr.de/sport/media/gladiators-trier-empfangen-promitheas-patras-im-europe-cup-100.html)
+
+### Vechta's U19 Team Wins Thrilling Derby Match 91:63
+
+Rasta Vechta's U19 team secured a convincing 91:63 victory over UBC Münster in the second round of the NBBL group phase. Moritz Grüß led the team with 23 points, while Jonas Langermann contributed 19 points and 7 rebounds. Teo Manoilov recorded a double-double with 14 points and 10 rebounds. Vechta dominated the game, particularly in the second quarter, where they went on a 13-0 run to take a 41-25 lead. Münster struggled with free throws, missing 9 of 14 attempts, and three-pointers, making only 4 of 18. Rasta's team showed better accuracy, with 51% of field goals and 57% of two-pointers. The win sets up Vechta for their next derby match, with Head Coach Lennart Stechmann expressing satisfaction with the team's performance and looking forward to continued improvement.
+
+Sources:
+
+- [Rasta Vechta: NBBL: NÄCHSTER DERBY-SIEG IST KLARE ANGELEGENHEIT!](https://www.rasta-vechta.de/news/nbbl-nachster-derby-sieg-ist-klare-angelegenheit)
+
+### Vechta's U16 Team Falls to BBA Hagen in JBBL Action
+
+Vechta's U16 team suffered their first loss in the A-Division of the Jugend Basketball Bundesliga, falling 61-93 to BBA Hagen on Sunday. Hagen had a standout game, hitting 73% of their shots and grabbing 19 more rebounds than Vechta. Vechta's Kaan Moumin and Stan Bart were the only players to score in double digits, with 17 and 13 points respectively. Hagen's Prince Ubah and Damjan Golic led their team with 14 points each, with Ubah also grabbing 13 rebounds. Vechta's head coach Jan Schneider attributed the loss to a lack of intensity and consistency, as well as defensive mistakes that allowed Hagen to get into a rhythm. He noted that Vechta had some good scoring opportunities, but were unable to put pressure on Hagen throughout the game.
+
+Sources:
+
+- [Rasta Vechta: JBBL: RASTAs U16 ZAHLT IN HAGEN LEHRGELD!](https://www.rasta-vechta.de/news/jbbl-rastas-u16-zahlt-in-hagen-lehrgeld)
+
+### Syntainics MBC Continues Talks with State Politics
+
+Syntainics MBC's management, led by Ulrike Wölfel and Alexander Rolle, met with Eric Stehr, a member of the Saxony-Anhalt state parliament and deputy chairman of the Left party, on Monday. The discussion focused on the club's current situation, challenges in professional basketball, and long-term security. The meeting was part of an ongoing series of talks with state politicians, with the goal of addressing challenges, exploring opportunities, and securing the club's future. Syntainics MBC aims to engage in open and constructive dialogue with all state parliament factions, as announced earlier. The club's management expressed gratitude to Eric Stehr for the meeting and plans to continue the dialogue with state politics.
+
+Sources:
+
+- [Syntainics MBC: Gespräch mit der Linken zu den Herausforderungen des Profibasketballs](https://syntainics-mbc.de/gespraech-mit-der-linken)
