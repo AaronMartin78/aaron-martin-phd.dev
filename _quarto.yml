@@ -13,14 +13,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: homelab/index.qmd
+        text: Homelab
+      - href: ask/index.qmd
+        text: Ask Aaron
       - href: publications/index.qmd
         text: Publications and Data
       - href: bbl/index.qmd
         text: BBL Daily
-      - href: ask/index.qmd
-        text: Ask Aaron
-      - href: homelab/index.qmd
-        text: Homelab
       - href: fugazi/index.html
         text: Fugazi Live
       - href: about.qmd
