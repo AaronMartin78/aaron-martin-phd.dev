@@ -4,6 +4,7 @@ project:
   resources:
     - fugazi/**
     - publications/downloads/**
+    - images/som-map.png
 
 website:
   title: "Aaron R. Martin"
@@ -45,4 +46,22 @@ format:
               fetch("https://ask-aaron-201418184721.europe-west3.run.app/", {mode: "no-cors", cache: "no-store"}).catch(function () {});
             } catch (e) {}
           })();
+        </script>
+        <script>
+          // Resolve sections relative to the home link, including subdirectory previews.
+          document.addEventListener("DOMContentLoaded", () => {
+            const home = document.querySelector("#quarto-header .navbar-brand");
+            if (!home) return;
+            const siteRoot = new URL(".", home.href).pathname;
+            const section = location.pathname.slice(siteRoot.length).split("/")[0];
+            const themes = {
+              publications: "publications",
+              bbl: "bbl",
+              ask: "ask",
+              homelab: "homelab",
+              "about.html": "about",
+              about: "about"
+            };
+            document.documentElement.dataset.siteSection = themes[section] || "home";
+          });
         </script>
