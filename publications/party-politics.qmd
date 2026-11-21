@@ -1,0 +1,103 @@
+---
+title: "This too in moderation: data and code"
+description: "*Data, replication code and validation reports for the Party Politics article.*"
+---
+{{< include _nav.qmd >}}
+
+Aaron R. Martin. *Party Politics* **29**(4), 726–740 (2023). [Read the article](https://doi.org/10.1177/13540688221096531). Back to the [overview](index.html).
+
+## Data and code
+
+| Download | Contents |
+|:--|:--|
+| [Python and CSV package](downloads/party-politics/party-politics-python.zip) | Archived Python port, CSV inputs, saved results, validation reports and an R script for the earlier multilevel models. |
+| [Original Stata archive](downloads/party-politics/party-politics-stata.zip) | March 2021 datasets, analysis do-file and Stata log. |
+| [Original Stata code — .do](downloads/party-politics/PP_20210325.do) | Unmodified archived analysis code; also included in the Stata ZIP. |
+| [Input data — CSV](downloads/party-politics/dataset_12222020.csv) | 3,977 rows and 555 columns, before the archived analysis transformations. |
+| [Analysis data — CSV](downloads/party-politics/PP_dataset.csv) | 3,977 rows and 563 columns in the archived Stata analysis dataset. |
+| [Variable labels and metadata](downloads/party-politics/codebooks.json) | Variable labels, data types and Stata value-label definitions. |
+| [Data provenance and checksums](downloads/party-politics/data-manifest.csv) | Source files, dimensions and SHA-256 digests. |
+
+## Using the data
+
+Download an individual CSV to explore a dataset, or extract a complete Python package to run the archived analysis. For example:
+
+```python
+import pandas as pd
+
+data = pd.read_csv("PP_dataset.csv", low_memory=False)
+print(data.shape)
+```
+
+CSV files retain numeric category codes; the accompanying metadata provides label definitions. Dates are stored as text and empty fields represent missing values. CSV does not retain every Stata storage attribute or distinguish all of Stata's extended missing-value codes. Use the original `.dta` files when those details matter.
+
+The CSV downloads were checked against their corresponding Stata files for dimensions, column names and cell values, with a small tolerance for numeric precision. Saved model-validation reports are supplied from the earlier replication work; packaging the downloads did not rerun the full statistical analyses.
+
+Anyone can use the data for whatever they want, just please cite the appropriate articles (CC BY 4.0).
+[Download checksums](downloads/checksums.json)
+
+## Validation reports
+
+These are the saved reports from the earlier Python replication work. They record comparisons with the original Stata datasets and logs. They were not regenerated when preparing this page. The Party Politics reports refer to the March 2021 analysis; their table numbering and multilevel-model discussion do not describe a verified replication of the final published article.
+
+::: {.callout-note collapse="true" title="Party Politics: data and three archived Firth models"}
+
+[Download the original report](downloads/party-politics/_validation_report.md)
+
+#### Data pipeline (dataset_12222020 -> PP_dataset)
+- 2219166/2219166 cells match across 558 columns, 3977 rows -> 100.000%
+
+#### Firth session_switch models (Table 5 robustness) vs march25_2021.log
+- OK  as_firth_intense: N=3977 logLik*=-643.86901 (stata -643.86901)
+- OK  as_firth_quad: N=3977 logLik*=-568.22092 (stata -568.22092)
+- OK  as_firth_full: N=3977 logLik*=-556.95429 (stata -556.95429)
+
+#### Firth: 3/3 match
+
+#### Multilevel Tables 4/5 (xtmelogit)
+- Not reproduced here: no software available that matches Stata's
+  adaptive quadrature; models are convergence-sensitive. R/lme4
+  scripts for the model structures are in make_pp_multilevel.R.
+
+:::
+
+::: {.callout-note collapse="true" title="Party Politics: earlier multilevel investigation"}
+
+[Download the original report](downloads/party-politics/_multilevel_findings.md)
+
+#### What the reported models actually are
+Tables 4 and 5 are **three-level nested mixed-effects logits**, not two-level:
+
+    xtmelogit <dv> <covariates> || start_group_num: || bloc_id3:
+
+a random intercept for the EP party group (`start_group_num`, 25 groups) AND a
+random intercept for the national-party delegation (`bloc_id3`) nested within it.
+lme4 equivalent: `(1 | start_group_num/bloc_id3)`.
+
+#### Ground truth (from march25_2021.log), Table 5 (amb_switch)
+
+| Column | Model | logLik | key coefficients |
+|--------|-------|--------|------------------|
+| 4  | intensity | -563.988 | z_intense2 -0.3592, c_npd_perc -11.160, c_epg_perc -9.314, govt2 -0.7115, mep_tenure 0.3726, female -0.7780, _cons -5.6818 |
+| 7  | quadratic | -513.389 | a1_std2 1.3359, a2_std2 0.6217, a1^2 -0.1782, a2^2 -0.0933, c_npd_perc -12.744 |
+| 10 | full      | -493.246 | a1_std2 1.6026, a2_std2 0.8869, a1^2 -0.2034, a2^2 -0.1150 |
+
+(The published `table5.txt` matches the intensity and quadratic columns exactly;
+the "full" column differs slightly - 1.624 vs 1.6026 - suggesting the printed
+table was assembled from a marginally different model run than this log.)
+
+#### Reproduction status
+- **Exact Stata outputs are preserved in the log**, so the results themselves are
+  recoverable at full precision without Stata.
+- **Independent reproduction was attempted in Python and did not succeed here:**
+  a two-level fit is systematically ~20-40% attenuated (wrong structure), and the
+  correct three-level nested fit could not be optimized within the sandbox's
+  compute limit (nested quadrature is expensive; Stata itself hit "not concave"
+  iterations, so the models are numerically delicate).
+- **Recommended path:** run `make_pp_multilevel.R` (corrected to the nested
+  `(1 | start_group_num/bloc_id3)` structure) in RStudio and compare its output to
+  the ground-truth values above. `lme4` will be close but is not guaranteed to
+  match Stata's `xtmelogit` to the decimal.
+
+:::
+
