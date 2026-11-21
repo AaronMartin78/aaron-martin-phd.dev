@@ -1,6 +1,10 @@
 ---
 title: "Publications and Data"
-description: "*Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code.*"
+description: "*Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code, plus a relational SQLite database of video game sales, reviews and sentiment scores.*"
+toc: true
+toc-location: left
+toc-depth: 3
+toc-title: "On this page"
 ---
 **Google Scholar**: https://scholar.google.de/citations?hl=de&user=GZCW0DQAAAAJ\
 **ORCID**: https://orcid.org/0000-0003-4529-0593
@@ -185,3 +189,64 @@ table was assembled from a marginally different model run than this log.)
   match Stata's `xtmelogit` to the decimal.
 
 :::
+
+## Video game sales, reviews and sentiment database
+
+**A relational SQLite database of 3,001 video games (2001–2016), combining sales figures, Metacritic critic and user reviews, gameplay variables and natural-language sentiment scores.**
+
+I built this database for my data analytics bootcamp at DataScientest (Sorbonne). It started from a Kaggle video game sales dataset, which I cleaned and reshaped so that each game is one row. I then scraped Metacritic for metascores, critic reviews, user reviews and community gameplay ratings (difficulty, play time and completion), and scored the review text with three sentiment models (VADER, TextBlob and a Hugging Face transformer). The result is normalised into 13 linked tables.
+
+Everything is in one file, so it can be opened directly with Python's built-in `sqlite3` module, [DB Browser for SQLite](https://sqlitebrowser.org/), DBeaver or any tool that reads SQLite.
+
+### Downloads
+
+| Download | Contents |
+|:--|:--|
+| [SQLite database — video_games.db](downloads/video-games/video_games.db) | 13 tables: games, platforms, critics, users, 15,356 critic reviews, 8,593 user reviews, ratings, sentiment scores, gameplay variables and sales. About 10 MB. |
+| [Flat file — one row per game, CSV](downloads/video-games/video_game_vars_plus_sentiment_metrics.csv) | 3,001 rows. Sales, year, genre, publisher, developer, platforms, metascore, gameplay variables, review counts and the sentiment metrics, merged into a single table for quick analysis. |
+
+The full raw review text with per-review sentiment scores (about 210 MB) is too large to host here. Contact me if you want it.
+
+### Tables
+
+| Table | Rows | What it holds |
+|:--|--:|:--|
+| `GameID` | 3,001 | Game titles and their integer keys. |
+| `PlatformID` | 19 | Platforms, from Game Boy Advance to PlayStation 5 and Xbox Series X. |
+| `CriticID` | 453 | Critic outlets. |
+| `UserID` | 6,478 | Metacritic usernames. |
+| `GamePlatformID` | 555 | Each game–platform combination that has reviews. |
+| `CriticReviewsTable` | 15,356 | Critic review text and score, keyed to game, platform and critic. |
+| `UserReviewsTable` | 8,593 | User review text and score, keyed to game, platform and user. |
+| `RatingsTable` | 3,001 | Metascore, global mean user score and sampled mean user score per game. |
+| `SentimentScoresTable` | 3,001 | Mean VADER, TextBlob and Hugging Face sentiment per game. |
+| `CompositeSentimentScoresTable` | 3,001 | Four composite sentiment indices that weight the three models differently. |
+| `GameplayTable` | 3,001 | Metacritic community votes on difficulty, play time and completion, as counts plus weighted averages. |
+| `GameVarsTable` | 3,001 | Year, genre, publisher, developer, review counts and sales in North America, Europe, Japan and elsewhere (millions of units). |
+| `GamePlatformSentimentTable` | 508 | Positive, mixed and negative review shares for users and critics, per game and platform. |
+
+All tables join on `GameID`; the review tables also join on `PlatformID`, `CriticID` or `UserID`.
+
+### Example query
+
+```python
+import sqlite3
+import pandas as pd
+
+con = sqlite3.connect("video_games.db")
+
+query = """
+SELECT g.game_title, v.Year, v.Genre, v.Total_Sales,
+       r.metascore, r.user_score_mean, s.vader_sentiment_mean
+FROM GameID AS g
+JOIN GameVarsTable AS v ON v.GameID = g.GameID
+JOIN RatingsTable AS r ON r.GameID = g.GameID
+JOIN SentimentScoresTable AS s ON s.GameID = g.GameID
+ORDER BY v.Total_Sales DESC
+LIMIT 10
+"""
+
+print(pd.read_sql_query(query, con))
+```
+
+The database is free to use under CC BY 4.0. Review text belongs to its original authors and Metacritic; it is included for research and teaching only.

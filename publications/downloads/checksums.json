@@ -18,5 +18,15 @@
     "file": "party-politics/party-politics-python.zip",
     "bytes": 8385977,
     "sha256": "bafa81d3926ed500d791d50d1b8f801d31a25df684bbbdfeff9969f52101bfa2"
+  },
+  {
+    "file": "video-games/video_games.db",
+    "bytes": 10686464,
+    "sha256": "5159f37373bbc92d2a2134cb9730d1932afd317c6115b74bed2690c5bd54b9e7"
+  },
+  {
+    "file": "video-games/video_game_vars_plus_sentiment_metrics.csv",
+    "bytes": 817694,
+    "sha256": "82068b7e6ca306aef5292de3f1de978c8be85c5a8a797455e2acbf6c35376f1f"
   }
 ]
