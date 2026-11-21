@@ -39,6 +39,8 @@ body {
   --bs-link-color: var(--site-accent);
   --bs-link-color-rgb: var(--site-accent-rgb);
   --bs-link-hover-color-rgb: 32, 33, 31;
+  --site-accent-strong: color-mix(in srgb, var(--site-accent), black 18%);
+  --site-accent-tint: color-mix(in srgb, var(--site-accent) 11%, var(--site-paper));
   background: var(--site-paper);
   color: var(--site-ink);
   padding-inline-start: var(--site-spine-width);
@@ -117,6 +119,44 @@ body::after {
 
 @media (max-width: 575px) {
   .about-portrait { margin-inline-start: .85rem; }
+}
+
+/* Match interactive controls to the current section. */
+.btn-primary,
+.btn-outline-primary {
+  --bs-btn-border-color: var(--site-accent);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--site-accent-strong);
+  --bs-btn-hover-border-color: var(--site-accent-strong);
+  --bs-btn-focus-shadow-rgb: var(--site-accent-rgb);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--site-accent-strong);
+  --bs-btn-active-border-color: var(--site-accent-strong);
+  --bs-btn-disabled-border-color: var(--site-accent);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--site-accent);
+  --bs-btn-disabled-bg: var(--site-accent);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--site-accent);
+  --bs-btn-disabled-color: var(--site-accent);
+}
+
+div.callout-note.callout {
+  border-left-color: var(--site-accent);
+}
+
+div.callout-note.callout-style-default > .callout-header {
+  background-color: var(--site-accent-tint);
+}
+
+div.callout-note.callout .callout-icon::before {
+  background-image: none;
+  background-color: var(--site-accent);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='7.5' fill='none' stroke='black'/%3E%3Ccircle cx='8' cy='4.7' r='.9'/%3E%3Cpath d='M8 7v4.5' stroke='black' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
 h3 {
