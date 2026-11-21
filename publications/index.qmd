@@ -205,7 +205,7 @@ Everything is in one file, so it can be opened directly with Python's built-in `
 | [SQLite database — video_games.db](downloads/video-games/video_games.db) | 13 tables: games, platforms, critics, users, 15,356 critic reviews, 8,593 user reviews, ratings, sentiment scores, gameplay variables and sales. About 10 MB. |
 | [Flat file — one row per game, CSV](downloads/video-games/video_game_vars_plus_sentiment_metrics.csv) | 3,001 rows. Sales, year, genre, publisher, developer, platforms, metascore, gameplay variables, review counts and the sentiment metrics, merged into a single table for quick analysis. |
 
-The full raw review text with per-review sentiment scores (about 210 MB) is too large to host here. Contact me if you want it.
+All of the files, including the full raw review text with per-review sentiment scores (about 210 MB, too large to host here), are also on Kaggle: [Video Games: Gameplay, Reviews & Sentiment Scores](https://www.kaggle.com/datasets/aaronrmartin/video-games-gameplay-reviews-sentiment-scores).
 
 ### Tables
 

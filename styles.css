@@ -152,3 +152,25 @@ h3 {
   .bbl-archive-panel > summary { margin-bottom: .5rem; }
   .bbl-table { font-size: .9rem; }
 }
+
+/* Page table of contents: paper background, thin outline in the section colour. */
+#quarto-margin-sidebar {
+  background: var(--site-paper);
+  border: 1px solid rgba(var(--site-accent-rgb), .45);
+  border-radius: .25rem;
+  padding: .9rem 1rem;
+}
+
+#quarto-margin-sidebar #toc-title {
+  color: var(--site-accent);
+}
+
+#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a {
+  border-left-color: var(--site-rule);
+}
+
+#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a.active,
+#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a:hover {
+  color: var(--site-accent);
+  border-left-color: var(--site-accent);
+}
