@@ -1,4 +1,124 @@
-/* Minimal overrides; the cosmo theme carries the rest. */
+/* Shared paper and SOM map palette. Fugazi has its own stylesheet. */
+:root {
+  --site-paper: #f4f1e9;
+  --site-ink: #20211f;
+  --site-rule: #d6d1c5;
+  --site-accent: #247785;
+  --site-accent-rgb: 36, 119, 133;
+  --site-spine-width: clamp(.5rem, 1vw, .875rem);
+}
+
+:root[data-site-section="publications"] {
+  --site-accent: #423476;
+  --site-accent-rgb: 66, 52, 118;
+}
+
+:root[data-site-section="bbl"] {
+  --site-accent: #325681;
+  --site-accent-rgb: 50, 86, 129;
+}
+
+:root[data-site-section="ask"] {
+  --site-accent: #176c5c;
+  --site-accent-rgb: 23, 108, 92;
+}
+
+:root[data-site-section="homelab"] {
+  --site-accent: #34683f;
+  --site-accent-rgb: 52, 104, 63;
+}
+
+:root[data-site-section="about"] {
+  --site-accent: #596613;
+  --site-accent-rgb: 89, 102, 19;
+}
+
+body {
+  --bs-body-bg: var(--site-paper);
+  --bs-body-color: var(--site-ink);
+  --bs-link-color: var(--site-accent);
+  --bs-link-color-rgb: var(--site-accent-rgb);
+  --bs-link-hover-color-rgb: 32, 33, 31;
+  background: var(--site-paper);
+  color: var(--site-ink);
+  padding-inline-start: var(--site-spine-width);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--site-spine-width);
+  background: var(--site-accent);
+  pointer-events: none;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 50%;
+  left: calc(var(--site-spine-width) / 2);
+  width: 100vh;
+  height: var(--site-spine-width);
+  transform: translate(-50%, -50%) rotate(90deg);
+  background: url("images/som-map.png") center / cover no-repeat;
+  pointer-events: none;
+}
+
+#quarto-header {
+  left: var(--site-spine-width);
+}
+
+#quarto-header .navbar {
+  --bs-navbar-color: #45453d;
+  --bs-navbar-hover-color: var(--site-accent);
+  --bs-navbar-active-color: var(--site-accent);
+  --bs-navbar-brand-color: var(--site-ink);
+  --bs-navbar-brand-hover-color: var(--site-accent);
+  --bs-navbar-toggler-border-color: var(--site-rule);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%2320211f' stroke-linecap='round' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  background: var(--site-paper);
+  border-bottom: 1px solid var(--site-rule);
+}
+
+#quarto-header .navbar .nav-link.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .4em;
+}
+
+#quarto-search {
+  color: var(--site-ink);
+}
+
+#quarto-content h1.title {
+  color: var(--site-accent);
+  letter-spacing: -.025em;
+}
+
+#quarto-content h1.title::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin-top: .75rem;
+  background: var(--site-accent);
+}
+
+.about-portrait {
+  float: inline-end;
+  max-width: 42%;
+  height: auto;
+  margin: .25rem 0 1.25rem 1.75rem;
+  padding: .25rem;
+  border: 1px solid var(--site-rule);
+  border-top: 3px solid var(--site-accent);
+}
+
+@media (max-width: 575px) {
+  .about-portrait { margin-inline-start: .85rem; }
+}
+
 h3 {
   margin-top: 1.6rem;
 }
