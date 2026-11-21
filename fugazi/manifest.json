@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "counts": {
+    "band": 1052,
+    "city": 419,
+    "country": 37,
+    "show": 1049,
+    "song": 159,
+    "state": 65,
+    "venue": 748
+  },
+  "edges": 31260,
+  "date_range": [
+    "1987-09-03",
+    "2002-11-04"
+  ],
+  "bytes": 6114202,
+  "sha256": "c940eb473ac909b18fb0013e86f7c84aea93a6ff7a01504f33e293abf327d820",
+  "provenance": "Dischord Fugazi Live Series public HTML metadata; gaps preserved as published.",
+  "caveat": "Track entities include intros, interludes, variants, and labels pending identity review."
+}

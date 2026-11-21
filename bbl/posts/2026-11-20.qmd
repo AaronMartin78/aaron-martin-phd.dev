@@ -1,0 +1,146 @@
+---
+title: "BBL Daily - 20 November 2026"
+date: 2026-11-20
+categories: [bbl]
+lang: en
+---
+
+## Games
+
+### Rostock Seawolves extend winning streak to three games
+
+*Played Sunday, 15 November 2026* *(updated with new sources)*
+
+The Rostock Seawolves secured their third consecutive win with an 86-75 victory over RASTA Vechta on November 15. This success comes after a 78-97 loss to ratiopharm ulm the previous Saturday, which was Jena's fifth consecutive defeat. The Seawolves have established themselves in the league, currently sitting on a playoff course in their fifth season. In contrast, Science City Jena is struggling, with a 1-3 win-loss record away from home. London Perrantes, who joined Jena four weeks ago, has been averaging 16.5 points and 6.0 assists per game, but has yet to lift his new team. Meanwhile, Nigel Pruitt, a new addition to the Seawolves Academy, scored 10 points in his first game for the team on November 12.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>ROSTOCK SEAWOLVES 86–75 RASTA Vechta</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">ROSTOCK SEAWOLVES</th><td>18</td><td>27</td><td>22</td><td>19</td><td>86</td></tr><tr><th scope="row">RASTA Vechta</th><td>22</td><td>19</td><td>10</td><td>24</td><td>75</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">ROSTOCK SEAWOLVES</th><td>30/65</td><td>10/29</td><td>16/17</td><td>42</td><td>20</td><td>4</td><td>4</td><td>16</td><td>26</td></tr><tr><th scope="row">RASTA Vechta</th><td>22/64</td><td>7/27</td><td>24/28</td><td>34</td><td>17</td><td>5</td><td>1</td><td>12</td><td>22</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>ROSTOCK SEAWOLVES</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="ROSTOCK SEAWOLVES player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="ROSTOCK SEAWOLVES player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Robin Amaize</th><td>4:15</td><td>2</td><td>1/1</td><td>0/1</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td><td>-14</td></tr><tr><th scope="row">Dominic Lockhart</th><td>13:45</td><td>0</td><td>0/0</td><td>0/3</td><td>0/0</td><td>2</td><td>3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>2</td><td>2</td><td>2</td></tr><tr><th scope="row">Elias Baggette</th><td>5:45</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>0</td><td>2</td><td>2</td><td>-10</td></tr><tr><th scope="row">DeAndre Lansdowne</th><td>20:48</td><td>7</td><td>2/3</td><td>1/2</td><td>0/0</td><td>0</td><td>9</td><td>9</td><td>3</td><td>2</td><td>0</td><td>3</td><td>3</td><td>15</td></tr><tr><th scope="row">TJ Crockett Jr.</th><td>26:32</td><td>22</td><td>5/8</td><td>1/6</td><td>9/10</td><td>3</td><td>2</td><td>5</td><td>2</td><td>0</td><td>1</td><td>0</td><td>1</td><td>14</td></tr><tr><th scope="row">Bent Leuchten</th><td>17:57</td><td>8</td><td>3/4</td><td>0/0</td><td>2/2</td><td>1</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>7</td></tr><tr><th scope="row">Matthes Tilsen</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Zach Copeland</th><td>22:07</td><td>20</td><td>2/6</td><td>4/8</td><td>4/4</td><td>1</td><td>3</td><td>4</td><td>5</td><td>1</td><td>0</td><td>3</td><td>1</td><td>14</td></tr><tr><th scope="row">Johnathan Stove</th><td>27:14</td><td>11</td><td>2/4</td><td>2/3</td><td>1/1</td><td>0</td><td>2</td><td>2</td><td>5</td><td>1</td><td>1</td><td>3</td><td>2</td><td>20</td></tr><tr><th scope="row">Philipp Hartwich</th><td>19:08</td><td>8</td><td>4/4</td><td>0/0</td><td>0/0</td><td>1</td><td>2</td><td>3</td><td>2</td><td>0</td><td>1</td><td>2</td><td>4</td><td>9</td></tr><tr><th scope="row">Artur Konontsuk</th><td>21:17</td><td>2</td><td>1/6</td><td>0/1</td><td>0/0</td><td>2</td><td>3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>5</td><td>6</td></tr><tr><th scope="row">Todd Withers</th><td>21:12</td><td>6</td><td>0/0</td><td>2/5</td><td>0/0</td><td>2</td><td>2</td><td>4</td><td>2</td><td>0</td><td>1</td><td>0</td><td>4</td><td>-8</td></tr></tbody></table></div>
+<p><strong>RASTA Vechta</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="RASTA Vechta player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="RASTA Vechta player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Linus Trettin</th><td>5:25</td><td>0</td><td>0/1</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-6</td></tr><tr><th scope="row">Philipp Herkenhoff</th><td>14:46</td><td>2</td><td>0/0</td><td>0/1</td><td>2/2</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>3</td><td>-8</td></tr><tr><th scope="row">Lars Thiemann</th><td>7:44</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>-7</td></tr><tr><th scope="row">Tommy Kuhse</th><td>23:20</td><td>8</td><td>3/9</td><td>0/4</td><td>2/2</td><td>2</td><td>1</td><td>3</td><td>5</td><td>3</td><td>0</td><td>3</td><td>3</td><td>-14</td></tr><tr><th scope="row">Tibor Pleiß</th><td>21:13</td><td>7</td><td>2/5</td><td>0/3</td><td>3/3</td><td>0</td><td>8</td><td>8</td><td>2</td><td>0</td><td>1</td><td>3</td><td>4</td><td>-8</td></tr><tr><th scope="row">Justin Edler-Davis</th><td>29:11</td><td>12</td><td>0/2</td><td>4/10</td><td>0/0</td><td>3</td><td>2</td><td>5</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>-12</td></tr><tr><th scope="row">Peter Hemschemeier</th><td>2:03</td><td>2</td><td>0/0</td><td>0/0</td><td>2/2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>2</td></tr><tr><th scope="row">Timo Lanmüller</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Armaan Franklin</th><td>32:05</td><td>19</td><td>4/9</td><td>1/2</td><td>8/8</td><td>1</td><td>2</td><td>3</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>10</td></tr><tr><th scope="row">Matt Lewis</th><td>24:32</td><td>12</td><td>4/6</td><td>1/3</td><td>1/2</td><td>1</td><td>2</td><td>3</td><td>1</td><td>1</td><td>0</td><td>2</td><td>5</td><td>-18</td></tr><tr><th scope="row">Kihei Clark</th><td>16:40</td><td>8</td><td>1/4</td><td>1/2</td><td>3/4</td><td>0</td><td>1</td><td>1</td><td>4</td><td>0</td><td>0</td><td>2</td><td>0</td><td>3</td></tr><tr><th scope="row">Justice Sueing</th><td>23:01</td><td>5</td><td>1/1</td><td>0/2</td><td>3/5</td><td>0</td><td>3</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>3</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [Bamberg Baskets: BMA365 Bamberg Baskets reisen an die alte Wirkungsstätte ihres Trainergespanns | Bamberg Baskets](https://www.bamberg.basketball/news/bma365-bamberg-baskets-reisen-an-die-alte-wirkungsstaette-ihres-trainergespanns)
+- [NDR (ARD): Rostock Seawolves feiern fünften Heimsieg in Folge](https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/rostock-seawolves-feiern-fuenften-heimsieg-in-folge,mvregiorostock-5336.html)
+- [Nordkurier: Fünfter Heimsieg in Folge: Rostock Seawolves überrollen Vechta](https://www.nordkurier.de/sport/fuenfter-heimsieg-in-folge-rostock-seawolves-ueberrollen-vechta-5012653)
+- [Nordkurier: Seawolves feiern fünften Heimerfolg in Serie](https://www.nordkurier.de/regional/mecklenburg-vorpommern/seawolves-feiern-fuenften-heimerfolg-in-serie-5012824)
+- [Rostock Seawolves: Erfahrung für die Seawolves Academy: Nigel Pruitt verpflichtet](https://www.seawolves.de/erfahrung-fuer-die-seawolves-academy-nigel-pruitt-verpflichtet)
+- [easyCredit BBL (official): VorberichteLive und free im MDR: Nagelprobe bei Schlusslicht Jena – Rostock auch auswärts ein Spitzenteam?](https://cms.easycredit-bbl.de/de/n/news/2026/november/live-und-free-im-mdr-nagelprobe-beim-schlusslicht-jena-rostock-auch-auswaerts-ein-spitzenteam)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006853)
+
+### Niners Chemnitz crush Löwen Braunschweig 111:79
+
+*Played Sunday, 15 November 2026* *(updated with new sources)*
+
+Niners Chemnitz secured a crucial win in their fight for league survival, defeating Basketball Löwen Braunschweig 111:79. The game saw a dominant performance from the NINERS, who scored 30 assists and shot 58% from the field. Jannis von Seckendorff scored 19 points, while Elias Rödl set a new career high with 12 points. Phlan Fleming had a double-double with 12 points and 14 assists. The win is the NINERS' highest of the season, and they will look to build on this momentum in their next game against Tofas Bursa. The Löwen, meanwhile, struggled with their shooting, hitting only 34% of their field goals, and were unable to contain the NINERS' offense. Coach Ramón Díaz criticized his team's mental approach, saying they need to change their mentality to improve their performance.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>NINERS Chemnitz 111–79 Basketball Löwen Braunschweig</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">NINERS Chemnitz</th><td>33</td><td>28</td><td>25</td><td>25</td><td>111</td></tr><tr><th scope="row">Basketball Löwen Braunschweig</th><td>22</td><td>19</td><td>22</td><td>16</td><td>79</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">NINERS Chemnitz</th><td>38/66</td><td>17/30</td><td>18/27</td><td>31</td><td>30</td><td>10</td><td>2</td><td>16</td><td>25</td></tr><tr><th scope="row">Basketball Löwen Braunschweig</th><td>24/70</td><td>6/26</td><td>25/36</td><td>50</td><td>14</td><td>12</td><td>2</td><td>22</td><td>24</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>NINERS Chemnitz</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="NINERS Chemnitz player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="NINERS Chemnitz player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Alfons Milatz</th><td>2:24</td><td>3</td><td>0/0</td><td>1/1</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>4</td></tr><tr><th scope="row">Ben Burnham</th><td>28:36</td><td>21</td><td>4/7</td><td>4/5</td><td>1/2</td><td>1</td><td>2</td><td>3</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>28</td></tr><tr><th scope="row">Cobe Williams</th><td>22:30</td><td>12</td><td>3/3</td><td>1/4</td><td>3/4</td><td>1</td><td>1</td><td>2</td><td>2</td><td>4</td><td>0</td><td>3</td><td>4</td><td>13</td></tr><tr><th scope="row">Phlandrous Fleming Jr.</th><td>26:24</td><td>12</td><td>3/4</td><td>1/5</td><td>3/3</td><td>2</td><td>2</td><td>4</td><td>14</td><td>2</td><td>0</td><td>5</td><td>2</td><td>23</td></tr><tr><th scope="row">Stefan Smith</th><td>22:55</td><td>10</td><td>2/4</td><td>2/2</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>6</td><td>2</td><td>0</td><td>5</td><td>3</td><td>24</td></tr><tr><th scope="row">Elias Rödl</th><td>17:22</td><td>12</td><td>0/3</td><td>4/5</td><td>0/0</td><td>3</td><td>2</td><td>5</td><td>1</td><td>0</td><td>0</td><td>0</td><td>2</td><td>18</td></tr><tr><th scope="row">Urald King</th><td>22:55</td><td>8</td><td>2/2</td><td>1/2</td><td>1/1</td><td>1</td><td>2</td><td>3</td><td>0</td><td>1</td><td>0</td><td>0</td><td>4</td><td>9</td></tr><tr><th scope="row">Mateo Seric</th><td>18:58</td><td>12</td><td>1/3</td><td>3/6</td><td>1/2</td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>2</td><td>2</td><td>6</td></tr><tr><th scope="row">Jannis von Seckendorff</th><td>18:50</td><td>19</td><td>6/7</td><td>0/0</td><td>7/11</td><td>0</td><td>4</td><td>4</td><td>2</td><td>0</td><td>1</td><td>1</td><td>2</td><td>23</td></tr><tr><th scope="row">Nighael Ceaser</th><td>19:06</td><td>2</td><td>0/3</td><td>0/0</td><td>2/4</td><td>0</td><td>3</td><td>3</td><td>3</td><td>0</td><td>1</td><td>0</td><td>4</td><td>12</td></tr></tbody></table></div>
+<p><strong>Basketball Löwen Braunschweig</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Basketball Löwen Braunschweig player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Basketball Löwen Braunschweig player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Ferdinand Zylka</th><td>23:54</td><td>12</td><td>1/5</td><td>1/5</td><td>7/8</td><td>0</td><td>2</td><td>2</td><td>3</td><td>0</td><td>0</td><td>2</td><td>2</td><td>-21</td></tr><tr><th scope="row">Chip Flanigan</th><td>26:02</td><td>7</td><td>2/9</td><td>1/1</td><td>0/0</td><td>6</td><td>3</td><td>9</td><td>3</td><td>1</td><td>0</td><td>0</td><td>2</td><td>-18</td></tr><tr><th scope="row">Eddy Edigin Jr</th><td>9:44</td><td>0</td><td>0/2</td><td>0/0</td><td>0/0</td><td>1</td><td>2</td><td>3</td><td>0</td><td>0</td><td>0</td><td>1</td><td>5</td><td>-10</td></tr><tr><th scope="row">Gian Aydinoglu</th><td>21:32</td><td>2</td><td>0/0</td><td>0/1</td><td>2/4</td><td>2</td><td>1</td><td>3</td><td>4</td><td>3</td><td>0</td><td>5</td><td>4</td><td>-18</td></tr><tr><th scope="row">Felipe Haase Thiers</th><td>22:13</td><td>10</td><td>1/3</td><td>1/6</td><td>5/5</td><td>0</td><td>5</td><td>5</td><td>0</td><td>1</td><td>0</td><td>1</td><td>4</td><td>-15</td></tr><tr><th scope="row">Zaba  Bangala</th><td>25:14</td><td>15</td><td>5/7</td><td>0/0</td><td>5/11</td><td>2</td><td>2</td><td>4</td><td>2</td><td>2</td><td>1</td><td>3</td><td>2</td><td>-7</td></tr><tr><th scope="row">Tajh Green</th><td>21:53</td><td>9</td><td>3/6</td><td>0/1</td><td>3/4</td><td>6</td><td>1</td><td>7</td><td>0</td><td>2</td><td>1</td><td>4</td><td>1</td><td>-27</td></tr><tr><th scope="row">Sheldon Edwards</th><td>21:39</td><td>11</td><td>1/1</td><td>3/11</td><td>0/0</td><td>1</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>3</td><td>1</td><td>-16</td></tr><tr><th scope="row">Noah Eklou</th><td>9:21</td><td>4</td><td>1/2</td><td>0/1</td><td>2/2</td><td>1</td><td>1</td><td>2</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>-14</td></tr><tr><th scope="row">De&#x27;Jour Reaves</th><td>18:28</td><td>9</td><td>4/9</td><td>0/0</td><td>1/2</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td><td>0</td><td>2</td><td>3</td><td>-14</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [Basketball Loewen Braunschweig: Dyn-Zusammenfassung: NINERS Chemnitz vs. Basketball Löwen](https://www.basketball-loewen.de/dyn-zusammenfassung-niners-chemnitz-vs-basketball-loewen-2)
+- [Basketball Loewen Braunschweig: Löwen wollen gegen Bamberg die Niederlagenserie beenden](https://www.basketball-loewen.de/loewen-wollen-gegen-bamberg-die-niederlagenserie-beenden)
+- [Basketball Loewen Braunschweig: „Wir müssen unsere Mentalität verändern“ – deutliche Niederlage in Chemnitz](https://www.basketball-loewen.de/wir-muessen-unsere-mentalitaet-veraendern-deutliche-niederlage-in-chemnitz)
+- [MDR (ARD): Basketball | BBL: MBC Syntainics geht beim Top-Spiel in München unter](https://www.mdr.de/sport/basketball/basketball-bbl-fc-bayern-syntainics-mbc-niners-chemnitz-braunschweig-,spielberichte-mbc-niners-100.html)
+- [Niners Chemnitz: Im Kampf um den Klassenerhalt in der easyCredit Basketball Bundesliga ist Sachsens besten Korbjägern ein wichtiger Sieg (…)](https://www.chemnitz99.de/news/1438/reaktion-gezeigt)
+- [easyCredit BBL (official): Weekly NewsBayern tame Wolves / Trier win seventh straight / von Seckendorff has career night](https://cms.easycredit-bbl.de/de/n/news/2026/november/bayern-tame-wolves-trier-win-seventh-straight-von-seckendorff-has-career-night)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006855)
+
+### Niners Chemnitz Seek Redemption Against Gladiators Trier
+
+*Played Saturday, 21 November 2026*
+
+Niners Chemnitz suffered a clear defeat in their eighth BKT EuroCup match, losing 85-94 to Tofas Bursa in front of over 3,000 fans in Chemnitz. The team struggled to keep up with the Turkish club, falling behind by as many as 24 points. However, they managed to score some cosmetic points in the final minutes, narrowing the deficit. Phlandrous Fleming led Chemnitz with 18 points, followed by Ben Burnham and Nighael Ceaser with 16 points each, and Ryan Mikesell with 15 points. The Niners will look to bounce back in their next match against VET-CONCEPT Gladiators Trier on November 21, before returning home to face Rostock Seawolves on December 5.
+
+Sources:
+
+- [Niners Chemnitz: Am achten Spieltag des BKT EuroCup mussten die NINERS eine klare Niederlage hinnehmen. Vor über 3.000 Zuschauern in der (…)](https://www.chemnitz99.de/news/1440/grenzen-aufgezeigt)
+
+## European Cups
+
+### Trier seeks eighth straight win against Chemnitz
+
+The VET-CONCEPT Gladiators Trier are on a seven-game winning streak and are looking to extend their record to eight consecutive victories when they host the NINERS Chemnitz on Saturday. Chemnitz has yet to win an away game in the league, with a 0-5 record. Trier, meanwhile, has been on a roll, with their last win coming 99-85 over Frankfurt. Chemnitz, however, has gained confidence after a 111-79 win over Braunschweig, bringing their record to 3-6. The game is expected to be a close one, with both teams having strong backcourts. Trier's Eli Brooks is a top candidate for MVP, averaging 17.6 points and 6.4 assists per game, while Chemnitz's Ben Burnham has been on fire, averaging 11.4 points and 5.6 rebounds per game.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichteTrier mit weißer Heimweste und sieben Siegen in Folge: Holt Chemnitz beim Tabellenzweiten trotzdem den ersten Auswärtserfolg?](https://cms.easycredit-bbl.de/de/n/news/2026/november/trier-mit-weisser-heimweste-und-sieben-siegen-in-folge-holt-chemnitz-beim-tabellenzweiten-trotzdem-den-ersten-auswaertserfolg)
+
+### Frankfurt Skyliners Suffer Fifth Consecutive Defeat in EuroCup
+
+The Frankfurt Skyliners have suffered their fifth consecutive defeat in the EuroCup, losing 97-107 to Umana Reyer Venice in their own hall. The team, led by coach Klaus Perwas, is now winless in three EuroCup games and has slipped to seventh place in their group. Venice dominated the game from the start, leading by a comfortable margin for most of the match. The Skyliners showed some improvement in the second half, but ultimately could not close the gap. Judah Mintz led the Skyliners with 22 points, but it was not enough to prevent the defeat. The loss puts the Skyliners in danger of being eliminated from the EuroCup.
+
+Sources:
+
+- [hessenschau (hr/ARD): EuroCup-Aus droht: Frankfurt Skyliners kassieren fünfte Pleite in Folge](https://www.hessenschau.de/sport/basketball/skyliners-frankfurt/eurocup-aus-droht-frankfurt-skyliners-kassieren-fuenfte-pleite-in-folge-v1,skyliners-vs-venedig-100.html)
+
+### Oldenburg hopes to end losing streak against Frankfurt
+
+The EWE Baskets Oldenburg are looking to end their four-game losing streak at home against the SKYLINERS Frankfurt in the easyCredit BBL. Oldenburg, with a 4-5 record, are eager to win before the upcoming international break, which will give them a chance to regroup. The SKYLINERS, with a 4-3 record, are also looking to bounce back from their own recent struggles, including a 85-99 loss at home to Trier. The game will feature a matchup between two of the league's top scorers, Oldenburg's Nate Johnson (16.5 points per game) and Frankfurt's Judah Mintz (17.9 points per game). Oldenburg's statistics are a concern, as they are averaging the fewest points (74.7) and have the worst free throw percentage (64.9%) and two-point percentage (50.0%) in the league. The SKYLINERS, on the other hand, have a strong free throw percentage (80.8%) but struggle with assists (15.3). The two teams have a long history, with Oldenburg leading the series 31-28 since 2001, but Frankfurt has dominated in playoff and cup competitions.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichteOldenburg hofft auf Ende der Negativserie: Gegen Frankfurt erstmals mit voller Kapelle?](https://cms.easycredit-bbl.de/de/n/news/2026/november/oldenburg-hofft-auf-ende-der-negativserie-gegen-frankfurt-erstmals-mit-voller-kapelle)
+
+### Gladiators Trier Secure 102-89 Win Over Promitheas Patras
+
+The Vet-Concept Gladiators Trier secured a dominant 102-89 win over Promitheas Patras in their FIBA Europe Cup match on the seventh day of the competition. Jordan Roland led the scoring for Trier with 13 points, while all 12 players on the team contributed to the scoreboard. The team's next home game is scheduled for Saturday in the easyCredit BBL against Chemnitz. Trier's starting five, which included Eli Brooks, Jordan Roland, Austin Crowley, Moritz Krimmer, and Marten Linßen, set the tone for the game from the beginning. The team's defense was physical and applied pressure on Patras' ball handlers, leading to a 16-8 lead after the first quarter. Trier maintained their defensive pressure throughout the game, limiting Patras' scoring opportunities and controlling the tempo of the game.
+
+Sources:
+
+- [Vet-Concept Gladiators Trier: Ungefährdeter Heimsieg am siebten Spieltag des FIBA Europe Cup. VET-CONCEPT Gladiators Trier schlagen Promitheas Patras mit 102:89.](https://vetconceptgladiators.de/nachbericht_patras-2)
+
+### Rostock Seawolves face Science City Jena in final BBL game before FIBA break
+
+The Rostock Seawolves will face Science City Jena in their final Basketball Bundesliga game before the FIBA break. The match will take place on Saturday, November 21st at 16:00 CET and will be broadcast live on DYN and MDR. The Seawolves are looking to continue their strong form, having won three BBL games in a row, while Jena is seeking their first win after five consecutive losses. Jena has undergone significant changes to their roster, including the departure of six US players and the loss of captain Robin Christen due to injury. Key players for Jena include London Perrantes, Ira Lee, and Terrence Edwards Jr. Seawolves head coach Przemyslaw Frasunkiewicz has warned that playing in Jena's small and crowded hall will be challenging, and his team must be focused from the start to succeed.
+
+Sources:
+
+- [Rostock Seawolves: Nach Jerusalem ist vor Jena: Letztes BBL-Spiel vor der FIBA-Pause](https://www.seawolves.de/nach-jerusalem-ist-vor-jena-letztes-bbl-spiel-vor-der-fiba-pause)
+
+## Around the League
+
+### Trey Wade Leaves Veolia Towers Hamburg by Mutual Agreement
+
+Trey Wade, an American player, has parted ways with Veolia Towers Hamburg after a mutual agreement to terminate his one-year contract. The decision was made after eight games in the easyCredit BBL and the Netto BBL Pokal, with both parties concluding that their sporting expectations and Wade's role development were not aligned. Veolia Towers' sports director Fabian Villmeter praised Wade's professionalism and dedication, but acknowledged that a change was necessary for both parties. Wade, who joined Veolia Towers in August, is now free to seek a new team. The Veolia Towers expressed gratitude for Wade's efforts and wished him well for his future endeavors.
+
+Sources:
+
+- [Veolia Towers Hamburg: Trey Wade verlässt die Veolia Towers](https://www.hamburgtowers.de/news/trey-wade-verlaesst-die-veolia-towers)
+
+### Bamberg Baskets' Christmas Charity Drive
+
+The Bamberg Baskets basketball team has launched a Christmas charity drive to collect gifts for children in hospitals and financially struggling families. The initiative, led by team manager Enzo Neck, aims to bring joy to those who may not be able to celebrate Christmas freely. The idea was inspired by 'Toy Drives' in the US and Neck's experience with a similar initiative at BG Göttingen, where a player's wife organized a Christmas charity event. The Baskets want to involve the entire team and community in the effort, going beyond their previous 'Teddybär-Toss' event, where fans threw plush toys onto the court and the team donated them afterwards. The charity drive is part of the team's 'FREAK CITY SCHENKT FREUDE' campaign, which aims to help those in need during the holiday season.
+
+Sources:
+
+- [Bamberg Baskets: Endspurt bei Freak City schenkt Freude! | Bamberg Baskets](https://www.bamberg.basketball/news/endspurt-bei-freak-city-schenkt-freude)
+
+### Ramirez returns to Braunschweig with Bamberg as Löwen struggle
+
+Jesus Ramirez returns to Braunschweig with his Bamberg Baskets team for a league game, a week after the Löwen suffered a 79-111 defeat in Chemnitz. The Löwen have lost seven consecutive games, including two of the eight highest defeats in the league, with a -116 point difference, the worst in the league. Bamberg, the current Pokalsieger, also struggled recently, losing two consecutive games, including a 71-85 defeat at home to Bonn. Ramirez left Braunschweig last year after a season where the team finished with 20 wins and third place in the regular season, the best result in over 20 years. He is now back in Braunschweig for the first time in a competitive game, after a preseason visit with Bamberg.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichteRückkehr nach Braunschweig: Verschärft Jesus Ramirez mit Bamberg die Krise der Löwen?](https://cms.easycredit-bbl.de/de/n/news/2026/november/rueckkehr-nach-braunschweig-verschaerft-jesus-ramirez-mit-bamberg-die-krise-der-loewen)

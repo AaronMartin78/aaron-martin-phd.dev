@@ -1,0 +1,17 @@
+```{=html}
+<nav class="section-tabs" aria-label="Publications pages">
+  <a href="index.html">Overview</a>
+  <a href="party-politics.html">This too in moderation: data</a>
+  <a href="eup.html">Party group collapse: data</a>
+  <a href="video-games.html">Video games database</a>
+</nav>
+<script>
+  (() => {
+    const norm = p => p.replace(/index\.html$/, "").replace(/\/$/, "");
+    const here = norm(location.pathname);
+    document.querySelectorAll(".section-tabs a").forEach(a => {
+      if (norm(new URL(a.getAttribute("href"), location.href).pathname) === here) a.setAttribute("aria-current", "page");
+    });
+  })();
+</script>
+```

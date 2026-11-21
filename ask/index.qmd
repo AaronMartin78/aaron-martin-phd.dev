@@ -11,19 +11,56 @@ The assistant retrieves from a curated knowledge base of my CV, publications
 and project documentation, routes each question to the right collection and
 answers with citations from the retrieved material.
 
-::: {.callout-note title="If the box below looks empty, just wait a moment"}
-The assistant can take up to a minute to appear the first time you open this
-page. While it starts, the box below stays blank. Once it's up, it answers
-within a few seconds.
-:::
-
 ```{=html}
-<iframe
-  src="https://ask-aaron-201418184721.europe-west3.run.app/"
-  title="Ask Aaron - RAG assistant"
-  style="width: 100%; height: 900px; border: 0;"
-  loading="lazy">
-</iframe>
+<style>
+  #ask-wrap { position: relative; width: 100%; height: 900px; }
+  #ask-wrap iframe { width: 100%; height: 100%; border: 0; }
+  #ask-loading {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 0.75rem;
+    background: #fff; border: 1px solid #dee2e6; border-radius: 0.5rem;
+    color: #495057; text-align: center; padding: 1rem;
+  }
+  #ask-loading.hidden { display: none; }
+  #ask-spinner {
+    width: 2.5rem; height: 2.5rem; border-radius: 50%;
+    border: 4px solid #dee2e6; border-top-color: #0d6efd;
+    animation: ask-spin 0.9s linear infinite;
+  }
+  @keyframes ask-spin { to { transform: rotate(360deg); } }
+  #ask-loading small { color: #6c757d; }
+</style>
+<div id="ask-wrap">
+  <div id="ask-loading" role="status" aria-live="polite">
+    <div id="ask-spinner" aria-hidden="true"></div>
+    <div><strong>Starting the assistant</strong></div>
+    <div>The first load can take up to a minute while the server wakes up. Waiting <span id="ask-seconds">0</span> s…</div>
+    <small>Once it is running, answers take a few seconds.</small>
+  </div>
+  <iframe
+    id="ask-frame"
+    src="https://ask-aaron-201418184721.europe-west3.run.app/"
+    title="Ask Aaron - RAG assistant">
+  </iframe>
+</div>
+<script>
+  (function () {
+    var overlay = document.getElementById("ask-loading");
+    var counter = document.getElementById("ask-seconds");
+    var frame = document.getElementById("ask-frame");
+    var start = Date.now();
+    var timer = setInterval(function () {
+      counter.textContent = Math.round((Date.now() - start) / 1000);
+    }, 1000);
+    function done() {
+      clearInterval(timer);
+      overlay.classList.add("hidden");
+    }
+    frame.addEventListener("load", done);
+    // Safety net: never leave the overlay up forever.
+    setTimeout(done, 120000);
+  })();
+</script>
 ```
 
 If the embedded app does not load,

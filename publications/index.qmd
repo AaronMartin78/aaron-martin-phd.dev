@@ -1,19 +1,18 @@
 ---
 title: "Publications and Data"
-description: "*Research on party group switching in the European Parliament, with original Stata materials, CSV data and Python replication code.*"
+description: "*Two journal articles on party group switching in the European Parliament, with their data and replication code, and a relational SQLite database of video game sales, reviews and sentiment scores.*"
 ---
+{{< include _nav.qmd >}}
+
 **Google Scholar**: https://scholar.google.de/citations?hl=de&user=GZCW0DQAAAAJ\
 **ORCID**: https://orcid.org/0000-0003-4529-0593
 
-My research examines party group switching, political representation and party institutionalization in the European Parliament. Below are my two published journal articles as well as the data and replication code.
+This page has two parts. The first is my academic research on party group switching in the European Parliament: two journal articles, each with its original Stata materials, CSV data and a Python port of the analysis. The second is a data engineering project from my data analytics training: a relational database of video games, reviews and sentiment scores. The tabs above lead to the technical detail for each dataset.
 
-Originally, I did all of my analysis using Stata. The downloads include those original Stata materials.
-Because I myself no longer have an institutional affiliation or a Stata license, I used AI to convert the Stata .dta files into CSVs and port the analysis code to Python. The original Stata logs are retained as references for checking the results.
-These converted files can be opened in Python, R or other statistical software.
-I did initial replication checks using the converted CSVs and Python scripts to make sure that the conversion was accurate, and the results are also posted.
-Each Python package includes its input data, code, saved outputs and documentation, so a Stata licence is not needed to use it.
+## Journal articles
 
-## This too in moderation
+::: {.pub-card}
+### This too in moderation
 
 **Evaluating the effect of delegate dissatisfaction on ambitious party group switching in the European Parliament**
 
@@ -23,20 +22,11 @@ This article examines whether the most dissatisfied members are also the most li
 
 [Read the article](https://doi.org/10.1177/13540688221096531){.btn .btn-primary .btn-sm}
 [Article PDF](https://journals.sagepub.com/doi/pdf/10.1177/13540688221096531){.btn .btn-outline-primary .btn-sm}
+[Data, code and validation](party-politics.html){.btn .btn-outline-primary .btn-sm}
+:::
 
-### Data and code
-
-| Download | Contents |
-|:--|:--|
-| [Python and CSV package](downloads/party-politics/party-politics-python.zip) | Archived Python port, CSV inputs, saved results, validation reports and an R script for the earlier multilevel models. |
-| [Original Stata archive](downloads/party-politics/party-politics-stata.zip) | March 2021 datasets, analysis do-file and Stata log. |
-| [Original Stata code — .do](downloads/party-politics/PP_20210325.do) | Unmodified archived analysis code; also included in the Stata ZIP. |
-| [Input data — CSV](downloads/party-politics/dataset_12222020.csv) | 3,977 rows and 555 columns, before the archived analysis transformations. |
-| [Analysis data — CSV](downloads/party-politics/PP_dataset.csv) | 3,977 rows and 563 columns in the archived Stata analysis dataset. |
-| [Variable labels and metadata](downloads/party-politics/codebooks.json) | Variable labels, data types and Stata value-label definitions. |
-| [Data provenance and checksums](downloads/party-politics/data-manifest.csv) | Source files, dimensions and SHA-256 digests. |
-
-## Party group collapse and strategic switching
+::: {.pub-card}
+### Party group collapse and strategic switching
 
 **Party group collapse and strategic switching in the European Parliament**
 
@@ -46,142 +36,24 @@ This article distinguishes strategic party group switches from changes forced by
 
 [Read the article](https://doi.org/10.1177/1465116521999718){.btn .btn-primary .btn-sm}
 [Open access PDF](https://epub.ub.uni-muenchen.de/77080/1/1465116521999718.pdf){.btn .btn-outline-primary .btn-sm}
-
-### Data and code
-
-| Download | Contents |
-|:--|:--|
-| [Python and CSV package](downloads/eup/eup-python.zip) | Python code, CSV inputs and reference datasets, saved outputs and validation reports. |
-| [Original Stata replication archive](downloads/eup/eup-stata.zip) | December 2020 replication datasets, do-file, log and saved Stata figure. |
-| [Original Stata code — .do](downloads/eup/Replication_Code_12102020.do) | Unmodified archived analysis code; also included in the Stata ZIP. |
-| [Input data — CSV](downloads/eup/EUP_replication_dataset_12092020_2.csv) | 3,977 rows and 206 columns, before the replication transformations. |
-| [Analysis data — CSV](downloads/eup/EUP_replication_dataset_12092020_B_3.csv) | 3,977 rows and 277 columns in the Stage B Stata reference dataset. |
-| [Variable labels and metadata](downloads/eup/codebooks.json) | Variable labels, data types and Stata value-label definitions. |
-| [Data provenance and checksums](downloads/eup/data-manifest.csv) | Source files, dimensions and SHA-256 digests. |
-
-**Replication scope:** the Python port includes data construction and selected statistical results. Its saved reports document comparisons with the original Stata datasets, Table 2 t-tests, Table 4 Firth models and Appendix B. Some figures, descriptive tables and robustness checks are outside the port's scope. See the included README for details and numerical tolerances.
-
-## Using the data
-
-Download an individual CSV to explore a dataset, or extract a complete Python package to run the archived analysis. For example:
-
-```python
-import pandas as pd
-
-data = pd.read_csv("PP_dataset.csv", low_memory=False)
-print(data.shape)
-```
-
-CSV files retain numeric category codes; the accompanying metadata provides label definitions. Dates are stored as text and empty fields represent missing values. CSV does not retain every Stata storage attribute or distinguish all of Stata's extended missing-value codes. Use the original `.dta` files when those details matter.
-
-The CSV downloads were checked against their corresponding Stata files for dimensions, column names and cell values, with a small tolerance for numeric precision. Saved model-validation reports are supplied from the earlier replication work; packaging the downloads did not rerun the full statistical analyses.
-
-Anyone can use the data for whatever they want, just please cite the appropriate articles (CC BY 4.0).
-[Download checksums](downloads/checksums.json)
-
-## Validation reports
-
-These are the saved reports from the earlier Python replication work. They record comparisons with the original Stata datasets and logs. They were not regenerated when preparing this page. The Party Politics reports refer to the March 2021 analysis; their table numbering and multilevel-model discussion do not describe a verified replication of the final published article.
-
-::: {.callout-note collapse="true" title="European Union Politics: data and model validation"}
-
-[Download the original report](downloads/eup/_validation_report.md)
-
-Python port validated against the original Stata datasets (_A/_B/_C) and replication_log.log.
-
-#### Data pipeline (cell-level agreement)
-- Stage A: 958457/958457 cells match across 241 columns, 3977 rows -> 100.000%
-- Stage B: 1081744/1081744 cells match across 272 columns, 3977 rows -> 100.000%
-- Stage C: 795/795 cells match across 15 columns, 53 rows -> 100.000%
-
-#### Table 4 - Firth penalized logit (vs replication_log.log)
-- all_switch_full: N=3962 (Stata 3962), logLik*=-637.68894 (Stata -637.68894)
-- indiv_switch_full: N=3962 (Stata 3962), logLik*=-455.84114 (Stata -455.84114)
-- bloc_switch_full: N=3962 (Stata 3962), logLik*=-326.97514 (Stata -326.97514)
-
+[Data, code and validation](eup.html){.btn .btn-outline-primary .btn-sm}
 :::
 
-::: {.callout-note collapse="true" title="European Union Politics: 32 statistical checks"}
+Originally, I did all of my analysis using Stata. The downloads include those original Stata materials. Because I no longer have an institutional affiliation or a Stata licence, I used AI to convert the Stata .dta files into CSVs and port the analysis code to Python. The original Stata logs are retained as references for checking the results, and the replication checks are posted on each article's data page. Anyone can use the data for whatever they want, just please cite the appropriate articles (CC BY 4.0).
 
-[Download the original report](downloads/eup/_results_validation.md)
+## Video games database
 
-#### Table 2 - t-tests (23 tests)
-  -> 23 passed, 0 failed
+::: {.pub-card .pub-card-data}
+### Video game sales, reviews and sentiment scores
 
-#### Table 4 - Firth models (7)
-  OK  all_switch_full  N=3962 (stata 3962)  logLik*=-637.68894 (stata -637.68894)
-  OK  indiv_switch_full N=3962 (stata 3962)  logLik*=-455.84114 (stata -455.84114)
-  OK  bloc_switch_full N=3962 (stata 3962)  logLik*=-326.97514 (stata -326.97514)
-  OK  all_power        N=3962 (stata 3962)  logLik*=-1288.81064 (stata -1288.8106)
-  OK  all_power_col    N=3962 (stata 3962)  logLik*=-697.40471 (stata -697.40471)
-  OK  indiv_power      N=3962 (stata 3962)  logLik*=-477.35726 (stata -477.35726)
-  OK  bloc_power       N=3962 (stata 3962)  logLik*=-361.04744 (stata -361.04744)
+**A relational SQLite database of 3,001 video games (2001–2016), combining sales figures, Metacritic critic and user reviews, gameplay variables and natural-language sentiment scores.**
 
-#### Appendix B - McElroy (2 models)
-  OK  mc_logit   N=545 (stata 545)  logLik=-203.50908 (stata -203.50908)
-  OK  mc_firth   N=579 (stata 579)  logLik=-193.07426 (stata -193.07426)
+I built this database for my data analytics bootcamp at DataScientest (Sorbonne). It started from a Kaggle video game sales dataset, which I cleaned and reshaped so that each game is one row. I then scraped Metacritic for metascores, critic reviews, user reviews and community gameplay ratings (difficulty, play time and completion), and scored the review text with three sentiment models (VADER, TextBlob and a Hugging Face transformer). The result is normalised into 13 linked tables.
 
-#### TOTAL: 32 passed, 0 failed
+Everything is in one file, so it can be opened directly with Python's built-in `sqlite3` module, [DB Browser for SQLite](https://sqlitebrowser.org/), DBeaver or any tool that reads SQLite.
 
-:::
-
-::: {.callout-note collapse="true" title="Party Politics: data and three archived Firth models"}
-
-[Download the original report](downloads/party-politics/_validation_report.md)
-
-#### Data pipeline (dataset_12222020 -> PP_dataset)
-- 2219166/2219166 cells match across 558 columns, 3977 rows -> 100.000%
-
-#### Firth session_switch models (Table 5 robustness) vs march25_2021.log
-- OK  as_firth_intense: N=3977 logLik*=-643.86901 (stata -643.86901)
-- OK  as_firth_quad: N=3977 logLik*=-568.22092 (stata -568.22092)
-- OK  as_firth_full: N=3977 logLik*=-556.95429 (stata -556.95429)
-
-#### Firth: 3/3 match
-
-#### Multilevel Tables 4/5 (xtmelogit)
-- Not reproduced here: no software available that matches Stata's
-  adaptive quadrature; models are convergence-sensitive. R/lme4
-  scripts for the model structures are in make_pp_multilevel.R.
-
-:::
-
-::: {.callout-note collapse="true" title="Party Politics: earlier multilevel investigation"}
-
-[Download the original report](downloads/party-politics/_multilevel_findings.md)
-
-#### What the reported models actually are
-Tables 4 and 5 are **three-level nested mixed-effects logits**, not two-level:
-
-    xtmelogit <dv> <covariates> || start_group_num: || bloc_id3:
-
-a random intercept for the EP party group (`start_group_num`, 25 groups) AND a
-random intercept for the national-party delegation (`bloc_id3`) nested within it.
-lme4 equivalent: `(1 | start_group_num/bloc_id3)`.
-
-#### Ground truth (from march25_2021.log), Table 5 (amb_switch)
-
-| Column | Model | logLik | key coefficients |
-|--------|-------|--------|------------------|
-| 4  | intensity | -563.988 | z_intense2 -0.3592, c_npd_perc -11.160, c_epg_perc -9.314, govt2 -0.7115, mep_tenure 0.3726, female -0.7780, _cons -5.6818 |
-| 7  | quadratic | -513.389 | a1_std2 1.3359, a2_std2 0.6217, a1^2 -0.1782, a2^2 -0.0933, c_npd_perc -12.744 |
-| 10 | full      | -493.246 | a1_std2 1.6026, a2_std2 0.8869, a1^2 -0.2034, a2^2 -0.1150 |
-
-(The published `table5.txt` matches the intensity and quadratic columns exactly;
-the "full" column differs slightly - 1.624 vs 1.6026 - suggesting the printed
-table was assembled from a marginally different model run than this log.)
-
-#### Reproduction status
-- **Exact Stata outputs are preserved in the log**, so the results themselves are
-  recoverable at full precision without Stata.
-- **Independent reproduction was attempted in Python and did not succeed here:**
-  a two-level fit is systematically ~20-40% attenuated (wrong structure), and the
-  correct three-level nested fit could not be optimized within the sandbox's
-  compute limit (nested quadrature is expensive; Stata itself hit "not concave"
-  iterations, so the models are numerically delicate).
-- **Recommended path:** run `make_pp_multilevel.R` (corrected to the nested
-  `(1 | start_group_num/bloc_id3)` structure) in RStudio and compare its output to
-  the ground-truth values above. `lme4` will be close but is not guaranteed to
-  match Stata's `xtmelogit` to the decimal.
-
+[SQLite database (10 MB)](downloads/video-games/video_games.db){.btn .btn-primary .btn-sm}
+[One row per game, CSV](downloads/video-games/video_game_vars_plus_sentiment_metrics.csv){.btn .btn-outline-primary .btn-sm}
+[Kaggle dataset](https://www.kaggle.com/datasets/aaronrmartin/video-games-gameplay-reviews-sentiment-scores){.btn .btn-outline-primary .btn-sm}
+[Schema and example query](video-games.html){.btn .btn-outline-primary .btn-sm}
 :::
