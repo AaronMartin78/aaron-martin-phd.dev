@@ -1,0 +1,97 @@
+---
+title: "BBL Daily - 21 November 2026"
+date: 2026-11-21
+categories: [bbl]
+lang: en
+---
+
+## Games
+
+### Vechta edge Würzburg in thrilling overtime finish
+
+*Played Friday, 20 November 2026*
+
+RASTA Vechta continued their upward trend in the easyCredit Basketball Bundesliga, defeating Fitness First Würzburg Baskets 97-91 in overtime. The Niedersachsen had previously lost their first four games, but have now won four of their last five. The turning point in the game came when Vechta went on a 17-0 run in the third quarter, taking a 70-59 lead. However, Würzburg fought back, with Eddie Colbert tying the game with 27 seconds left in regulation. In overtime, Vechta's star trio of Tommy Kuhse, Justin Edler-Davis, and Tibor Pleiß proved too much for the Baskets. Kuhse scored 22 points and dished out 8 assists, while Edler-Davis added 17 points and 10 rebounds. Pleiß contributed 13 points and 12 rebounds, and also set a new personal record with 5 assists. The win marked a notable milestone for Pleiß, who has now played in 208 games in the easyCredit BBL. The game was marked by a strong rebounding performance from Vechta, who outrebounded Würzburg 46-32. Despite committing 17 turnovers and shooting just 25% from three-point range, Vechta's star trio was able to lead them to victory.
+
+<div class="bbl-boxscore">
+<p class="bbl-boxscore-label">Final score</p>
+<p class="bbl-boxscore-result"><strong>Fitness First Würzburg Baskets 91–97 RASTA Vechta</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Quarter scores" tabindex="0"><table class="bbl-boxscore-table" aria-label="Quarter scores"><thead><tr><th scope="col">Team</th><th scope="col">Q1</th><th scope="col">Q2</th><th scope="col">Q3</th><th scope="col">Q4</th><th scope="col">OT</th><th scope="col">Final</th></tr></thead><tbody><tr><th scope="row">Fitness First Würzburg Baskets</th><td>26</td><td>20</td><td>12</td><td>20</td><td>13</td><td>91</td></tr><tr><th scope="row">RASTA Vechta</th><td>22</td><td>13</td><td>31</td><td>12</td><td>19</td><td>97</td></tr></tbody></table></div>
+<p><strong>Team statistics</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Team statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Team statistics"><thead><tr><th scope="col">Team</th><th scope="col">FG</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th></tr></thead><tbody><tr><th scope="row">Fitness First Würzburg Baskets</th><td>34/70</td><td>8/31</td><td>15/23</td><td>32</td><td>24</td><td>8</td><td>5</td><td>12</td><td>20</td></tr><tr><th scope="row">RASTA Vechta</th><td>37/75</td><td>8/29</td><td>15/20</td><td>46</td><td>26</td><td>8</td><td>4</td><td>17</td><td>20</td></tr></tbody></table></div>
+<details class="bbl-boxscore-players"><summary>Player box scores — both teams</summary>
+<p><strong>Fitness First Würzburg Baskets</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="Fitness First Würzburg Baskets player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="Fitness First Würzburg Baskets player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Leo Saffer</th><td>13:07</td><td>4</td><td>2/3</td><td>0/0</td><td>0/2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>2</td><td>1</td><td>1</td><td>-13</td></tr><tr><th scope="row">Charles Thompson</th><td>26:26</td><td>9</td><td>3/4</td><td>0/0</td><td>3/6</td><td>2</td><td>4</td><td>6</td><td>1</td><td>1</td><td>0</td><td>0</td><td>4</td><td>13</td></tr><tr><th scope="row">Alen Pjanic</th><td>12:45</td><td>2</td><td>1/1</td><td>0/1</td><td>0/0</td><td>0</td><td>2</td><td>2</td><td>2</td><td>0</td><td>0</td><td>1</td><td>2</td><td>-3</td></tr><tr><th scope="row">Lukas Herzog</th><td>10:11</td><td>0</td><td>0/1</td><td>0/2</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>1</td><td>-5</td></tr><tr><th scope="row">Marko Petric</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Eddie Colbert III</th><td>32:15</td><td>12</td><td>5/5</td><td>0/4</td><td>2/2</td><td>0</td><td>3</td><td>3</td><td>0</td><td>2</td><td>1</td><td>0</td><td>0</td><td>-3</td></tr><tr><th scope="row">Calvin Wishart</th><td>13:37</td><td>8</td><td>1/1</td><td>2/4</td><td>0/0</td><td>0</td><td>1</td><td>1</td><td>5</td><td>0</td><td>0</td><td>2</td><td>1</td><td>-12</td></tr><tr><th scope="row">Max Jones</th><td>24:07</td><td>14</td><td>3/5</td><td>2/3</td><td>2/4</td><td>1</td><td>1</td><td>2</td><td>2</td><td>0</td><td>0</td><td>1</td><td>3</td><td>-6</td></tr><tr><th scope="row">Sam Griffin</th><td>34:49</td><td>23</td><td>6/8</td><td>2/9</td><td>5/5</td><td>1</td><td>2</td><td>3</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>-1</td></tr><tr><th scope="row">Kenny Dye</th><td>31:23</td><td>13</td><td>3/6</td><td>2/2</td><td>1/2</td><td>1</td><td>2</td><td>3</td><td>9</td><td>1</td><td>0</td><td>3</td><td>4</td><td>6</td></tr><tr><th scope="row">Brandon Tischler</th><td>26:20</td><td>6</td><td>2/5</td><td>0/6</td><td>2/2</td><td>0</td><td>7</td><td>7</td><td>4</td><td>1</td><td>2</td><td>2</td><td>3</td><td>-6</td></tr></tbody></table></div>
+<p><strong>RASTA Vechta</strong></p>
+<div class="bbl-boxscore-scroll" role="region" aria-label="RASTA Vechta player statistics" tabindex="0"><table class="bbl-boxscore-table" aria-label="RASTA Vechta player statistics"><thead><tr><th scope="col">Player</th><th scope="col">MIN</th><th scope="col">PTS</th><th scope="col">2P</th><th scope="col">3P</th><th scope="col">FT</th><th scope="col">OREB</th><th scope="col">DREB</th><th scope="col">REB</th><th scope="col">AST</th><th scope="col">STL</th><th scope="col">BLK</th><th scope="col">TO</th><th scope="col">PF</th><th scope="col">+/−</th></tr></thead><tbody><tr><th scope="row">Linus Trettin</th><td>10:30</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>1</td><td>0</td><td>1</td><td>2</td><td>0</td><td>1</td><td>0</td><td>3</td><td>20</td></tr><tr><th scope="row">Philipp Herkenhoff</th><td>9:42</td><td>0</td><td>0/1</td><td>0/1</td><td>0/0</td><td>2</td><td>2</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Lars Thiemann</th><td>6:43</td><td>2</td><td>0/1</td><td>0/0</td><td>2/2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>-7</td></tr><tr><th scope="row">Tommy Kuhse</th><td>33:21</td><td>22</td><td>8/12</td><td>2/7</td><td>0/3</td><td>0</td><td>4</td><td>4</td><td>8</td><td>1</td><td>0</td><td>5</td><td>3</td><td>4</td></tr><tr><th scope="row">Tibor Pleiß</th><td>28:35</td><td>13</td><td>4/7</td><td>0/3</td><td>5/5</td><td>5</td><td>7</td><td>12</td><td>5</td><td>0</td><td>2</td><td>3</td><td>3</td><td>13</td></tr><tr><th scope="row">Justin Edler-Davis</th><td>34:56</td><td>18</td><td>3/7</td><td>4/7</td><td>0/0</td><td>1</td><td>9</td><td>10</td><td>3</td><td>2</td><td>0</td><td>3</td><td>2</td><td>6</td></tr><tr><th scope="row">Peter Hemschemeier</th><td>3:12</td><td>0</td><td>0/0</td><td>0/1</td><td>0/0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>-10</td></tr><tr><th scope="row">Timo Lanmüller</th><td>—</td><td>0</td><td>0/0</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>—</td></tr><tr><th scope="row">Armaan Franklin</th><td>36:26</td><td>15</td><td>6/7</td><td>0/4</td><td>3/4</td><td>1</td><td>2</td><td>3</td><td>0</td><td>0</td><td>1</td><td>1</td><td>2</td><td>-2</td></tr><tr><th scope="row">Matt Lewis</th><td>29:57</td><td>20</td><td>5/7</td><td>2/6</td><td>4/4</td><td>0</td><td>2</td><td>2</td><td>1</td><td>2</td><td>0</td><td>2</td><td>3</td><td>-10</td></tr><tr><th scope="row">Kihei Clark</th><td>14:29</td><td>2</td><td>1/2</td><td>0/0</td><td>0/0</td><td>0</td><td>0</td><td>0</td><td>6</td><td>2</td><td>0</td><td>0</td><td>2</td><td>6</td></tr><tr><th scope="row">Justice Sueing</th><td>17:09</td><td>5</td><td>2/2</td><td>0/0</td><td>1/2</td><td>2</td><td>2</td><td>4</td><td>1</td><td>1</td><td>0</td><td>0</td><td>2</td><td>10</td></tr></tbody></table></div>
+</details>
+</div>
+
+Sources:
+
+- [easyCredit BBL (official): NachberichteOvertime-Thriller: Vechta siegt dank Star-Trio in Würzburg](https://cms.easycredit-bbl.de/de/n/news/2026/november/overtime-thriller-vechta-siegt-dank-star-trio-in-wuerzburg)
+- [easyCredit BBL: Official game and box score](https://www.easycredit-bbl.de/spiele/2006838)
+
+### Gladiators Trier face tough test against NINERS Chemnitz
+
+*Played Saturday, 21 November 2026* *(updated with new sources)*
+
+The VET-CONCEPT Gladiators Trier, who are currently second in the easyCredit Basketball Bundesliga with a 7:1 record, will face a tough challenge when they host the NINERS Chemnitz on November 21. The NINERS have struggled on the road this season, but have shown improvement in recent games, including a 111:79 win over Braunschweig. Chemnitz's offense is led by Phlandrous Fleming (18 points per game), Ben Burnham (16), Nighael Ceaser (16), and Ryan Mikesell (15). Trier, on the other hand, has a strong offense, averaging 98.5 points per game, and has a 14-2 record at home. The game is expected to be a high-scoring affair, with both teams having strong offenses. The NINERS are led by Coach Rodrigo Pastore, while Trier is led by Headcoach Jacques Schneider. The game will be broadcast live on DYN at 20:00 UTC.
+
+Sources:
+
+- [Niners Chemnitz: Am achten Spieltag des BKT EuroCup mussten die NINERS eine klare Niederlage hinnehmen. Vor über 3.000 Zuschauern in der (…)](https://www.chemnitz99.de/news/1440/grenzen-aufgezeigt)
+- [Niners Chemnitz: Im letzten Match vor der zweiwöchigen Länderspielpause stehen die Chemnitzer Korbjäger noch einmal vor einer (…)](https://www.chemnitz99.de/news/1441/schwere-aufgabe)
+- [Vet-Concept Gladiators Trier: Nächste Bundesliga-Herausforderung in der SWT Arena. VET-CONCEPT Gladiators Trier empfangen NINERS Chemnitz.](https://vetconceptgladiators.de/vorbericht_chemnitz-3)
+
+## European Cups
+
+### Ludwigsburg hosts strong SYNTAINICS MBC in playoff push
+
+The MHP RIESEN Ludwigsburg are looking to stay in the playoff hunt with a win over the SYNTAINICS MBC, who are led by top scorer Spencer Reaves. Ludwigsburg has a 5-4 record, while the MBC is 6-4. The two teams are among the surprise teams in the league, and a win for Ludwigsburg would be crucial before the FIBA window. Ludwigsburg's Ish Leggett is also a top scorer, averaging 17.2 points per game. The MBC's defense is strong, but Ludwigsburg's coach Carles Duran may try to use cross-matching to stop Reaves. The two teams are evenly matched in terms of offense, with both averaging 15.1 offensive rebounds per game. The MBC takes the most free throws, but shoots the second-worst percentage. Ludwigsburg leads the all-time series 22-14 since 2002.
+
+Sources:
+
+- [easyCredit BBL (official): NewsÜberraschend in den Playoff-Rängen: Ludwigsburg empfängt defensivstärkere Wölfe](https://cms.easycredit-bbl.de/de/n/news/2026/november/ueberraschend-in-den-playoff-raengen-ludwigsburg-empfaengt-defensivstaerkere-woelfe)
+
+### Syntainics MBC Seek to Consolidate Top Spot Against MHP RIESEN Ludwigsburg
+
+Syntainics MBC will conclude the first leg of the 2026/27 easyCredit BBL season with a road game against MHP RIESEN Ludwigsburg on Sunday. The team, led by head coach Vladimir Jovanovic, is currently third in the standings with 12 wins and 6 losses. They will face sixth-placed Ludwigsburg, which has 10 wins and 8 losses. The game will be broadcast live by Dyn. Syntainics MBC's sport director, Silvano Poropat, has a personal connection to the team, having worked as a coach in Ludwigsburg from 1999 to 2008. The team will have a five-day break after the game, during which time Kostja Mushidi will represent the team in the German national team. Historically, Syntainics MBC has struggled against Ludwigsburg, winning only three of 15 games in the MHP Arena, with their last win coming in December 2023.
+
+Sources:
+
+- [Syntainics MBC: Zeit für die Wende in Ludwigsburg](https://syntainics-mbc.de/zeit-fuer-die-wende-in-ludwigsburg)
+
+## Around the League
+
+### Alba Berlin's Virchow Charity Campaign Continues This Year
+
+Alba Berlin's annual charity campaign in support of the Virchow-Klinikum's children's cancer ward is underway. This year, fans can donate money via PayPal in addition to contributing at home games. The campaign's donation stand will be located at various home games in Berlin, including matches against Bayern, Prag, Hannover, Mailand, and Vechta. The fan club ALBA-Tross is also supporting the initiative with a mug collection campaign. Donations will fund gifts for young patients, which will be handed out at a joint Christmas party with the team.
+
+Sources:
+
+- [Alba Berlin: Ab jetzt spenden: Traditionelle Virchow-Aktion vor Weihnachten](https://www.albaberlin.de/news/details/ab-sofort-traditionelle-virchow-spendenaktion-vor-weihnachten)
+
+### Bamberg Baskets face tough test against USC BasCats Heidelberg
+
+The Medikamente per Klick Bamberg Baskets are set to face a tough challenge as they travel to Heidelberg to take on the USC BasCats in the Toyota 2. Damen Basketball Bundesliga. Both teams are tied at the top of the table with five wins and one loss each, after a strong start to the season. The Bamberg Baskets, led by Head Coach Samuel Gloser, will be looking to bounce back from a recent loss, while the BasCats, featuring top scorers Kiyara Letlow and Marissa Pangalos, will be looking to continue their winning streak. The game is scheduled for Saturday at 17:00, and can be streamed live on the YouTube channel of the Toyota Damen Basketball Bundesliga. Meanwhile, tickets for the upcoming DBBL Pokal Achtelfinale between the Bamberg Baskets and the Rutronik Stars Keltern are now on sale.
+
+Sources:
+
+- [Bamberg Baskets: Medikamente per Klick Bamberg Baskets gastieren zum Spitzenspiel in Heidelberg | Bamberg Baskets](https://www.bamberg.basketball/news/medikamente-per-klick-bamberg-baskets-gastieren-zum-spitzenspiel-in-heidelberg)
+
+### Bamberg Baskets Offer Up to 70% Discount During Freak Week
+
+The Bamberg Baskets are hosting a 'Freak Week' from November 23 to 29, featuring discounts of up to 70% on merchandise, shoes, tickets, and VIP experiences. On November 28, the team's player and mascot, Freaky, will be at the Freak City Store for a 'Freak City Day', where fans can meet and greet and try their shooting skills at a ball-throwing machine. Additionally, customers who spend at least €30 can participate in a 'Rabatt-Roulette' to win up to 60% off their total purchase. Exclusive daily offers can be found on the Freak City Store's Instagram account.
+
+Sources:
+
+- [Bamberg Baskets: Freak Week: Bis zu 70 % Rabatt und ein Samstag mit Freaky | Bamberg Baskets](https://www.bamberg.basketball/news/freak-week-bis-zu-70-rabatt-und-ein-samstag-mit-freaky)
+
+### Hamburg Looks Up, Hagen Down as BBL Season Continues
+
+Phoenix Hagen is struggling after losing three games in a row, including a 74-100 defeat to Vechta and a 72-102 loss in Berlin. The team, led by coach Chris Harris, has only won two of its nine games, matching the record of bottom-placed Jena. In contrast, Veolia Towers Hamburg is on the rise, having won two consecutive games, including a 91-84 victory over Würzburg, and improving its record to 3-6. Hamburg's Jahvon Blair has been a key player, averaging 15.5 points per game, while Hagen's Adam Kunkel has been impressive on offense, taking 7.1 three-point attempts per game, second only to players with more minutes. The two teams will face each other for the first time this season, with Hamburg looking to continue its momentum and Hagen seeking to turn its season around.
+
+Sources:
+
+- [easyCredit BBL (official): VorberichtePremiere in der Beletage: Hamburg blickt nach oben, Hagen nach unten](https://cms.easycredit-bbl.de/de/n/news/2026/november/premiere-in-der-beletage-hamburg-blickt-nach-oben-hagen-nach-unten)
