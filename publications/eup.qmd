@@ -1,0 +1,86 @@
+---
+title: "Party group collapse and strategic switching: data and code"
+description: "*Data, replication code and validation reports for the European Union Politics article.*"
+---
+{{< include _nav.qmd >}}
+
+Aaron R. Martin. *European Union Politics* **22**(3), 521–544 (2021). [Read the article](https://doi.org/10.1177/1465116521999718). Back to the [overview](index.html).
+
+## Data and code
+
+| Download | Contents |
+|:--|:--|
+| [Python and CSV package](downloads/eup/eup-python.zip) | Python code, CSV inputs and reference datasets, saved outputs and validation reports. |
+| [Original Stata replication archive](downloads/eup/eup-stata.zip) | December 2020 replication datasets, do-file, log and saved Stata figure. |
+| [Original Stata code — .do](downloads/eup/Replication_Code_12102020.do) | Unmodified archived analysis code; also included in the Stata ZIP. |
+| [Input data — CSV](downloads/eup/EUP_replication_dataset_12092020_2.csv) | 3,977 rows and 206 columns, before the replication transformations. |
+| [Analysis data — CSV](downloads/eup/EUP_replication_dataset_12092020_B_3.csv) | 3,977 rows and 277 columns in the Stage B Stata reference dataset. |
+| [Variable labels and metadata](downloads/eup/codebooks.json) | Variable labels, data types and Stata value-label definitions. |
+| [Data provenance and checksums](downloads/eup/data-manifest.csv) | Source files, dimensions and SHA-256 digests. |
+
+**Replication scope:** the Python port includes data construction and selected statistical results. Its saved reports document comparisons with the original Stata datasets, Table 2 t-tests, Table 4 Firth models and Appendix B. Some figures, descriptive tables and robustness checks are outside the port's scope. See the included README for details and numerical tolerances.
+
+## Using the data
+
+Download an individual CSV to explore a dataset, or extract a complete Python package to run the archived analysis. For example:
+
+```python
+import pandas as pd
+
+data = pd.read_csv("PP_dataset.csv", low_memory=False)
+print(data.shape)
+```
+
+CSV files retain numeric category codes; the accompanying metadata provides label definitions. Dates are stored as text and empty fields represent missing values. CSV does not retain every Stata storage attribute or distinguish all of Stata's extended missing-value codes. Use the original `.dta` files when those details matter.
+
+The CSV downloads were checked against their corresponding Stata files for dimensions, column names and cell values, with a small tolerance for numeric precision. Saved model-validation reports are supplied from the earlier replication work; packaging the downloads did not rerun the full statistical analyses.
+
+Anyone can use the data for whatever they want, just please cite the appropriate articles (CC BY 4.0).
+[Download checksums](downloads/checksums.json)
+
+## Validation reports
+
+These are the saved reports from the earlier Python replication work. They record comparisons with the original Stata datasets and logs. They were not regenerated when preparing this page. The Party Politics reports refer to the March 2021 analysis; their table numbering and multilevel-model discussion do not describe a verified replication of the final published article.
+
+::: {.callout-note collapse="true" title="European Union Politics: data and model validation"}
+
+[Download the original report](downloads/eup/_validation_report.md)
+
+Python port validated against the original Stata datasets (_A/_B/_C) and replication_log.log.
+
+#### Data pipeline (cell-level agreement)
+- Stage A: 958457/958457 cells match across 241 columns, 3977 rows -> 100.000%
+- Stage B: 1081744/1081744 cells match across 272 columns, 3977 rows -> 100.000%
+- Stage C: 795/795 cells match across 15 columns, 53 rows -> 100.000%
+
+#### Table 4 - Firth penalized logit (vs replication_log.log)
+- all_switch_full: N=3962 (Stata 3962), logLik*=-637.68894 (Stata -637.68894)
+- indiv_switch_full: N=3962 (Stata 3962), logLik*=-455.84114 (Stata -455.84114)
+- bloc_switch_full: N=3962 (Stata 3962), logLik*=-326.97514 (Stata -326.97514)
+
+:::
+
+::: {.callout-note collapse="true" title="European Union Politics: 32 statistical checks"}
+
+[Download the original report](downloads/eup/_results_validation.md)
+
+#### Table 2 - t-tests (23 tests)
+  -> 23 passed, 0 failed
+
+#### Table 4 - Firth models (7)
+  OK  all_switch_full  N=3962 (stata 3962)  logLik*=-637.68894 (stata -637.68894)
+  OK  indiv_switch_full N=3962 (stata 3962)  logLik*=-455.84114 (stata -455.84114)
+  OK  bloc_switch_full N=3962 (stata 3962)  logLik*=-326.97514 (stata -326.97514)
+  OK  all_power        N=3962 (stata 3962)  logLik*=-1288.81064 (stata -1288.8106)
+  OK  all_power_col    N=3962 (stata 3962)  logLik*=-697.40471 (stata -697.40471)
+  OK  indiv_power      N=3962 (stata 3962)  logLik*=-477.35726 (stata -477.35726)
+  OK  bloc_power       N=3962 (stata 3962)  logLik*=-361.04744 (stata -361.04744)
+
+#### Appendix B - McElroy (2 models)
+  OK  mc_logit   N=545 (stata 545)  logLik=-203.50908 (stata -203.50908)
+  OK  mc_firth   N=579 (stata 579)  logLik=-193.07426 (stata -193.07426)
+
+#### TOTAL: 32 passed, 0 failed
+
+:::
+

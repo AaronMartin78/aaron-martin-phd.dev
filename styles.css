@@ -232,24 +232,54 @@ h3 {
   .bbl-table { font-size: .9rem; }
 }
 
-/* Page table of contents: paper background, thin outline in the section colour. */
-#quarto-margin-sidebar {
+/* Publications: Fugazi-style tab strip and cards, outlined in the section colour. */
+.section-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin: 0 0 1.75rem;
+  padding: .25rem 0 0;
+  border-bottom: 1px solid rgba(var(--site-accent-rgb), .45);
+  font-size: .9rem;
+}
+
+.section-tabs a {
+  display: block;
+  padding-bottom: .6rem;
+  color: #45453d;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+
+.section-tabs a:hover {
+  color: var(--site-accent);
+}
+
+.section-tabs a[aria-current="page"] {
+  color: var(--site-ink);
+  border-bottom-color: var(--site-accent);
+  font-weight: 700;
+}
+
+.pub-card {
   background: var(--site-paper);
   border: 1px solid rgba(var(--site-accent-rgb), .45);
+  border-left: 4px solid var(--site-accent);
   border-radius: .25rem;
-  padding: .9rem 1rem;
+  padding: 1.1rem 1.4rem .9rem;
+  margin: 1.25rem 0 1.75rem;
 }
 
-#quarto-margin-sidebar #toc-title {
+.pub-card h3 {
+  margin-top: 0;
+  font-size: 1.45rem;
   color: var(--site-accent);
 }
 
-#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a {
-  border-left-color: var(--site-rule);
+.pub-card .btn {
+  margin: .15rem .35rem .35rem 0;
 }
 
-#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a.active,
-#quarto-margin-sidebar nav[role="doc-toc"] ul > li > a:hover {
-  color: var(--site-accent);
-  border-left-color: var(--site-accent);
+.pub-card-data h3 {
+  font-size: 1.65rem;
 }
