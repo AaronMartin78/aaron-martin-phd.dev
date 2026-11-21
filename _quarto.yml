@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - publications/downloads/**
+    - images/som-map.png
 
 website:
   title: "Aaron R. Martin"
@@ -31,3 +32,22 @@ format:
     include-in-header:
       text: |
         <script data-goatcounter="https://aaron-martin-phd.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+        <script>
+          // Resolve sections relative to the home link, including subdirectory previews.
+          document.addEventListener("DOMContentLoaded", () => {
+            const home = document.querySelector("#quarto-header .navbar-brand");
+            if (!home) return;
+            const siteRoot = new URL(".", home.href).pathname;
+            const section = location.pathname.slice(siteRoot.length).split("/")[0];
+            const themes = {
+              publications: "publications",
+              bbl: "bbl",
+              ask: "ask",
+              homelab: "homelab",
+              "about.html": "about",
+              about: "about"
+            };
+            document.documentElement.dataset.siteSection = themes[section] || "home";
+          });
+        </script>
