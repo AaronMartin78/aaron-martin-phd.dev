@@ -93,23 +93,23 @@ body::after {
   --nav-accent: var(--site-accent-home);
 }
 
-#quarto-header .navbar-nav .nav-link[href$="homelab/index.html"] {
+#quarto-header .navbar-nav .nav-link:is([href$="homelab/index.html"], [href$="/homelab/"]) {
   --nav-accent: var(--site-accent-homelab);
 }
 
-#quarto-header .navbar-nav .nav-link[href$="ask/index.html"] {
+#quarto-header .navbar-nav .nav-link:is([href$="ask/index.html"], [href$="/ask/"]) {
   --nav-accent: var(--site-accent-ask);
 }
 
-#quarto-header .navbar-nav .nav-link[href$="publications/index.html"] {
+#quarto-header .navbar-nav .nav-link:is([href$="publications/index.html"], [href$="/publications/"]) {
   --nav-accent: var(--site-accent-publications);
 }
 
-#quarto-header .navbar-nav .nav-link[href$="bbl/index.html"] {
+#quarto-header .navbar-nav .nav-link:is([href$="bbl/index.html"], [href$="/bbl/"]) {
   --nav-accent: var(--site-accent-bbl);
 }
 
-#quarto-header .navbar-nav .nav-link[href$="fugazi/index.html"] {
+#quarto-header .navbar-nav .nav-link:is([href$="fugazi/index.html"], [href$="/fugazi/"]) {
   --nav-accent: #7b294f;
 }
 
