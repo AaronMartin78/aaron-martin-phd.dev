@@ -2,8 +2,9 @@
 title: "BBL Daily"
 format:
   html:
-    css: archive.css
+    css: [archive.css, dashboard.css]
     include-after-body: archive.js
+    page-layout: full
 ---
 
 A daily English digest of German professional basketball (easyCredit BBL),
@@ -12,4 +13,52 @@ combined into short original summaries with links to every source. Summaries
 are machine-generated and validated automatically; errors are possible, the
 linked originals are authoritative. Follow me on X at [@aaronmartinphd](https://x.com/aaronmartinphd).
 
+:::: {.bbl-hub}
+::: {.bbl-newsletter}
+
+## Newsletter
+
 {{< include _archive.qmd >}}
+
+:::
+
+```{=html}
+<section id="bbl-dashboard" class="bbl-dashboard" aria-labelledby="bbl-dashboard-title">
+  <header class="dashboard-toolbar">
+    <h2 id="bbl-dashboard-title">Dashboard</h2>
+    <label>Week ending <select id="bbl-dashboard-week" disabled></select></label>
+  </header>
+  <p id="bbl-dashboard-status" role="status">Loading dashboard…</p>
+  <div id="bbl-dashboard-content" hidden>
+    <section aria-labelledby="bbl-standings-title">
+      <h3 id="bbl-standings-title">Standings</h3>
+      <div id="bbl-standings"></div>
+      <details class="dashboard-trend">
+        <summary>Rank over time</summary>
+        <label>Highlight a team <select id="bbl-chart-team"></select></label>
+        <div id="bbl-standings-trend"></div>
+      </details>
+    </section>
+    <section aria-labelledby="bbl-stats-title">
+      <h3 id="bbl-stats-title">Stats</h3>
+      <h4>Weekly player leaders</h4>
+      <p class="dashboard-caption">Totals for games played Monday through Sunday.</p>
+      <div id="bbl-player-leaders" class="dashboard-leaders"></div>
+      <h4>Team ratings</h4>
+      <p class="dashboard-caption">Points scored and allowed per 100 estimated possessions.</p>
+      <label>Period <select id="bbl-ratings-period">
+        <option value="weeklyRatings">Selected week</option>
+        <option value="seasonRatings">Season through selected week</option>
+      </select></label>
+      <div id="bbl-ratings"></div>
+    </section>
+    <section aria-labelledby="bbl-lineups-title">
+      <h3 id="bbl-lineups-title">Five-man units</h3>
+      <p>Lineup rankings will be available after reconstructed stints are checked against the official box scores.</p>
+    </section>
+  </div>
+  <noscript><p>The dashboard requires JavaScript.</p></noscript>
+</section>
+<script type="module" src="./dashboard.js"></script>
+```
+::::
