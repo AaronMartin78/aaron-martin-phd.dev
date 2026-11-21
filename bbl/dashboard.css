@@ -1,0 +1,42 @@
+.bbl-hub {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  gap: clamp(1.25rem, 3vw, 3rem);
+  align-items: start;
+  margin-block: 2rem;
+}
+
+.bbl-hub > * { min-width: 0; }
+.bbl-newsletter { padding-inline-end: 1.25rem; border-inline-end: 1px solid var(--site-rule); }
+.bbl-hub .bbl-layout { display: flex; flex-direction: column; gap: 1rem; margin-top: 0; }
+.bbl-hub .bbl-archive { order: -1; width: 100%; border: 0; padding: 0; }
+.bbl-hub .bbl-editions { width: 100%; }
+.bbl-hub .bbl-table { font-size: .9rem; }
+.bbl-hub h2 { margin: 0 0 .75rem; }
+.dashboard-toolbar { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .75rem; align-items: baseline; }
+.bbl-dashboard select { max-width: 100%; margin-inline-start: .25rem; padding: .25rem; }
+.bbl-dashboard h3 { color: var(--site-accent); }
+.dashboard-table-wrap { overflow-x: auto; }
+.dashboard-table { width: 100%; font-size: .9rem; font-variant-numeric: tabular-nums; }
+.dashboard-table th, .dashboard-table td { padding: .35rem .55rem; border-bottom: 1px solid var(--site-rule); }
+.dashboard-table th { text-align: left; background: var(--site-accent-tint); }
+.dashboard-table .dashboard-number { text-align: right; white-space: nowrap; }
+.dashboard-caption { color: #555850; font-size: .9rem; margin-bottom: .6rem; }
+.dashboard-trend { margin-block: .75rem 1rem; }
+.bbl-dashboard summary { cursor: pointer; color: var(--site-accent); font-weight: 600; }
+.dashboard-leaders { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: .75rem; margin-bottom: 1.5rem; }
+.dashboard-stat { min-width: 0; border: 1px solid var(--site-rule); padding: .7rem; }
+.dashboard-stat:has(details[open]) { grid-column: 1 / -1; }
+.dashboard-stat h5 { margin: 0 0 .4rem; }
+.dashboard-stat ol { padding-inline-start: 1.4rem; margin-bottom: .4rem; }
+.dashboard-stat li { margin-block: .2rem; }
+.dashboard-chart { display: block; width: 100%; height: auto; color: var(--site-ink); }
+.dashboard-chart text { fill: currentColor; font-size: 12px; }
+.dashboard-key { color: var(--site-ink); display: flex; flex-wrap: wrap; gap: .3rem .9rem; font-size: .85rem; }
+.dashboard-swatch { display: inline-block; inline-size: .75rem; block-size: .75rem; margin-inline-end: .3rem; border-radius: .15rem; }
+.dashboard-empty { margin-block: .5rem; }
+
+@media (max-width: 850px) {
+  .bbl-hub { grid-template-columns: minmax(0, 1fr); }
+  .bbl-newsletter { padding: 0 0 1rem; border: 0; border-bottom: 1px solid var(--site-rule); }
+}
