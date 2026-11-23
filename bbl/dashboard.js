@@ -53,54 +53,6 @@ function table(target, labels, rows, caption) {
   target.replaceChildren(grid);
 }
 
-// Multi-series line chart with a legend, used for the player season trends.
-function seriesChart(target, weeks, series, {label, ticks}) {
-  const width = 640;
-  const height = 230;
-  const left = 40;
-  const bottom = 195;
-  const top = 16;
-  const last = Math.max(1, weeks.length - 1);
-  const min = ticks[0];
-  const max = ticks.at(-1);
-  const x = (index) => left + (width - left - 22) * index / last;
-  const y = (value) => bottom - (value - min) / (max - min) * (bottom - top);
-  const plot = svg("svg", {viewBox: "0 0 640 230", class: "dashboard-chart", role: "img", "aria-label": label});
-  plot.append(svg("title", {}, label));
-  for (const tick of ticks) {
-    plot.append(svg("line", {x1: left, x2: width - 22, y1: y(tick), y2: y(tick), stroke: "#d6d1c5"}));
-    plot.append(svg("text", {x: left - 8, y: y(tick) + 4, "text-anchor": "end"}, tick));
-  }
-  for (const [index, week] of weeks.entries()) {
-    if (index % Math.ceil(weeks.length / 5) !== 0 && index !== weeks.length - 1) continue;
-    plot.append(svg("text", {x: x(index), y: height - 10, "text-anchor": "middle"},
-      dateLabel.format(new Date(week.ending))));
-  }
-  const legend = html("div", undefined, "dashboard-key");
-  for (const {name, color, values} of series) {
-    let previous = null;
-    for (const [index, value] of values.entries()) {
-      if (value == null) {
-        previous = null;
-        continue;
-      }
-      const point = [x(index), y(value)];
-      if (previous) plot.append(svg("line", {x1: previous[0], y1: previous[1], x2: point[0], y2: point[1],
-        stroke: color, "stroke-width": 1.7}));
-      const dot = svg("circle", {cx: point[0], cy: point[1], r: 2.7, fill: color});
-      dot.append(svg("title", {}, name + " · " + dateLabel.format(new Date(weeks[index].ending)) + " · " + value));
-      plot.append(dot);
-      previous = point;
-    }
-    const entry = html("span");
-    const swatch = html("span", undefined, "dashboard-swatch");
-    swatch.style.backgroundColor = color;
-    entry.append(swatch, name);
-    legend.append(entry);
-  }
-  target.replaceChildren(plot, legend);
-}
-
 // Full-width rank chart: one line per team, team names down the right edge in
 // current rank order. Clicking a name or a line highlights that team.
 function rankChart(target, weeks, series, teamCount, {highlighted, onSelect}) {
@@ -168,12 +120,12 @@ function rankChart(target, weeks, series, teamCount, {highlighted, onSelect}) {
 
 // Offence against defence, one labelled dot per team.
 function ratingsMap(target, rows) {
-  const width = 520;
-  const height = 440;
-  const left = 44;
-  const right = width - 16;
-  const top = 16;
-  const bottom = height - 40;
+  const width = 820;
+  const height = 600;
+  const left = 52;
+  const right = width - 96; // room for the label of the right-most team
+  const top = 20;
+  const bottom = height - 48;
   const offs = rows.map((row) => row.offense);
   const defs = rows.map((row) => row.defense);
   const pad = 2;
@@ -201,11 +153,21 @@ function ratingsMap(target, rows) {
   plot.append(svg("text", {x: (left + right) / 2, y: height - 4, "text-anchor": "middle", class: "dashboard-axis"}, "Offensive rating (points scored per 100 possessions)"));
   plot.append(svg("text", {x: 12, y: (top + bottom) / 2, "text-anchor": "middle", class: "dashboard-axis",
     transform: `rotate(-90 12 ${(top + bottom) / 2})`}, "Defensive rating (points allowed per 100, better upward)"));
+  // Nudge labels apart where teams sit on top of each other.
+  const labels = rows.map((row) => ({row, x: x(row.offense) + 9, y: y(row.defense) + 4}))
+    .sort((a, b) => a.y - b.y || a.x - b.x);
+  for (let index = 1; index < labels.length; index++) {
+    const previous = labels[index - 1];
+    const label = labels[index];
+    if (label.y - previous.y < 14 && Math.abs(label.x - previous.x) < 90) label.y = previous.y + 14;
+  }
   for (const row of rows) {
-    const dot = svg("circle", {cx: x(row.offense), cy: y(row.defense), r: 5, fill: row.color, opacity: .85});
+    const dot = svg("circle", {cx: x(row.offense), cy: y(row.defense), r: 6, fill: row.color, opacity: .85});
     dot.append(svg("title", {}, row.name + " · Off " + row.offense + " · Def " + row.defense + " · Net " + row.net));
     plot.append(dot);
-    plot.append(svg("text", {x: x(row.offense) + 7, y: y(row.defense) + 4, fill: row.color}, row.short));
+  }
+  for (const {row, x: lx, y: ly} of labels) {
+    plot.append(svg("text", {x: lx, y: ly, fill: row.color, class: "dashboard-map-label"}, row.short));
   }
   target.replaceChildren(plot);
 }
@@ -214,7 +176,7 @@ function leaders(week, stat) {
   return Object.entries(week.players)
     .filter(([, total]) => total[stat] > 0)
     .sort(([idA, a], [idB, b]) => b[stat] - a[stat] || a.games - b.games || idA.localeCompare(idB))
-    .slice(0, 3);
+    .slice(0, 10);
 }
 
 function loadDashboard(data) {
@@ -248,22 +210,17 @@ function loadDashboard(data) {
     const card = html("article", undefined, "dashboard-stat");
     const list = html("ol");
     const empty = html("p", "No recorded leaders this week.", "dashboard-empty");
-    const details = html("details");
-    const chart = html("div");
-    details.append(html("summary", "↗ Season trend"), chart);
-    details.addEventListener("toggle", () => {
-      if (!details.open || chart.childNodes.length) return;
-      const ids = [...new Set(weeks.flatMap((week) => leaders(week, stat).map(([id]) => id)))];
-      const series = ids.map((id, index) => ({id, name: players[id], color: palette[index % palette.length],
-        values: weeks.map((week) => week.players[id]?.[stat])}));
-      const maximum = Math.max(1, ...series.flatMap((line) => line.values.filter((value) => value != null)));
-      const step = Math.max(1, Math.ceil(maximum / 4));
-      seriesChart(chart, weeks, series, {label: label + " totals for players who ranked in a weekly top three",
-        ticks: [0, step, 2 * step, 3 * step, 4 * step]});
-    });
-    card.append(html("h5", label), list, empty, details);
+    card.append(html("h5", label), list, empty);
     find("bbl-player-leaders").append(card);
     return {stat, list, empty};
+  });
+
+  const ratingsToggle = find("bbl-ratings-toggle");
+  ratingsToggle.addEventListener("click", () => {
+    const open = ratingsToggle.getAttribute("aria-expanded") !== "true";
+    ratingsToggle.setAttribute("aria-expanded", String(open));
+    ratingsToggle.textContent = open ? "Hide the ratings table" : "Show the full ratings table";
+    find("bbl-ratings").hidden = !open;
   });
 
   function renderRatings() {
@@ -291,8 +248,16 @@ function loadDashboard(data) {
       week.standings.map((row) => [row.rank, teams[row.team], row.games, row.wins, row.losses, row.point_difference]),
       "League standings through the selected week");
     for (const {stat, list, empty} of cards) {
-      const items = leaders(week, stat).map(([id, row]) =>
-        html("li", players[id] + " · " + row[stat] + " (" + row.games + (row.games === 1 ? " game)" : " games)")));
+      const items = leaders(week, stat).map(([id, row]) => {
+        const item = html("li");
+        const name = html("span", players[id], "dashboard-leader-name");
+        name.title = players[id];
+        const value = html("span", String(row[stat]), "dashboard-leader-value");
+        const team = html("span", (row.teams || []).map(short).join(" / ") + " · " + row.games
+          + (row.games === 1 ? " game" : " games"), "dashboard-leader-team");
+        item.append(name, value, team);
+        return item;
+      });
       list.replaceChildren(...items);
       empty.hidden = items.length > 0;
     }
