@@ -30,9 +30,18 @@
 .dashboard-caption { color: #555850; font-size: .9rem; margin-bottom: .6rem; }
 .bbl-dashboard summary { cursor: pointer; color: var(--site-accent); font-weight: 600; }
 
-/* Five stat cards in a row. */
+/* Leader controls: Season/Week toggle and the week menu. */
+.dashboard-leader-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1.5rem; margin-bottom: .85rem; font-size: .9rem; }
+.dashboard-leader-controls select { margin-inline-start: .25rem; padding: .2rem .3rem; }
+.dashboard-toggle { display: inline-flex; border: 1px solid var(--site-accent); border-radius: .3rem; overflow: hidden; }
+.dashboard-toggle button { background: var(--site-paper); color: var(--site-accent); border: 0; padding: .3rem .9rem; font: inherit; font-size: .9rem; cursor: pointer; }
+.dashboard-toggle button + button { border-left: 1px solid var(--site-accent); }
+.dashboard-toggle button[aria-pressed="true"] { background: var(--site-accent); color: #fff; font-weight: 600; }
+.dashboard-toggle button:focus-visible { outline: 2px solid var(--site-ink); outline-offset: -2px; }
+
+/* Stat cards in a row. */
 /* As many cards as fit in one row (five or six), wrapping only on narrow screens. */
-.dashboard-leaders { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); gap: .75rem; margin-bottom: 1.5rem; }
+.dashboard-leaders { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 14rem), 1fr)); gap: .75rem; margin-bottom: 1.5rem; }
 .dashboard-stat { min-width: 0; border: 1px solid var(--site-rule); border-top: 3px solid var(--site-accent); padding: .7rem; background: var(--site-paper); }
 .dashboard-stat h5 { margin: 0 0 .5rem; }
 .dashboard-stat ol { padding-inline-start: 1.5rem; margin: 0; }

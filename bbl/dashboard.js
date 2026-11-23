@@ -174,8 +174,26 @@ function ratingsMap(target, rows) {
   target.replaceChildren(plot);
 }
 
-function leaders(week, stat) {
-  return Object.entries(week.players)
+// Per-player totals for one week, or summed over every week up to an index.
+function playerTotals(weeks, index, scope) {
+  if (scope === "week") return weeks[index].players;
+  const totals = {};
+  for (const week of weeks.slice(0, index + 1)) {
+    for (const [id, row] of Object.entries(week.players)) {
+      const total = totals[id] || (totals[id] = {games: 0, teams: []});
+      total.games += row.games;
+      for (const team of row.teams || []) if (!total.teams.includes(team)) total.teams.push(team);
+      for (const [stat, value] of Object.entries(row)) {
+        if (stat === "games" || stat === "teams") continue;
+        total[stat] = (total[stat] || 0) + value;
+      }
+    }
+  }
+  return totals;
+}
+
+function leaders(totals, stat) {
+  return Object.entries(totals)
     .filter(([, total]) => total[stat] > 0)
     .sort(([idA, a], [idB, b]) => average(b, stat) - average(a, stat) || b.games - a.games || idA.localeCompare(idB))
     .slice(0, 10);
@@ -246,13 +264,25 @@ function loadDashboard(data) {
     ratingsMap(find("bbl-ratings-map"), rows);
   }
 
-  function renderWeek() {
-    const week = weeks[Number(weekSelect.value)];
-    table(find("bbl-standings"), ["Rank", "Team", "GP", "W", "L", "+/−"],
-      week.standings.map((row) => [row.rank, teams[row.team], row.games, row.wins, row.losses, row.point_difference]),
-      "League standings through the selected week");
+  // Leader cards: season to date through the page's week, or a single week
+  // chosen in the section's own menu.
+  const leadersWeek = find("bbl-leaders-week");
+  const leadersWeekLabel = find("bbl-leaders-week-label");
+  const scopeButtons = [...document.querySelectorAll(".dashboard-toggle button")];
+  let scope = "season";
+  for (let index = weeks.length - 1; index >= 0; index--) {
+    leadersWeek.add(new Option(dateLabel.format(new Date(weeks[index].ending)), index));
+  }
+  leadersWeek.value = weeks.length - 1;
+  function renderLeaders() {
+    const index = scope === "week" ? Number(leadersWeek.value) : Number(weekSelect.value);
+    const totals = playerTotals(weeks, index, scope);
+    const ending = dateLabel.format(new Date(weeks[index].ending));
+    find("bbl-leaders-caption").textContent = scope === "week"
+      ? "Top ten by per-game average over games played Monday through Sunday of the week ending " + ending + "."
+      : "Top ten by per-game average, season to date through " + ending + ".";
     for (const {stat, list, empty} of cards) {
-      const items = leaders(week, stat).map(([id, row]) => {
+      const items = leaders(totals, stat).map(([id, row]) => {
         const item = html("li");
         const name = html("span", players[id], "dashboard-leader-name");
         name.title = players[id];
@@ -265,6 +295,24 @@ function loadDashboard(data) {
       list.replaceChildren(...items);
       empty.hidden = items.length > 0;
     }
+  }
+  for (const button of scopeButtons) {
+    button.addEventListener("click", () => {
+      scope = button.dataset.scope;
+      for (const other of scopeButtons) other.setAttribute("aria-pressed", String(other === button));
+      leadersWeekLabel.hidden = scope !== "week";
+      if (scope === "week") leadersWeek.value = weekSelect.value;
+      renderLeaders();
+    });
+  }
+  leadersWeek.addEventListener("change", renderLeaders);
+
+  function renderWeek() {
+    const week = weeks[Number(weekSelect.value)];
+    table(find("bbl-standings"), ["Rank", "Team", "GP", "W", "L", "+/−"],
+      week.standings.map((row) => [row.rank, teams[row.team], row.games, row.wins, row.losses, row.point_difference]),
+      "League standings through the selected week");
+    renderLeaders();
     renderRanks();
     renderRatings();
   }
