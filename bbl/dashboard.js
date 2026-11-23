@@ -1,10 +1,12 @@
 const find = (id) => document.getElementById(id);
 const weekSelect = find("bbl-dashboard-week");
 const dateLabel = new Intl.DateTimeFormat("en-GB", {day: "numeric", month: "short", timeZone: "UTC"});
+// Efficiency appears only once the data export carries it.
 const stats = [
   ["points", "Points"], ["total_rebounds", "Rebounds"], ["assists", "Assists"],
-  ["steals", "Steals"], ["blocks", "Blocks"],
+  ["steals", "Steals"], ["blocks", "Blocks"], ["efficiency", "Efficiency"],
 ];
+const average = (total, stat) => total[stat] / total.games;
 const palette = ["#245681", "#a03b38", "#28774b", "#783a90", "#91521b", "#267581",
   "#93690f", "#aa3669", "#4d597d", "#596623", "#563568", "#18776d", "#965139",
   "#2a6aa3", "#8a2f53", "#475947", "#7d6138", "#6e4b5c"];
@@ -175,7 +177,7 @@ function ratingsMap(target, rows) {
 function leaders(week, stat) {
   return Object.entries(week.players)
     .filter(([, total]) => total[stat] > 0)
-    .sort(([idA, a], [idB, b]) => b[stat] - a[stat] || a.games - b.games || idA.localeCompare(idB))
+    .sort(([idA, a], [idB, b]) => average(b, stat) - average(a, stat) || b.games - a.games || idA.localeCompare(idB))
     .slice(0, 10);
 }
 
@@ -206,7 +208,9 @@ function loadDashboard(data) {
     });
   }
 
-  const cards = stats.map(([stat, label]) => {
+  const available = stats.filter(([stat]) =>
+    weeks.some((week) => Object.values(week.players).some((total) => stat in total)));
+  const cards = available.map(([stat, label]) => {
     const card = html("article", undefined, "dashboard-stat");
     const list = html("ol");
     const empty = html("p", "No recorded leaders this week.", "dashboard-empty");
@@ -252,9 +256,9 @@ function loadDashboard(data) {
         const item = html("li");
         const name = html("span", players[id], "dashboard-leader-name");
         name.title = players[id];
-        const value = html("span", String(row[stat]), "dashboard-leader-value");
-        const team = html("span", (row.teams || []).map(short).join(" / ") + " · " + row.games
-          + (row.games === 1 ? " game" : " games"), "dashboard-leader-team");
+        const value = html("span", average(row, stat).toFixed(1), "dashboard-leader-value");
+        const team = html("span", (row.teams || []).map(short).join(" / ") + " · " + row[stat] + " in "
+          + row.games + (row.games === 1 ? " game" : " games"), "dashboard-leader-team");
         item.append(name, value, team);
         return item;
       });

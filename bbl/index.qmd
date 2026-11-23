@@ -43,7 +43,7 @@ linked originals are authoritative. Follow me on X at [@aaronmartinphd](https://
   </section>
   <section aria-labelledby="bbl-stats-title">
     <h3 id="bbl-stats-title">Weekly player leaders</h3>
-    <p class="dashboard-caption">Top ten by totals for games played Monday through Sunday of the selected week.</p>
+    <p class="dashboard-caption">Top ten by per-game average over games played Monday through Sunday of the selected week.</p>
     <div id="bbl-player-leaders" class="dashboard-leaders"></div>
   </section>
   <section aria-labelledby="bbl-ratings-title">
