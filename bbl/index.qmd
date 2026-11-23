@@ -23,42 +23,42 @@ linked originals are authoritative. Follow me on X at [@aaronmartinphd](https://
 :::
 
 ```{=html}
-<section id="bbl-dashboard" class="bbl-dashboard" aria-labelledby="bbl-dashboard-title">
+<div class="bbl-standings-col">
   <header class="dashboard-toolbar">
-    <h2 id="bbl-dashboard-title">Dashboard</h2>
+    <h2 id="bbl-dashboard-title">Standings</h2>
     <label>Week ending <select id="bbl-dashboard-week" disabled></select></label>
   </header>
   <p id="bbl-dashboard-status" role="status">Loading dashboard…</p>
-  <div id="bbl-dashboard-content" hidden>
-    <section aria-labelledby="bbl-standings-title">
-      <h3 id="bbl-standings-title">Standings</h3>
-      <div id="bbl-standings"></div>
-      <details class="dashboard-trend">
-        <summary>Rank over time</summary>
-        <label>Highlight a team <select id="bbl-chart-team"></select></label>
-        <div id="bbl-standings-trend"></div>
-      </details>
-    </section>
-    <section aria-labelledby="bbl-stats-title">
-      <h3 id="bbl-stats-title">Stats</h3>
-      <h4>Weekly player leaders</h4>
-      <p class="dashboard-caption">Totals for games played Monday through Sunday.</p>
-      <div id="bbl-player-leaders" class="dashboard-leaders"></div>
-      <h4>Team ratings</h4>
-      <p class="dashboard-caption">Points scored and allowed per 100 estimated possessions.</p>
-      <label>Period <select id="bbl-ratings-period">
-        <option value="weeklyRatings">Selected week</option>
-        <option value="seasonRatings">Season through selected week</option>
-      </select></label>
+  <div id="bbl-standings"></div>
+</div>
+```
+::::
+
+```{=html}
+<section id="bbl-dashboard" class="bbl-dashboard" aria-label="BBL dashboard" hidden>
+  <section aria-labelledby="bbl-trend-title">
+    <h3 id="bbl-trend-title">Rank over time</h3>
+    <p class="dashboard-caption">Click a team name to follow its line. Click it again to show every team.</p>
+    <div id="bbl-standings-trend"></div>
+  </section>
+  <section aria-labelledby="bbl-stats-title">
+    <h3 id="bbl-stats-title">Weekly player leaders</h3>
+    <p class="dashboard-caption">Totals for games played Monday through Sunday of the selected week.</p>
+    <div id="bbl-player-leaders" class="dashboard-leaders"></div>
+  </section>
+  <section aria-labelledby="bbl-ratings-title">
+    <h3 id="bbl-ratings-title">Team ratings</h3>
+    <p class="dashboard-caption">Points scored and allowed per 100 estimated possessions, season to date through the selected week. The map plots offence against defence: up and to the right is better.</p>
+    <div class="dashboard-ratings-grid">
       <div id="bbl-ratings"></div>
-    </section>
-    <section aria-labelledby="bbl-lineups-title">
-      <h3 id="bbl-lineups-title">Five-man units</h3>
-      <p>Lineup rankings will be available after reconstructed stints are checked against the official box scores.</p>
-    </section>
-  </div>
+      <div id="bbl-ratings-map"></div>
+    </div>
+  </section>
+  <section aria-labelledby="bbl-lineups-title">
+    <h3 id="bbl-lineups-title">Five-man units</h3>
+    <p>Lineup rankings will be available after reconstructed stints are checked against the official box scores.</p>
+  </section>
   <noscript><p>The dashboard requires JavaScript.</p></noscript>
 </section>
 <script type="module" src="./dashboard.js"></script>
 ```
-::::
