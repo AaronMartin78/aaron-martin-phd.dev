@@ -9,7 +9,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 BERLIN = ZoneInfo("Europe/Berlin")
-STATS = ("points", "total_rebounds", "assists", "steals", "blocks")
+STATS = ("points", "total_rebounds", "assists", "steals", "blocks", "efficiency")
 
 
 def possessions(row):

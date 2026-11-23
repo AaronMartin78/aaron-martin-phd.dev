@@ -43,16 +43,15 @@ linked originals are authoritative. Follow me on X at [@aaronmartinphd](https://
   </section>
   <section aria-labelledby="bbl-stats-title">
     <h3 id="bbl-stats-title">Weekly player leaders</h3>
-    <p class="dashboard-caption">Totals for games played Monday through Sunday of the selected week.</p>
+    <p class="dashboard-caption">Top ten by per-game average over games played Monday through Sunday of the selected week.</p>
     <div id="bbl-player-leaders" class="dashboard-leaders"></div>
   </section>
   <section aria-labelledby="bbl-ratings-title">
     <h3 id="bbl-ratings-title">Team ratings</h3>
-    <p class="dashboard-caption">Points scored and allowed per 100 estimated possessions, season to date through the selected week. The map plots offence against defence: up and to the right is better.</p>
-    <div class="dashboard-ratings-grid">
-      <div id="bbl-ratings"></div>
-      <div id="bbl-ratings-map"></div>
-    </div>
+    <p class="dashboard-caption">Points scored and allowed per 100 estimated possessions, season to date through the selected week. Up and to the right is better; the dashed lines mark the league averages.</p>
+    <div id="bbl-ratings-map" class="dashboard-map"></div>
+    <p class="dashboard-map-actions"><button type="button" id="bbl-ratings-toggle" class="btn btn-outline-primary btn-sm" aria-expanded="false" aria-controls="bbl-ratings">Show the full ratings table</button></p>
+    <div id="bbl-ratings" hidden></div>
   </section>
   <section aria-labelledby="bbl-lineups-title">
     <h3 id="bbl-lineups-title">Five-man units</h3>
