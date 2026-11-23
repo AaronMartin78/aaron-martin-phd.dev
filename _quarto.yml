@@ -6,6 +6,7 @@ project:
     - publications/downloads/**
     - bbl/dashboard.js
     - bbl/dashboard-data.json
+    - bbl/lineups-data.json
     - images/som-map.png
 
 website:

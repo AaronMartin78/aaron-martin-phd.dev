@@ -62,6 +62,14 @@
 .dashboard-swatch { display: inline-block; inline-size: .75rem; block-size: .75rem; margin-inline-end: .3rem; border-radius: .15rem; }
 .dashboard-empty { margin-block: .5rem; }
 
+/* Five-man units. */
+.dashboard-lineup-controls { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin-bottom: .75rem; font-size: .9rem; }
+.dashboard-lineup-controls select { margin-inline-start: .25rem; padding: .2rem .3rem; }
+.dashboard-lineups td { vertical-align: top; }
+.dashboard-lineup-names { font-size: .85rem; line-height: 1.4; }
+.dashboard-lineup-name { white-space: nowrap; }
+.dashboard-net { font-weight: 600; }
+
 /* Ratings: large centred offence/defence map, table on request. */
 .dashboard-map { max-width: 860px; margin: 0 auto; }
 .dashboard-map-label { font-size: 13px; font-weight: 600; }

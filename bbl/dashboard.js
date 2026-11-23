@@ -275,10 +275,97 @@ function loadDashboard(data) {
   find("bbl-dashboard-status").textContent = data.season + " regular season · " + data.gameCount + " games across completed weeks";
 }
 
-fetch(new URL("./dashboard-data.json", import.meta.url))
-  .then((response) => {
-    if (!response.ok) throw new Error("Dashboard data unavailable");
-    return response.json();
+// Five-man units: sum the weekly lineup rows through the selected week.
+function lineupSection(lineupData, teams, weekEnding) {
+  const teamSelect = find("bbl-lineups-team");
+  const minutesSelect = find("bbl-lineups-minutes");
+  const sortSelect = find("bbl-lineups-sort");
+  const target = find("bbl-lineups");
+  const note = find("bbl-lineups-note");
+  if (!lineupData) {
+    note.textContent = "Lineup data is currently unavailable.";
+    return () => {};
+  }
+  const short = (id) => shortNames[id] || teams[id] || lineupData.teams[id] || id;
+  const teamIds = Object.keys(lineupData.teams).sort((a, b) => short(a).localeCompare(short(b)));
+  teamIds.forEach((id) => teamSelect.add(new Option(short(id), id)));
+  if (lineupData.rejected.length) {
+    note.textContent = lineupData.gameCount + " games used; " + lineupData.rejected.length
+      + (lineupData.rejected.length === 1 ? " game is" : " games are") + " excluded because the play-by-play does not reconcile with the box score.";
+  }
+  function render() {
+    const ending = weekEnding();
+    const totals = new Map();
+    for (const week of lineupData.weeks) {
+      if (week.ending > ending) continue;
+      for (const row of week.lineups) {
+        if (teamSelect.value && row.team !== teamSelect.value) continue;
+        const key = row.team + "|" + row.players.join(",");
+        const total = totals.get(key) || {team: row.team, players: row.players, seconds: 0, poss: 0, oppPoss: 0, pf: 0, pa: 0, games: 0};
+        total.seconds += row.seconds;
+        total.poss += row.poss;
+        total.oppPoss += row.oppPoss;
+        total.pf += row.pf;
+        total.pa += row.pa;
+        total.games += row.games;
+        totals.set(key, total);
+      }
+    }
+    const minimum = Number(minutesSelect.value) * 60;
+    const rows = [...totals.values()].filter((row) => row.seconds >= minimum).map((row) => {
+      const pace = Math.max(1, (row.poss + row.oppPoss) / 2);
+      return {...row, minutes: row.seconds / 60, plusminus: row.pf - row.pa,
+        offense: 100 * row.pf / pace, defense: 100 * row.pa / pace, net: 100 * (row.pf - row.pa) / pace};
+    });
+    const key = sortSelect.value;
+    rows.sort((a, b) => key === "defense" ? a.defense - b.defense : b[key] - a[key]);
+    const shown = teamSelect.value ? rows : rows.slice(0, 20);
+    if (!shown.length) {
+      target.replaceChildren(html("p", "No lineup has reached the minimum minutes yet.", "dashboard-empty"));
+      return;
+    }
+    target.classList.add("dashboard-table-wrap");
+    const grid = html("table", undefined, "dashboard-table dashboard-lineups");
+    grid.setAttribute("aria-label", "Five-man lineups");
+    const head = grid.createTHead().insertRow();
+    for (const label of ["#", "Team", "Lineup", "Min", "GP", "+/−", "Off", "Def", "Net"]) {
+      const cell = html("th", label, ["Team", "Lineup"].includes(label) ? "" : "dashboard-number");
+      cell.scope = "col";
+      head.append(cell);
+    }
+    const body = grid.createTBody();
+    shown.forEach((row, index) => {
+      const tr = body.insertRow();
+      tr.append(html("td", index + 1, "dashboard-number"), html("td", short(row.team)));
+      const names = html("td", undefined, "dashboard-lineup-names");
+      row.players.forEach((id, position) => {
+        names.append(html("span", lineupData.players[id] || id, "dashboard-lineup-name"));
+        if (position < row.players.length - 1) names.append(" · ");
+      });
+      tr.append(names,
+        html("td", row.minutes.toFixed(0), "dashboard-number"),
+        html("td", row.games, "dashboard-number"),
+        html("td", (row.plusminus > 0 ? "+" : "") + row.plusminus, "dashboard-number"),
+        html("td", row.offense.toFixed(1), "dashboard-number"),
+        html("td", row.defense.toFixed(1), "dashboard-number"),
+        html("td", (row.net > 0 ? "+" : "") + row.net.toFixed(1), "dashboard-number dashboard-net"));
+    });
+    target.replaceChildren(grid);
+  }
+  for (const control of [teamSelect, minutesSelect, sortSelect]) control.addEventListener("change", render);
+  return render;
+}
+
+const fetchJson = (name) => fetch(new URL(name, import.meta.url)).then((response) => {
+  if (!response.ok) throw new Error(name + " unavailable");
+  return response.json();
+});
+
+Promise.all([fetchJson("./dashboard-data.json"), fetchJson("./lineups-data.json").catch(() => null)])
+  .then(([data, lineups]) => {
+    loadDashboard(data);
+    const renderLineups = lineupSection(lineups, data.teams, () => data.weeks[Number(weekSelect.value)].ending);
+    weekSelect.addEventListener("change", renderLineups);
+    renderLineups();
   })
-  .then(loadDashboard)
   .catch(() => { find("bbl-dashboard-status").textContent = "Dashboard data is currently unavailable."; });

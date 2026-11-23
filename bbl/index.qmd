@@ -55,7 +55,17 @@ linked originals are authoritative. Follow me on X at [@aaronmartinphd](https://
   </section>
   <section aria-labelledby="bbl-lineups-title">
     <h3 id="bbl-lineups-title">Five-man units</h3>
-    <p>Lineup rankings will be available after reconstructed stints are checked against the official box scores.</p>
+    <p class="dashboard-caption">Lineups reconstructed from the official play-by-play and checked against box score minutes, season to date through the selected week. Ratings are points per 100 estimated possessions while the five were on the floor together. <span id="bbl-lineups-note"></span></p>
+    <div class="dashboard-lineup-controls">
+      <label>Team <select id="bbl-lineups-team"><option value="">All teams</option></select></label>
+      <label>Minimum minutes <select id="bbl-lineups-minutes">
+        <option value="10">10</option><option value="20" selected>20</option><option value="40">40</option><option value="60">60</option>
+      </select></label>
+      <label>Sort by <select id="bbl-lineups-sort">
+        <option value="net">Net rating</option><option value="minutes">Minutes</option><option value="plusminus">Plus/minus</option><option value="offense">Offence</option><option value="defense">Defence</option>
+      </select></label>
+    </div>
+    <div id="bbl-lineups"></div>
   </section>
   <noscript><p>The dashboard requires JavaScript.</p></noscript>
 </section>
