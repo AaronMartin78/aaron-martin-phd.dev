@@ -16,7 +16,17 @@
 #   scripts/update_bbl_dashboard.sh            # build, commit, push
 #   scripts/update_bbl_dashboard.sh --dry-run  # build and show the diff only
 set -uo pipefail
-cd "$(dirname "$0")/.."
+
+# This script merges main into the checkout while running, which can rewrite
+# this very file under bash. Run from a private copy so the merge cannot
+# change the code mid-run; the merged version is used from the next run on.
+if [ -z "${BBL_UPDATE_COPY:-}" ]; then
+    self="$(readlink -f "$0")"
+    copy="$(mktemp)"
+    cp "$self" "$copy"
+    BBL_UPDATE_SELF="$self" BBL_UPDATE_COPY="$copy" exec bash "$copy" "$@"
+fi
+cd "$(dirname "$BBL_UPDATE_SELF")/.." || exit 1
 
 LAKE="${BBL_LAKE:-/mnt/data_lake}"
 SEASON="${BBL_SEASON:-2026-27}"
@@ -25,7 +35,7 @@ MAX_AGE_HOURS="${BBL_MAX_AGE_HOURS:-36}"
 MERGE_GRACE_HOURS="${BBL_MERGE_GRACE_HOURS:-20}"
 STATE_FILE="${BBL_STATE_FILE:-$HOME/.config/bbl-newsletter/dashboard-last-push}"
 WORK="$(mktemp -d)"
-trap 'rm -rf "$WORK"' EXIT
+trap 'rm -rf "$WORK" "$BBL_UPDATE_COPY"' EXIT
 dry_run=0
 [ "${1:-}" = "--dry-run" ] && dry_run=1
 
