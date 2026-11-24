@@ -89,6 +89,27 @@ if [ $dry_run -eq 1 ]; then
     git checkout -q -- bbl/dashboard-data.json bbl/lineups-data.json
     exit 0
 fi
+# The newsletter's own push to editions a few minutes earlier may still be
+# going through GitHub (edition-checks -> merge -> Pages deploy). Two Pages
+# deployments landing within a minute of each other made run #99 fail on
+# 2026-11-24 ("No artifacts named github-pages-1"), so wait for the queue to
+# drain before pushing. Read-only public API, no token. If the API cannot be
+# read or the wait runs out, push anyway: the deploy concurrency group still
+# serialises, and the 20 h merge check catches a lost deployment tomorrow.
+REPO_API="${BBL_REPO_API:-https://api.github.com/repos/AaronMartin78/aaron-martin-phd.dev}"
+busy_runs() {
+    curl -fsS --max-time 20 "$REPO_API/actions/runs?per_page=10" 2>/dev/null \
+      | "$PYTHON" -c 'import json,sys; runs=json.load(sys.stdin)["workflow_runs"]; print(sum(1 for r in runs if r["name"] in ("Edition checks","Deploy site") and r["status"]!="completed"))' 2>/dev/null \
+      || echo "?"
+}
+for attempt in $(seq 1 30); do
+    busy=$(busy_runs)
+    [ "$busy" = "0" ] && break
+    [ "$busy" = "?" ] && { echo "note: GitHub API not readable; not waiting"; break; }
+    [ "$attempt" -eq 1 ] && echo "waiting for $busy GitHub run(s) to finish before pushing"
+    sleep 30
+done
+
 git add bbl/dashboard-data.json bbl/lineups-data.json
 git commit -q -m "BBL dashboard data $(date +%F) (automated)" || fail "commit failed"
 git push -q origin editions || fail "push to editions failed"
