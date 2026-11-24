@@ -67,13 +67,17 @@ if [ -r "$STATE_FILE" ]; then
     fi
 fi
 
-# Standings, player leaders and team ratings from the box scores.
+# Build everything in the work folder first; the files in bbl/ are replaced
+# only once every step has succeeded, so a failure leaves the current data
+# (and the live site) exactly as it was.
 "$PYTHON" scripts/export_bbl_dashboard_source.py "$DATABASE" "$WORK/box.json" "$WORK/standings.csv" || fail "box-score export failed"
-"$PYTHON" scripts/build_bbl_dashboard.py "$WORK/box.json" "$WORK/standings.csv" bbl/dashboard-data.json || fail "dashboard build failed"
-
-# Five-man lineups from the archived game pages.
+"$PYTHON" scripts/build_bbl_dashboard.py "$WORK/box.json" "$WORK/standings.csv" "$WORK/dashboard-data.json" || fail "dashboard build failed"
 "$PYTHON" scripts/extract_bbl_snapshots_lake.py "$LAKE" "$WORK/snapshots.json" --season "$SEASON" || fail "raw archive extraction failed"
-"$PYTHON" scripts/build_bbl_lineups.py "$WORK/snapshots.json" bbl/lineups-data.json || fail "lineup build failed"
+"$PYTHON" scripts/build_bbl_lineups.py "$WORK/snapshots.json" "$WORK/lineups-data.json" || fail "lineup build failed"
+for name in dashboard-data.json lineups-data.json; do
+    "$PYTHON" -c 'import json,sys; json.load(open(sys.argv[1]))' "$WORK/$name" || fail "$name is not valid JSON"
+done
+cp "$WORK/dashboard-data.json" "$WORK/lineups-data.json" bbl/
 
 if git diff --quiet -- bbl/dashboard-data.json bbl/lineups-data.json; then
     echo "dashboard data unchanged"
