@@ -15,7 +15,7 @@ import argparse
 import gzip
 import json
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -197,13 +197,15 @@ def week_ending(game):
     return (day + timedelta(days=6 - day.weekday())).isoformat()
 
 
-def build(source, competition="BBL"):
+def build(source, competition="BBL", through=None):
     weekly = defaultdict(lambda: defaultdict(lambda: {"seconds": 0.0, "poss": 0.0, "opp_poss": 0.0,
                                                       "pf": 0, "pa": 0, "games": set()}))
     teams, players = {}, {}
     accepted, rejected = [], []
     for game in load_games(source):
         if competition and game["competition"] != competition:
+            continue
+        if through and week_ending(game) > through.isoformat():
             continue
         result, report = reconstruct(game)
         if result is None or report["players_off"]:
@@ -251,6 +253,8 @@ def main():
     parser.add_argument("--validate", action="store_true", help="print the per-game validation report only")
     parser.add_argument("--sub-direction", choices=["player-out", "player-in"], default="player-out",
                         help="which player seasonPlayerId names in a SUBSTITUTION action")
+    parser.add_argument("--through", type=date.fromisoformat,
+                        help="last week ending (Sunday) to include; later games are ignored")
     args = parser.parse_args()
     if args.sub_direction == "player-in":
         SUB_DIRECTION.update({"in": "seasonPlayerId", "out": "assistingSeasonPlayerId"})
@@ -267,7 +271,7 @@ def main():
             print(flag, game["game_id"], game["scheduledTime"][:10], report)
         print(f"{clean} of {games} games reconcile with the box score within {TOLERANCE}s per player")
         return
-    data, rejected = build(args.source, args.competition)
+    data, rejected = build(args.source, args.competition, args.through)
     for game_id, report in rejected:
         print("rejected", game_id, report.get("error") or report["players_off"])
     serialized = json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n"

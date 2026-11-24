@@ -57,6 +57,20 @@ EOF
 echo "database: $DATABASE (published ${age_hours}h ago)"
 [ "$age_hours" -le "$MAX_AGE_HOURS" ] || fail "published BBL database is ${age_hours}h old (limit ${MAX_AGE_HOURS}h): the mule collector did not run"
 
+# A week (Monday to Sunday) is published only once the database was built
+# after that Sunday ended, Berlin time. The mule collects at 08:00 and this
+# runs at 07:17, so Sunday's games reach the dashboard on Tuesday morning;
+# publishing on Monday would show the week without its Sunday games.
+THROUGH=$("$PYTHON" - "$CURRENT" <<'EOF'
+import json, sys
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
+built = datetime.fromisoformat(json.load(open(sys.argv[1]))["built_at_utc"]).astimezone(ZoneInfo("Europe/Berlin")).date()
+print(built - timedelta(days=built.weekday() + 1))  # last Sunday strictly before the build date
+EOF
+) || fail "cannot derive the week cutoff from $CURRENT"
+echo "weeks through: $THROUGH"
+
 # Keep the editions checkout level with main, which already contains every
 # merged edition, so the scripts and data files here are current.
 git fetch -q origin || fail "git fetch failed"
@@ -80,10 +94,10 @@ fi
 # Build everything in the work folder first; the files in bbl/ are replaced
 # only once every step has succeeded, so a failure leaves the current data
 # (and the live site) exactly as it was.
-"$PYTHON" scripts/export_bbl_dashboard_source.py "$DATABASE" "$WORK/box.json" "$WORK/standings.csv" || fail "box-score export failed"
+"$PYTHON" scripts/export_bbl_dashboard_source.py "$DATABASE" "$WORK/box.json" "$WORK/standings.csv" --through "$THROUGH" || fail "box-score export failed"
 "$PYTHON" scripts/build_bbl_dashboard.py "$WORK/box.json" "$WORK/standings.csv" "$WORK/dashboard-data.json" || fail "dashboard build failed"
 "$PYTHON" scripts/extract_bbl_snapshots_lake.py "$LAKE" "$WORK/snapshots.json" --season "$SEASON" || fail "raw archive extraction failed"
-"$PYTHON" scripts/build_bbl_lineups.py "$WORK/snapshots.json" "$WORK/lineups-data.json" || fail "lineup build failed"
+"$PYTHON" scripts/build_bbl_lineups.py "$WORK/snapshots.json" "$WORK/lineups-data.json" --through "$THROUGH" || fail "lineup build failed"
 for name in dashboard-data.json lineups-data.json; do
     "$PYTHON" -c 'import json,sys; json.load(open(sys.argv[1]))' "$WORK/$name" || fail "$name is not valid JSON"
 done
