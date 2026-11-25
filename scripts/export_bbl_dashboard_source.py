@@ -130,6 +130,9 @@ def export(database, season_start_year, through):
             for field in fields:
                 if row[field] is not None:
                     row[field] = int(row[field]) if float(row[field]).is_integer() else row[field]
+    for row in player_stats:
+        # Source names occasionally carry stray spaces.
+        row["player_name"] = " ".join((row["player_name"] or "").split())
     box_scores = {"season": season["label"], "exported_through": through.isoformat(),
                   "games": [dict(row) for row in official], "teams": team_stats, "players": player_stats}
 
